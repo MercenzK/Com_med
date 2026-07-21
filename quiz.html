@@ -44,12 +44,18 @@ padding:10px 14px;margin:7px 0;cursor:pointer;transition:.15s;font-size:18px}
 footer{max-width:900px;margin:0 auto 40px;padding:0 16px;color:var(--muted);font-size:15px;text-align:center}
 .empty{text-align:center;color:var(--muted);padding:40px}
 @media(max-width:600px){body{font-size:18px}.opt{font-size:17px}}
+
+header .sitenav{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0 2px}
+header .sitenav a{background:rgba(255,255,255,.16);color:#fff;text-decoration:none;
+padding:5px 13px;border-radius:20px;font-size:15px;font-weight:600;line-height:1.4}
+header .sitenav a:hover,header .sitenav a.on{background:#fff;color:#1f3b63}
 </style>
 </head>
 <body>
 <header>
 <h1>Com Med ปี 5 — MCQ 200 ข้อ</h1>
 <div class="sub">200 ข้อ • เฉลยละเอียดภาษาไทย • สัดส่วนตาม Blueprint คู่มือ • คลิกเลือกคำตอบเพื่อดูเฉลยละเอียด</div>
+<div class="sitenav"><a href="index.html" class="">หน้าแรก</a><a href="summary.html" class="">สรุปเนื้อหา</a><a href="quiz.html" class="on">MCQ 200 ข้อ</a><a href="crq.html" class="">CRQ 10 ข้อ</a></div>
 <div class="bar">
 <span class="stat" id="progress">ทำแล้ว 0/200</span>
 <span class="stat" id="score">คะแนน 0</span>
