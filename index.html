@@ -203,6 +203,15 @@ html[data-theme="dark"] .qimg{background:#fff}
 html[data-theme="dark"] .file-card::before{background:var(--navy2)}
 html[data-theme="dark"] .file-card .tab{color:#0e151d}
 html[data-theme="dark"] .file-card:hover{box-shadow:0 10px 24px rgba(0,0,0,.4)}
+/* footer: โหมดสว่าง --navy เป็นน้ำเงินเข้ม แต่โหมดมืด --navy ถูกกลับเป็นฟ้าอ่อน (#8fbde8)
+   พื้นหลังเลยสว่างขึ้นมาชนกับตัวหนังสือสีอ่อนที่ hard-code ไว้ → อ่านไม่ออก
+   จึงกำหนดพื้นหลัง/สีตัวอักษรของ footer ในโหมดมืดแยกออกมา ไม่ผูกกับ --navy */
+html[data-theme="dark"] footer{background:#111c26;color:#c6d6e6;border-top:1px solid var(--line)}
+html[data-theme="dark"] footer h4{color:#eaf2f9}
+html[data-theme="dark"] footer a,html[data-theme="dark"] footer span{color:#a9c0d6}
+html[data-theme="dark"] footer a:hover{color:#7ff0dd}
+html[data-theme="dark"] footer .muted{color:#8aa6c0!important}
+html[data-theme="dark"] footer .copy{border-top-color:rgba(255,255,255,.14)}
 </style>
 <script>
 (function(){try{var t=localStorage.getItem('theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.dataset.theme=t;}catch(e){}})();
