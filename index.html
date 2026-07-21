@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="th"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Com Med ปี 5 — ติวสอบ</title>
+<style>
+:root{--bg:#f4f6fb;--card:#fff;--ink:#1f2937;--muted:#6b7280;--navy:#1f3b63;--blue:#1f4e79;
+--ok:#1e7e34;--okbg:#e6f4ea;--bad:#b3261e;--badbg:#fdecea;--line:#e3e8f0;--accent:#2e5b88;}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Sarabun","TH Sarabun New","Segoe UI",system-ui,sans-serif;
+background:var(--bg);color:var(--ink);font-size:18px;line-height:1.65}
+header{position:sticky;top:0;z-index:20;background:linear-gradient(135deg,#1f3b63,#2e5b88);
+color:#fff;padding:14px 18px;box-shadow:0 2px 10px rgba(0,0,0,.15)}
+header h1{margin:0;font-size:23px;font-weight:700}
+.sub{opacity:.9;font-size:15px;margin-top:3px}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+nav a{background:rgba(255,255,255,.16);color:#fff;text-decoration:none;padding:5px 13px;
+border-radius:20px;font-size:15px;font-weight:600}
+nav a:hover,nav a.on{background:#fff;color:var(--navy)}
+.wrap{max-width:980px;margin:22px auto;padding:0 16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;
+margin-bottom:18px;box-shadow:0 1px 4px rgba(0,0,0,.05)}
+h2{color:var(--navy);border-bottom:2px solid var(--line);padding-bottom:6px;margin-top:0}
+h3{color:var(--blue)}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:16px}
+th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+th{background:#eaf1fb;color:var(--navy)}
+code{background:#eef2f7;padding:1px 5px;border-radius:4px;font-size:15px}
+pre{background:#eef2f7;padding:12px;border-radius:8px;overflow-x:auto;font-size:15px}
+blockquote{border-left:4px solid var(--accent);margin:10px 0;padding:4px 14px;background:#f7faff;color:#374151}
+.foot{text-align:center;color:var(--muted);font-size:14px;padding:24px 0}
+
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin:8px 0 4px}
+.tile{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);
+border-radius:14px;padding:22px;box-shadow:0 1px 4px rgba(0,0,0,.05);transition:.15s}
+.tile:hover{border-color:#9db6d6;transform:translateY(-2px);box-shadow:0 4px 14px rgba(0,0,0,.09)}
+.tile .ico{font-size:32px}
+.tile h3{margin:8px 0 4px;color:var(--navy)}
+.tile p{margin:0;color:var(--muted);font-size:16px}
+.stats{display:flex;gap:10px;flex-wrap:wrap;margin:6px 0 0}
+.pill{background:#eaf1fb;color:var(--blue);border-radius:20px;padding:4px 14px;font-weight:700;font-size:15px}
+
+</style></head><body>
+<header><h1>Community Medicine ปี 5</h1><div class="sub">สรุปเนื้อหา + MCQ 200 ข้อ + CRQ 10 ข้อ • ตาม Blueprint คู่มือ ปี 2569</div>
+<nav><a href="index.html" class="on">หน้าแรก</a><a href="summary.html" class="">สรุปเนื้อหา</a><a href="quiz.html" class="">MCQ 200 ข้อ</a><a href="crq.html" class="">CRQ 10 ข้อ</a></nav></header>
+<div class="wrap">
+<div class="tiles">
+  <a class="tile" href="summary.html"><div class="ico">📘</div><h3>สรุปเนื้อหา</h3>
+  <p>สรุปครบ 22 เล็คเชอร์ — อาชีวเวชศาสตร์ · Palliative Care · Community Project
+  พร้อม cheat sheet และกับดักที่ออกสอบบ่อย</p></a>
+  <a class="tile" href="quiz.html"><div class="ico">📝</div><h3>MCQ 200 ข้อ</h3>
+  <p>5 ตัวเลือก · เฉลยละเอียดภาษาไทย · กรองตามหัวข้อ · เก็บคะแนนอัตโนมัติ
+  · สัดส่วนตาม Blueprint</p></a>
+  <a class="tile" href="crq.html"><div class="ico">✍️</div><h3>CRQ 10 ข้อ</h3>
+  <p>โจทย์อัตนัยแบบข้อสอบจริง · พิมพ์คำตอบเองแล้วเทียบกับแนวคำตอบ
+  พร้อมเกณฑ์คะแนนรายข้อย่อย</p></a>
+</div>
+
+<div class="card">
+<h2>สัดส่วนข้อสอบตาม Blueprint</h2>
+<p>อ้างอิง <b>คู่มือ commed ปี 5-2569 หมวดที่ 5</b> ซึ่งกำหนดข้อสอบจริง
+<b>MCQ 56 ข้อ (20%)</b> และ <b>CRQ 4 ข้อ (10%)</b> — ชุดฝึกนี้ขยายตามสัดส่วนเดิมทุกหัวข้อ</p>
+<table>
+<tr><th>หัวข้อ</th><th style="text-align:center">MCQ จริง</th>
+<th style="text-align:center">MCQ ชุดนี้</th><th style="text-align:center">CRQ ชุดนี้</th></tr>
+<tr><td>1. Introduction to occupational medicine</td><td style='text-align:center'>4</td><td style='text-align:center'><b>14</b></td><td style='text-align:center'>–</td></tr><tr><td>2. Occupational and environmental diseases</td><td style='text-align:center'>24</td><td style='text-align:center'><b>86</b></td><td style='text-align:center'>3</td></tr><tr><td>5. Walkthrough survey + health risk assessment</td><td style='text-align:center'>8</td><td style='text-align:center'><b>29</b></td><td style='text-align:center'>2</td></tr><tr><td>6. Emergency preparedness in occupational medicine</td><td style='text-align:center'>4</td><td style='text-align:center'><b>14</b></td><td style='text-align:center'>–</td></tr><tr><td>9. Palliative Medicine</td><td style='text-align:center'>16</td><td style='text-align:center'><b>57</b></td><td style='text-align:center'>5</td></tr>
+<tr style="background:#eaf1fb;font-weight:700"><td>รวม</td>
+<td style="text-align:center">56</td><td style="text-align:center">200</td>
+<td style="text-align:center">10</td></tr>
+</table>
+</div>
+
+<div class="card">
+<h2>คะแนนรายวิชา</h2>
+<table>
+<tr><th>หัวข้อการประเมิน</th><th style="text-align:center">สัดส่วน</th></tr>
+<tr><td>คะแนนระหว่างการเรียนการสอน (walkthrough, community project, เยี่ยมบ้าน, logbook, เจตคติ)</td>
+<td style="text-align:center">70%</td></tr>
+<tr><td>สอบ MCQ 56 ข้อ</td><td style="text-align:center">20%</td></tr>
+<tr><td>สอบ CRQ 4 ข้อ</td><td style="text-align:center">10%</td></tr>
+</table>
+<p style="color:var(--muted);font-size:16px;margin-bottom:0">
+หมายเหตุ: <b>Community Project ไม่มีข้อสอบ MCQ</b> ใน blueprint — ประเมินจากรายงานกลุ่ม
+และการนำเสนอแทน (20% ของคะแนนรวม) แต่เนื้อหายังอยู่ในหน้าสรุปเพื่อใช้ทำโครงงาน</p>
+</div>
+</div>
+<div class="foot">สร้างจากเล็คเชอร์ 22 ไฟล์ + คู่มือ commed ปี 5-2569</div>
+
+</body></html>

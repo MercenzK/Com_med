@@ -1,0 +1,3890 @@
+<!DOCTYPE html>
+<html lang="th"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>สรุปเนื้อหา Com Med</title>
+<style>
+:root{--bg:#f4f6fb;--card:#fff;--ink:#1f2937;--muted:#6b7280;--navy:#1f3b63;--blue:#1f4e79;
+--ok:#1e7e34;--okbg:#e6f4ea;--bad:#b3261e;--badbg:#fdecea;--line:#e3e8f0;--accent:#2e5b88;}
+*{box-sizing:border-box}
+body{margin:0;font-family:"Sarabun","TH Sarabun New","Segoe UI",system-ui,sans-serif;
+background:var(--bg);color:var(--ink);font-size:18px;line-height:1.65}
+header{position:sticky;top:0;z-index:20;background:linear-gradient(135deg,#1f3b63,#2e5b88);
+color:#fff;padding:14px 18px;box-shadow:0 2px 10px rgba(0,0,0,.15)}
+header h1{margin:0;font-size:23px;font-weight:700}
+.sub{opacity:.9;font-size:15px;margin-top:3px}
+nav{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+nav a{background:rgba(255,255,255,.16);color:#fff;text-decoration:none;padding:5px 13px;
+border-radius:20px;font-size:15px;font-weight:600}
+nav a:hover,nav a.on{background:#fff;color:var(--navy)}
+.wrap{max-width:980px;margin:22px auto;padding:0 16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px 22px;
+margin-bottom:18px;box-shadow:0 1px 4px rgba(0,0,0,.05)}
+h2{color:var(--navy);border-bottom:2px solid var(--line);padding-bottom:6px;margin-top:0}
+h3{color:var(--blue)}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:16px}
+th,td{border:1px solid var(--line);padding:7px 10px;text-align:left;vertical-align:top}
+th{background:#eaf1fb;color:var(--navy)}
+code{background:#eef2f7;padding:1px 5px;border-radius:4px;font-size:15px}
+pre{background:#eef2f7;padding:12px;border-radius:8px;overflow-x:auto;font-size:15px}
+blockquote{border-left:4px solid var(--accent);margin:10px 0;padding:4px 14px;background:#f7faff;color:#374151}
+.foot{text-align:center;color:var(--muted);font-size:14px;padding:24px 0}
+#md h2{margin-top:34px}#md img{max-width:100%}#toc ul{columns:2;column-gap:26px;padding-left:20px;margin:0}#toc li{margin:3px 0;break-inside:avoid}#toc a{color:var(--blue);text-decoration:none}#toc a:hover{text-decoration:underline}@media(max-width:640px){#toc ul{columns:1}}
+</style></head><body>
+<header><h1>สรุปเนื้อหา Community Medicine ปี 5</h1><div class="sub">อาชีวเวชศาสตร์ • Palliative Care • Community Project • ครบ 22 เล็คเชอร์</div>
+<nav><a href="index.html" class="">หน้าแรก</a><a href="summary.html" class="on">สรุปเนื้อหา</a><a href="quiz.html" class="">MCQ 200 ข้อ</a><a href="crq.html" class="">CRQ 10 ข้อ</a></nav></header>
+<div class="wrap"><div class="card" id="toc"><h2 style="margin-top:0">สารบัญ</h2></div><div class="card" id="md"></div></div>
+<div class="foot">สร้างจากเล็คเชอร์ 22 ไฟล์ + คู่มือ commed ปี 5-2569</div>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script id="mdsrc" type="text/plain"># สรุปรวมเล็คเชอร์ Community Medicine (ปี 5)
+**เนื้อหา:** อาชีวเวชศาสตร์ (Occupational Medicine) + Palliative Care + Disaster/Community Health
+**อัปเดต:** 21 ก.ค. 2569
+
+---
+
+## สารบัญ
+
+**PART A — อาชีวเวชศาสตร์**
+1. หลักการอาชีวเวชศาสตร์ + การป้องกัน 3 ระดับ
+2. การซักประวัติและวินิจฉัยโรคจากการทำงาน (NSODD)
+3. กลไกการเกิดโรค vs การบาดเจ็บจากการทำงาน
+4. Walkthrough Survey
+5. Risk Assessment & Health Surveillance
+6. โรคจากสิ่งคุกคามทางกายภาพ (เสียง/ความร้อน/ความกด/รังสี/สั่นสะเทือน)
+7. Ergonomics
+8. Occupational Skin Disease
+9. Occupational Lung Disease
+10. Mental Health in Workplace
+11. Toxicology & Biomarkers
+12. Confined Space
+13. Emergency Preparedness & ICS
+
+**PART B — Palliative Care**
+14. Concept of Palliative Care
+15. Communication Skills (CLASS / NURSE / SPIKES / ABCDEF)
+16. Symptomatology & Management
+17. Emergency in Palliative Care
+
+**PART C — Community Project**
+18. Community Health Assessment → Evaluation
+
+---
+---
+
+# PART A — อาชีวเวชศาสตร์
+
+## 1. หลักการอาชีวเวชศาสตร์ (Lect 1.1)
+
+### นิยาม
+- **อาชีวอนามัย (Occupational health)** — งานสาธารณสุขที่ส่งเสริมและธำรงรักษาสุขภาพกาย จิต สังคม ของคนทำงานในทุกอาชีพให้อยู่ในระดับสูงสุด (ILO/WHO)
+- **อาชีวเวชศาสตร์ (Occupational medicine)** — วิชาชีพย่อยในอาชีวอนามัย เน้น **ป้องกัน วินิจฉัย รักษา** อุบัติเหตุ/เจ็บป่วยจากการทำงาน
+
+### สิ่งคุกคามสุขภาพ (Health hazards) — 5 กลุ่ม ⭐ออกสอบบ่อย
+| # | ชนิด | ตัวอย่าง |
+|---|------|---------|
+| 1 | **Physical** กายภาพ | เสียง ความร้อน ความเย็น ความกดอากาศ รังสี ความสั่นสะเทือน |
+| 2 | **Chemical** เคมี | ตัวทำละลาย โลหะหนัก ฝุ่น ก๊าซ ไอระเหย |
+| 3 | **Biological** ชีวภาพ | เชื้อโรค เลือด สัตว์ทดลอง |
+| 4 | **Ergonomic** การยศาสตร์ | ท่าทาง ยกของหนัก งานซ้ำซาก |
+| 5 | **Psychosocial** จิตวิทยาสังคม | ความเครียด ความรุนแรงในที่ทำงาน |
+
+> บางตำราเพิ่ม **อุบัติเหตุ (Accident)** เป็นกลุ่มที่ 6
+
+### สมการการเกิดโรค
+```
+exposure → (incubation/latency period) → at risk + other factors → disease
+```
+
+### จำแนกโรค
+- **โรคทั่วไป (General diseases)**
+- **โรคเกี่ยวเนื่องจากงาน (Work-related diseases)** — งานเป็นปัจจัยร่วมหนึ่ง (multifactorial)
+- **โรคจากการทำงาน (Occupational diseases)** — งานเป็นสาเหตุหลัก/จำเป็น
+
+---
+
+### 🔑 การป้องกันโรคจากการทำงาน 3 ระดับ (ออกสอบแน่นอน)
+
+#### 1. Primary Prevention — กำจัด/ลดการสัมผัส
+แบ่งตามหลัก **Occupational Hygiene 3 ระดับ** (เรียงตามประสิทธิภาพสูง→ต่ำ)
+
+**1.1 ควบคุมที่แหล่งกำเนิด (Source) — ดีที่สุด เลือกเป็นลำดับแรก**
+- **Substitution** เปลี่ยนวัตถุดิบ (เช่น เลิกใช้ crystalline silica ในงานพ่นทราย)
+- **Process change** เปลี่ยนกระบวนการผลิต → ระบบปิด/อัตโนมัติ
+- **Enclosure** ปิดครอบกระบวนการ
+- **Local Exhaust Ventilation (LEV)** ดูดอากาศเฉพาะที่ ใกล้แหล่งกำเนิดที่สุด
+- **Wet methods** ใช้น้ำลดฝุ่น
+
+**1.2 ควบคุมที่ทางผ่าน (Path)**
+- ทำความสะอาดสถานที่ทำงาน
+- **General/Dilution Ventilation** ระบายอากาศทั่วไป เจือจางความเข้มข้น
+- **Isolation** แยกกระบวนการอันตรายออกจากคนงาน หรือทำนอกเวลาปกติ
+- **Environmental monitoring** ตรวจวัดในบรรยากาศ
+  - ⚠️ ข้อควรระวัง: มาตรฐานต่างประเทศอาจไม่เหมาะกับสรีระคนไทย และ **ค่าต่ำกว่ามาตรฐานไม่การันตีว่าจะไม่เป็นโรค**
+
+**1.3 ควบคุมที่ตัวคนงาน (Receiver) — มาตรการสุดท้าย**
+- **PPE** (หน้ากาก ที่อุดหู แว่นตา ถุงมือ)
+  - ข้อเสีย: ไม่ได้ลดปริมาณสารในงานจริง + ปัญหาความร่วมมือในการสวมใส่
+- **Job rotation** สับเปลี่ยนคนงาน ลดระยะเวลาสัมผัส
+- ห้องควบคุมมิดชิด แยกคนงานออกจากสิ่งคุกคาม
+
+> **Hierarchy of Controls (NIOSH):** Elimination > Substitution > Engineering controls > Administrative controls > PPE
+
+#### 2. Secondary Prevention — ตรวจค้นหาโรคระยะเริ่มแรก (4 ประเภท)
+| ประเภท | เมื่อไหร่ | วัตถุประสงค์ |
+|--------|----------|-------------|
+| **Pre-placement** | ก่อนเข้าทำงาน | ประเมิน Fitness for work + เก็บ baseline data |
+| **Periodic** | ระหว่างทำงาน | ตรวจตามความเสี่ยงและระยะฟักตัวของโรค |
+| **Return-to-work** | ก่อนกลับเข้างาน | หลังเจ็บป่วย/หยุดงานนาน ป้องกันการเป็นซ้ำ |
+| **Exit** | ก่อนออกจากงาน | เก็บข้อมูลเปรียบเทียบผลที่อาจเกิดในอนาคต |
+
+#### 3. Tertiary Prevention
+- วินิจฉัยและรักษาผู้ป่วยที่เป็นโรคแล้ว
+- **Rehabilitation** ฟื้นฟูสมรรถภาพร่างกาย + ฟื้นฟูฝึกอาชีพ → กลับมาทำงานได้
+
+---
+
+### การเฝ้าระวังโรคจากการทำงาน (Occupational Disease Surveillance)
+
+**A. Health surveillance (เฝ้าระวังสุขภาพ)**
+- **ทางตรง** — จากการตรวจสุขภาพ
+- **ทางอ้อม** — จากสถิติการเจ็บป่วย (เก็บรวบรวม วิเคราะห์ แปลผล)
+
+**B. Hazard/Environmental surveillance (เฝ้าระวังสิ่งแวดล้อม)**
+- ทำโดย **Walkthrough survey** + **Environmental monitoring**
+- ขอบเขต: ค้นหา/ประเมินสิ่งคุกคาม → ประเมินลักษณะงานที่เพิ่มความเสี่ยง → ประเมินระดับการสัมผัส → ประเมินมาตรการควบคุม → ประเมินการใช้ PPE
+
+### ICD-10 External causes ที่ควรจำ
+| รหัส | ความหมาย |
+|------|----------|
+| **Y96** | Work-related condition |
+| **Y97** | Environmental-pollution-related condition |
+| **Z58.1** | Exposure to air pollution |
+
+### ทีมสหวิชาชีพ
+แพทย์อาชีวเวชศาสตร์, พยาบาลอาชีวอนามัย, นักสุขศาสตร์อุตสาหกรรม, นักการยศาสตร์, วิศวกรความปลอดภัย, นักพิษวิทยา, นักจิตวิทยา, นักกายภาพบำบัด, นักจุลชีววิทยา, นักเคมี, นักชีวสถิติ, นักสุขศึกษา
+
+---
+
+## 2. การซักประวัติและการวินิจฉัยทางอาชีวเวชศาสตร์ (Lect 1.2)
+
+### วัตถุประสงค์การซักประวัติ
+1. แยกโรคจากการทำงานออกจากโรคทั่วไป
+2. ประเมินความเสี่ยงจากสิ่งแวดล้อมในการทำงาน
+3. วางแผนการป้องกันและดูแลสุขภาพ
+4. ค้นหาสาเหตุของโรค
+
+### โครงสร้างการซักประวัติ (4 ส่วนหลัก)
+
+**1. Current Job History**
+- ชื่องานและหน้าที่หลัก (ทำอะไรในแต่ละวัน)
+- **Process** — เกี่ยวข้องกับขั้นตอนใดในโรงงาน
+- ชั่วโมงการทำงาน / OT / รูปแบบกะ
+- ระยะเวลาที่ทำหน้าที่นี้
+
+**2. Hazard Exposure History**
+- **สารเคมี** — ชนิด (ระบุชื่อสารถ้าทราบ), รูปแบบ (ไอระเหย/ฝุ่น/ของเหลว)
+- **กายภาพ** — เสียงดัง ความร้อน สั่นสะเทือน รังสี
+- **ชีวภาพ** — เชื้อโรค เลือด สัตว์ทดลอง
+- **Ergonomics** — ท่าทาง ยกของหนัก นั่ง/ยืนนาน งานซ้ำซาก
+- **PPE** — มี/ใช้สม่ำเสมอหรือไม่
+- ระบบระบายอากาศ
+- **สุขอนามัยส่วนบุคคล** — กินอาหาร/สูบบุหรี่ที่ไหน ล้างมือ อาบน้ำหลังเลิกงาน
+
+**3. Past Occupational History** ⭐สำคัญสำหรับโรคที่ latency ยาว
+- ไล่เรียงงานในอดีตทั้งหมดตามลำดับเวลา + สถานที่ + ระยะเวลา
+- การสัมผัสสารที่มีผลระยะยาว เช่น **Asbestos, Silica**
+
+**4. Work-Relatedness of Illness**
+- **Time relationship** ⭐ — อาการแย่ลงเมื่อไปทำงาน? ดีขึ้น/หายเมื่อหยุดงาน (วันหยุดสุดสัปดาห์/ลาพักร้อน)?
+- อาการคล้ายกันในเพื่อนร่วมงานที่ทำแผนก/หน้าที่เดียวกัน?
+- การขาดงาน, ผลตรวจก่อนเข้างานและตรวจประจำปี
+
+### 🔑 คำถามคัดกรอง 4 ข้อ (ออกสอบบ่อยมาก)
+1. ท่านคิดว่าการเจ็บป่วยของท่านเกี่ยวข้องกับการทำงานหรือไม่?
+2. มีความแตกต่างของอาการขณะทำงานและขณะอยู่บ้านหรือไม่?
+3. เพื่อนร่วมงานมีอาการคล้ายกันหรือไม่?
+4. อาการเป็นมากขึ้นเวลามาทำงานหรือไม่?
+
+### ประวัติสิ่งแวดล้อม
+สภาพแวดล้อมที่บ้าน, โรงงานใกล้เคียง, **งานอดิเรก**, **อาชีพของคู่สมรส**, พฤติกรรม/สุขภาพของสัตว์เลี้ยง
+
+### การตรวจเพิ่มเติม
+ตรวจร่างกาย · Lab รวม **biomarkers** (สารเคมีในเลือด/ปัสสาวะ) · **Spirometry** สมรรถภาพปอด · **Audiometry** สมรรถภาพการได้ยิน · สมรรถภาพการมองเห็น
+
+---
+
+### 🔑 NSODD — Nine Steps in Occupational Diseases Diagnosis (ท่องให้ได้)
+1. **มีโรคเกิดขึ้นจริง**
+2. **มีสารเคมี/กระบวนการที่ทำให้เกิดโรคอยู่ในสถานที่ทำงานนั้น**
+3. **มีการสัมผัสสิ่งคุกคามนั้น** (จากการซักประวัติ, เก็บตัวอย่างสิ่งแวดล้อม, ประวัติใช้ PPE)
+4. **มีลำดับก่อนหลัง** — สัมผัสก่อน จึงมีอาการ (temporal relationship)
+5. **การสัมผัสนานพอ/เข้มข้นพอ** ที่จะทำให้เกิดโรค (ดูจากข้อมูลระบาดวิทยา, biomarkers)
+6. **มีข้อมูลทางวิทยาการระบาดสนับสนุน**
+7. **ได้วินิจฉัยแยกโรคจากสาเหตุอื่นแล้ว** (differential diagnosis)
+8. **ได้พิจารณาปัจจัยสนับสนุน**
+9. **นำปัจจัยทั้งหมดมาพิจารณาเพื่อวินิจฉัย**
+
+### หลักการวินิจฉัย 6 ขั้น
+1. วินิจฉัยโรคให้ชัดเจนก่อน (เป็นโรคอะไร)
+2. ประเมินความสัมพันธ์โรค-การทำงาน (**causal relationship**)
+3. วิเคราะห์ปัจจัยเสี่ยงในที่ทำงาน (ลักษณะงาน, ระยะเวลาสัมผัส, ความเข้มข้น, PPE, มาตรการป้องกัน)
+4. ใช้ทฤษฎีสาเหตุของโรค
+   - **Single cause** — โรคติดเชื้อ, Silicosis
+   - **Multiple causes** — มะเร็ง, เบาหวาน
+5. เปรียบเทียบข้อมูลระบาดวิทยา (อัตราการเกิดโรคในกลุ่มอาชีพเดียวกัน)
+6. พิจารณาแนวทาง/มาตรฐาน — **ILO** และมาตรฐานการวินิจฉัยโรคจากการทำงานของประเทศไทย
+
+### 🔑 เกณฑ์วินิจฉัย Silicosis ของไทย — ใช้ 2 ใน 3 ข้อ
+1. มีประวัติทำงานอาชีพเสี่ยงสัมผัสฝุ่นหิน **อย่างน้อย 2 ปี**
+2. ภาพรังสีทรวงอกผิดปกติตั้งแต่ **profusion 1/1 ขึ้นไป** ตามเกณฑ์ **ILO Classification of Radiographs of Pneumoconioses 2000**
+3. มีลักษณะทางพยาธิวิทยาของเนื้อปอดเข้าได้กับโรค **หรือ** มีข้อมูลระบาดวิทยาสนับสนุน
+
+### การจัดการหลังวินิจฉัย ⭐
+1. **ค้นหาโรคเดียวกันในเพื่อนร่วมงาน** (และคนใกล้ชิด)
+2. **ส่งเสริมให้ผู้ป่วยเข้าสู่ระบบค่าชดเชย** — สิทธิประกันสังคม ยื่นเรื่องต่อ**กองทุนเงินทดแทน**
+3. แนะนำมาตรการป้องกัน + ให้ใช้ PPE อย่างเคร่งครัด
+
+---
+
+## 3. กลไกการเกิดโรคและการบาดเจ็บจากการทำงาน (Lect 1.3)
+
+### A. กลไกการเกิดโรค (Chronic exposure — ปริมาณต่ำแต่ยาวนาน)
+
+**1. Toxicokinetic & Organ Toxicity**
+- **Biotransformation** — สารบางชนิดเข้าตับแล้วถูกเปลี่ยนเป็น**อนุมูลอิสระที่อันตรายกว่าเดิม**
+  - ตัวอย่าง: **Carbon tetrachloride → chlorine free radical** → ทำลายเยื่อหุ้มเซลล์ → ตับอักเสบ/เนื้อตาย
+- **Target Organ Deposition** — ฝุ่นอนินทรีย์ **< 5 ไมครอน** (silica, asbestos) หลุดถึงถุงลม กำจัดไม่ได้ → macrophage กินแต่ทำลายไม่ได้ → หลั่ง **cytokines** → **Fibrosis**
+
+**2. Immunological / Hypersensitivity**
+| Type | กลไก | ตัวอย่าง | โรค |
+|------|------|---------|-----|
+| **Type I** (IgE-mediated) | เร็ว, หลั่ง histamine → หลอดลมหดตัวฉับพลัน | แป้งสาลี (คนทำเบเกอรี่), **isocyanates** (สีพ่นรถยนต์) | **Occupational Asthma** |
+| **Type IV** (Cell-mediated, delayed) | T-cell ไวต่อสารเคมี, ปฏิกิริยาช้า **24–48 ชม.** | **นิกเกิล, โครเมียม** (ในปูนซีเมนต์) | **Allergic Contact Dermatitis** |
+
+**3. Carcinogenic Mechanisms**
+- **Genotoxic** — ทำลาย DNA โดยตรง → mutation
+  - **Benzene** → **AML** (มะเร็งเม็ดเลือดขาว)
+  - **Ionizing radiation** → มะเร็ง
+- **Non-genotoxic / Chronic inflammation** — ไม่ทำลาย DNA โดยตรง แต่ระคายเคือง/อักเสบเรื้อรัง
+  - **Asbestos** ทิ่มแทงเยื่อหุ้มปอด → **Mesothelioma**
+
+### B. กลไกการบาดเจ็บ (ทันทีทันใด — พลังงานเกินกว่าเนื้อเยื่อจะทนได้)
+
+**1. Acute Mechanical Energy Transfer**
+- ตกจากที่สูง, เครื่องจักรหนีบมือ → **Fracture, Laceration**, อวัยวะภายในฉีกขาด
+
+**2. Cumulative Micro-trauma (Ergonomic)**
+- **Repetitive strain** + **awkward posture** → เนื้อเยื่อขาดเลือด (ischemia) → ฉีกขาดระดับโมเลกุลซ้ำๆ ซ่อมไม่ทัน
+- → **Tendonitis, Trigger Finger, Carpal Tunnel Syndrome**
+
+**3. Thermal / Chemical / Electrical**
+| ชนิดพลังงาน | กลไก | ผลลัพธ์ |
+|------------|------|--------|
+| **ความร้อน** | Protein denaturation | Thermal burns |
+| **กรดรุนแรง** | **Coagulative necrosis** — เนื้อเยื่อจับตัวเป็นก้อนแข็ง จำกัดการซึม | แผลตื้นกว่า |
+| **ด่างรุนแรง** ⚠️ | **Liquefactive necrosis** — เนื้อเยื่อละลายเปื่อย | **ซึมลึกและรุนแรงกว่ากรด** |
+| **ไฟฟ้า** | เปลี่ยนเป็นความร้อนตามเส้นทางที่ไฟผ่าน + รบกวนไฟฟ้าหัวใจ | **Ventricular Fibrillation** → เสียชีวิต |
+
+### 🔑 ตารางเปรียบเทียบ Disease vs Injury (ออกสอบบ่อย)
+| | **โรคจากการทำงาน (Disease)** | **การบาดเจ็บจากการทำงาน (Injury)** |
+|---|---|---|
+| **เวลา** | ค่อยเป็นค่อยไป สะสมเป็นสัปดาห์/ปี (**latency period** ยาวนาน) | เกิดทันทีทันใด (**acute event**) |
+| **กลไกหลัก** | การสะสมทางพิษวิทยา, กระตุ้นภูมิคุ้มกัน, การกลายพันธุ์ของเซลล์ | การถ่ายเทพลังงาน (กล/ความร้อน/ไฟฟ้า) เกินขีดจำกัดเนื้อเยื่อ |
+| **การพิสูจน์ความเชื่อมโยง** | **ยาก** ต้องอาศัยประวัติการทำงาน + lab | **ง่าย ชัดเจน** มีประวัติอุบัติเหตุ + สถานที่เกิดเหตุชัดเจน |
+
+---
+
+## 4. Walkthrough Survey (Lect 2.1–2.2)
+
+### นิยาม
+การเดินสำรวจบริเวณกระบวนการผลิต **ขณะกำลังดำเนินการผลิต** และ **มีผู้ปฏิบัติงานทำงานอยู่จริง**
+
+### ประโยชน์ 6 ข้อ
+1. ช่วยวินิจฉัยโรคจากการทำงาน
+2. ประเมินความสำเร็จในการควบคุมสิ่งคุกคาม
+3. เป็นข้อมูลพื้นฐานในการดำเนินงานควบคุมสิ่งคุกคาม
+4. วิเคราะห์หาสาเหตุของโรค/อุบัติเหตุ
+5. ใช้บริหารจัดการความเสี่ยง
+6. ตรวจสอบการปฏิบัติตามกฎหมาย
+
+### วัตถุประสงค์
+1. เข้าใจ **วัตถุดิบ → กระบวนการผลิต → วิธีปฏิบัติงาน**
+2. **ค้นหาและประเมินสิ่งคุกคามสุขภาพ**
+3. นำเสนอแนวทางแก้ไขป้องกัน
+
+### สำรวจทุกแผนก vs เฉพาะจุด ⭐
+| สถานการณ์ | ทุกแผนก | เฉพาะจุด |
+|-----------|:-------:|:--------:|
+| เข้าประจำสถานประกอบการนั้น (ครั้งแรก) | ✓ | |
+| สถานประกอบการเปิดใหม่ | ✓ | |
+| ออกแบบการตรวจสุขภาพ | ✓ | |
+| เครื่องจักรใหม่ / เปลี่ยนกระบวนการผลิต | | ✓ |
+| เกิดการเจ็บป่วย/บาดเจ็บ (สอบสวนโรค/อุบัติเหตุ) | | ✓ |
+| ประเมินความพร้อมก่อนกลับเข้างาน (return to work) | | ✓ |
+
+### การเตรียมความพร้อม 6 ขั้น
+1. กำหนดวัตถุประสงค์ 2. จัดหาทีมงาน/ผู้เชี่ยวชาญ 3. วางแผนการทำงานและการเดินทาง 4. ประสานงานผู้เกี่ยวข้อง 5. เตรียมอุปกรณ์และตรวจสอบการใช้งาน 6. เตรียมผู้เข้าสำรวจ
+
+### เตรียมตัวก่อนเข้าสถานประกอบการ
+- ศึกษาข้อมูลพื้นฐาน (สถานประกอบการ + กระบวนการผลิต)
+- เตรียมร่างกายและจิตใจ
+- **แต่งกายรัดกุม รวบมัดผม, งดเครื่องประดับ (รวมนาฬิกา), ใส่รองเท้าหุ้มส้น ไม่ใส่ส้นสูง**
+
+### ขั้นตอน 3 ระยะ
+1. **ประชุมก่อนเดินสำรวจ** (opening meeting)
+2. **เดินสำรวจ**
+3. **ประชุมปิดการเดินสำรวจ** (closing meeting)
+
+### ข้อควรปฏิบัติ ⭐
+- **ขออนุญาตก่อนถ่ายรูป/วิดีโอ หรือซักถามคนงาน**
+- แสดงทัศนคติที่ดี — **ไม่วิพากษ์/ตำหนิติเตียน**
+- สำรวมกิริยาวาจา ไม่พูดคุยหยอกล้อหรือรวมกลุ่มคุยกันเอง
+- ถามเหตุผลและให้ความเห็นเชิงวิชาการ
+- **กรณีไม่แน่ใจ ต้องไม่รีบด่วนสรุป** → ซักถามเพิ่มเติม / ขอตรวจวัดโดยละเอียด
+
+### ความปลอดภัยขณะเข้าเขตเสี่ยง
+- ปฏิบัติตามกฎความปลอดภัยเคร่งครัด
+- รับฟังขั้นตอนปฏิบัติเมื่อมีเหตุฉุกเฉิน
+- สังเกตป้าย: **เครื่องหมายห้าม / เตือน / บังคับ / สารนิเทศเกี่ยวกับความปลอดภัย**
+- **รวมกลุ่มเดินตามตัวแทนสถานประกอบการ ไม่แยกออกจากกลุ่ม**
+
+### กระบวนการ Health Risk Assessment 4 ขั้น
+1. **Hazard identification** — บ่งชี้สิ่งคุกคาม
+2. **Exposure assessment** — ประเมินการสัมผัส
+3. **Dose-response assessment** — ประเมินขนาดสัมผัสกับผลกระทบ
+4. **Risk characterisation** — อธิบายลักษณะความเสี่ยง
+
+---
+
+## 5. Risk Assessment & Health Surveillance (Lect 2.3)
+
+### สมการพื้นฐาน
+```
+Hazard + Host + Working environment → (incubation period) → Harm
+                                        (physical injury / damage to health)
+```
+
+### 🔑 กระบวนการ Risk Assessment 3 ขั้น
+1. **Hazard identification** — ค้นหาสิ่งคุกคามและปัจจัยเสี่ยงที่ทำให้เกิดอันตราย
+2. **Risk analysis & risk evaluation** — วิเคราะห์และประเมินความเสี่ยง
+3. **Risk control** — หาแนวทางกำจัดสิ่งคุกคาม หรือควบคุมความเสี่ยงกรณีตัดสิ่งคุกคามออกไม่ได้
+
+### 🔑 ความเสี่ยงต่อสุขภาพขึ้นกับ 2 ปัจจัย (ออกสอบ)
+> **ความเสี่ยง = (1) Hazard [อันตรายเพียงใด] × (2) Exposure [โอกาสเกิดมากน้อยเพียงใด]**
+
+### ระดับความรุนแรง (Severity) — มอก.18001
+| ระดับ | คะแนน | รายละเอียด |
+|-------|:-----:|-----------|
+| **เล็กน้อย** | 1 | ไม่มีการบาดเจ็บ / บาดเจ็บที่ต้องการเพียงปฐมพยาบาล (แผลมีดบาดเล็กน้อย, แผลถลอก, ระคายเคือง, เคล็ดขัดยอก) · สิ่งรบกวนที่ทำให้รำคาญ (ปวดศีรษะ) · เจ็บป่วยไม่สบายกายชั่วคราว |
+| **ปานกลาง** | 2 | บาดเจ็บที่ต้องรักษา / เจ็บป่วยทำให้อวัยวะบางส่วนทำหน้าที่ได้ไม่เหมือนเดิม, พิการเล็กน้อย (บาดแผลฉีกขาด, แผลไฟไหม้, กระดูกร้าวเล็กน้อย, ข้อเคล็ดรุนแรง) · **การอักเสบ หูหนวก โรคหืด อาการผิดปกติของมือและแขน** |
+| **มาก** | 3 | **สูญเสียอวัยวะ กระดูกแตกหัก เสียชีวิต บาดเจ็บรุนแรง** · ได้รับพิษ/เกิดโรคที่ทำให้อายุสั้นลง (รวม**มะเร็งจากการทำงาน**, โรคร้ายแรงที่ทำให้เสียชีวิตเฉียบพลัน) |
+
+### เกณฑ์ประเมินโอกาสเกิด (Exposure/Likelihood) — 8 หัวข้อ มอก.18001
+คะแนน 3 = แย่สุด, 1 = ดีสุด
+
+| # | หัวข้อ | 3 คะแนน | 2 คะแนน | 1 คะแนน |
+|---|--------|---------|---------|---------|
+| 1 | **จำนวนคนที่สัมผัส** | > 10 คน | 6–10 คน | 1–5 คน |
+| 2 | **ความถี่/ระยะเวลาสัมผัส** | > 48 ชม./สัปดาห์ | 30–48 ชม./สัปดาห์ | < 30 ชม./สัปดาห์ |
+| 3 | **การสัมผัสกับสิ่งอันตราย** | อันตรายทันที | อันตรายเรื้อรัง | อันตรายเฉพาะเครื่องมือ |
+| 4 | **มีขั้นตอน/กฎระเบียบมาตรฐาน** | ไม่มีเป็นลายลักษณ์อักษร | มีแต่ไม่เหมาะกับความเสี่ยง | มีและเหมาะสม |
+| 5 | **การฝึกอบรม** | ไม่มีการฝึกอบรม | มีแต่ไม่กำหนดความต้องการ | กำหนดความต้องการ + มีการฝึกอบรม |
+| 6 | **การตรวจสอบ/สังเกตการปฏิบัติ** | ไม่มีการตรวจสอบ | ตรวจสอบไม่ต่อเนื่อง หรือปฏิบัติไม่ถูกต้อง | ปฏิบัติถูกต้อง/ตรวจสอบต่อเนื่อง |
+| 7 | **PPE หรืออัตราการใช้** | ไม่มี / ใช้ไม่เหมาะสม / มีแต่ไม่ใช้ | — | มีเหมาะสมและใช้งาน (1) |
+| 8 | **อุปกรณ์ความปลอดภัยของเครื่องจักร/อาคาร** | ไม่มี / มีแต่ไม่เหมาะสม / มีแต่ไม่ใช้ | — | ออกแบบให้มีและใช้อย่างเหมาะสม (1) |
+
+### 🔑 Risk Matrix (มอก.18001)
+| โอกาสเกิดอันตราย (A) ↓ \ ระดับความเป็นอันตราย (B) → | **มาก (3)** | **ปานกลาง (2)** | **น้อย (1)** |
+|---|---|---|---|
+| **มีโอกาสเกิด (มาก) = 3** | **ความเสี่ยงที่ไม่อาจยอมรับได้ (9)** | ความเสี่ยงสูง (6) | ความเสี่ยงปานกลาง (3) |
+| **เกิดขึ้นได้ยาก (ปานกลาง) = 2** | ความเสี่ยงสูง (6) | ความเสี่ยงปานกลาง (4) | ความเสี่ยงที่ยอมรับได้ (2) |
+| **ไม่น่าจะเกิด (น้อย) = 1** | ความเสี่ยงปานกลาง (3) | ความเสี่ยงที่ยอมรับได้ (2) | ความเสี่ยงเล็กน้อย (1) |
+
+### วงจรการจัดการความเสี่ยงอย่างเป็นระบบ (PDCA)
+```
+Identify hazards (วางแผน)
+      ↓
+Assess the risks (ลงมือทำ)
+      ↓
+Control the risks
+      ↓
+Record your findings (ตรวจสอบ)
+      ↓
+Review the controls (ปรับปรุง) → วนกลับ
+```
+- **Hazard surveillance** — เน้นที่ Identify hazards / Assess risks
+- **Health surveillance** — เน้นที่ Record findings / Review controls
+
+### หลักฐานเชื่อมโยงโรคกับงาน (3 เสา)
+1. **โรค** (สอดคล้องและวินิจฉัยว่าเป็นโรค)
+2. **ระบาดวิทยา** (แสดงความเชื่อมโยงระหว่างสิ่งคุกคามกับการเกิดโรค)
+3. **สิ่งคุกคามในงาน** (สิ่งคุกคามปรากฏในงาน + ผู้ป่วยสัมผัสในระยะเวลาที่ก่อโรคได้)
+
+→ พิจารณา **ความน่าเชื่อถือ** + **ปัจจัยที่เกี่ยวข้อง** → ประเมินและสรุปผล
+
+---
+
+## 6. โรคจากสิ่งคุกคามทางกายภาพ (Lect 3.1) ⭐บทใหญ่
+
+**5 สิ่งคุกคามทางกายภาพ:** 1) เสียง 2) อุณหภูมิ 3) ความกดอากาศ 4) รังสีและคลื่น 5) ความสั่นสะเทือน
+
+---
+
+### 6.1 เสียง — Noise-Induced Hearing Loss (NIHL)
+
+**แหล่งที่พบ:** งานภาคสนามบิน, ก่อสร้าง, โรงงานที่ใช้เครื่องจักรขนาดใหญ่โดยไม่มีการป้องกัน
+
+**พยาธิสภาพ:**
+- สัมผัสเสียงดังเกิน **85 dB** เป็นเวลานาน → ทำลาย**เซลล์ขนในหูชั้นใน (Organ of Corti)**
+- เป็น **Sensorineural hearing loss** (ไม่ใช่ conductive)
+
+**🔑 Audiogram:** พบ **notch ที่ความถี่ 4000 Hz ทั้งสองข้าง** (ออกสอบแน่)
+
+### ตรวจการได้ยินทางอาชีวเวชกรรม เมื่อไหร่บ้าง
+1. **ก่อนเข้างาน** — เป็น baseline (ลูกจ้างใหม่ที่จะทำงานในบริเวณเสียงดัง **≥ 85 dB(A)**)
+2. **ตรวจเฝ้าระวัง/ติดตาม/ประจำปี**
+3. **ก่อนลาออกหรือเปลี่ยนงาน**
+
+### 🔑 การเตรียมผู้รับการตรวจ Audiometry
+- **งดการสัมผัสเสียงดังทุกชนิด อย่างน้อย 12 ชั่วโมง** ⭐
+- ควรตรวจสภาพหูด้วย **Otoscope** ก่อนทดสอบ โดยเฉพาะรายที่ซักประวัติแล้วมีอาการผิดปกติของหู
+
+### กฎหมายที่เกี่ยวข้อง
+- **ประกาศกรมสวัสดิการและคุ้มครองแรงงาน พ.ศ.2561** — หลักเกณฑ์และวิธีการจัดทำ**มาตรการอนุรักษ์การได้ยิน**
+  - บังคับใช้เมื่อระดับเสียงเฉลี่ยตลอด 8 ชั่วโมง **≥ 85 dB(A)**
+- **ประกาศฯ พ.ศ.2560** — มาตรฐานระดับเสียงที่ยอมให้ลูกจ้างได้รับเฉลี่ยตลอดระยะเวลาทำงานในแต่ละวัน
+
+### วงจรโครงการอนุรักษ์การได้ยิน (Hearing Conservation Program)
+```
+ประเมินความเสี่ยงจากเสียง → ลดความเสี่ยง/มีการควบคุม → จัดการป้องกันเสียง
+→ ให้ความรู้และฝึกผู้ปฏิบัติงาน → เฝ้าระวังโดยการตรวจการได้ยิน
+→ ทบทวนมาตรการและประเมินความเสี่ยง → วนกลับ
+```
+
+### หลักการควบคุมเสียง 3 ทาง
+1. **ระยะห่าง** (distance)
+2. **ระดับความดัง** (intensity)
+3. **ระยะเวลาสัมผัส** (duration)
+
+### 🔑 วิธีใส่ปลั๊กอุดหูชนิดโฟม (3 ขั้น)
+1. **ปั้น** ให้เรียวเล็ก
+2. **ดึงใบหู** (ขึ้นและไปด้านหลัง เพื่อยืดช่องหู)
+3. **นับรอ 1–30** ให้โฟมขยายตัว
+
+### ปัจจัยส่งเสริมการเกิด NIHL ⭐
+- **การสูบบุหรี่**
+- **การทำงานสัมผัสแรงสั่นสะเทือน**
+- **ตัวทำละลายที่มีพิษต่อหู (Ototoxic solvents):**
+  Styrene · Methylstyrene · **Toluene** · **Xylene** · Carbon disulfide · Ethylbenzene · n-Propyl benzene · **n-Hexane** · Trichloroethylene
+
+---
+
+### 6.2 อุณหภูมิ
+
+#### A. HEAT — กลไกรักษาอุณหภูมิแกนกลาง 37°C
+1. **Cutaneous vasodilation** ขยายหลอดเลือดที่ผิวหนัง
+2. **Sweating** ขับเหงื่อ
+3. **Evaporation** การระเหยของเหงื่อ
+
+#### 🔑 Heat-Related Illness — ตารางแยกโรค (ออกสอบแน่นอน)
+| ภาวะ | อุณหภูมิแกนกลาง | เหงื่อ | ความรู้สึกตัว |
+|------|----------------|:------:|--------------|
+| **Heat Rash** | ปกติ | + | ปกติ |
+| **Heat Cramps** | ปกติ | + | ปกติ |
+| **Heat Syncope** | ปกติ | + | **หมดสติชั่วคราว** |
+| **Heat Exhaustion** | **< 40–40.5°C** | + | ปกติ |
+| **Heat Stroke** ⚠️ | **> 40°C** | **+/−** | **สับสน ชัก หมดสติ** |
+
+> จุดแยก Heat Exhaustion vs Heat Stroke = **อุณหภูมิ > 40°C + ความรู้สึกตัวผิดปกติ (CNS dysfunction)**
+
+#### Field Management
+1. **นำออกจากสิ่งแวดล้อมที่ร้อนทันที (ASAP)**
+2. ถอดเสื้อผ้า
+3. **ทำให้เย็นลง (cool down)**
+4. Monitor core body temperature
+5. Rehydration
+
+#### 🔑 Hospital Management
+- **ABC** (Airway, Breathing, Circulation)
+- **ลดอุณหภูมิทันที**
+  - **Cold water immersion — ดีที่สุดสำหรับ Exertional Heat Stroke** ⭐
+  - **Evaporative cooling**
+  - **Ice packs บริเวณคอ รักแร้ ขาหนีบ** (บริเวณหลอดเลือดใหญ่)
+  - Whole-body rotating ice-wet towel
+- ให้สารน้ำ
+- ตรวจและรักษาภาวะแทรกซ้อน
+
+#### ภาวะแทรกซ้อนของ Heat Stroke
+Brain edema · Seizure · **Acute kidney injury** · **Rhabdomyolysis** · Liver failure · **DIC** · Arrhythmia · Acute lung injury · **Multi-organ failure**
+
+#### Risk Factors
+**A. Environmental — ร้อน + ความชื้นสูง**
+- **WBGT (Wet Bulb Globe Temperature)** ประกอบด้วย 4 องค์ประกอบ:
+  1. **Air temperature** 2. **Humidity** 3. **Air velocity** 4. **Radiation**
+- ใช้ร่วมกับ **WBGT Work-Rest chart** (งานออกแรงหนัก → ต้องพักมากขึ้น)
+
+**B. Non-environmental**
+- **Poor acclimatization** (ยังไม่ปรับตัวกับความร้อน)
+- **Dehydration**
+- **Physical barrier to heat loss** — ชุดป้องกันที่ไม่ระบายความร้อน, **BMI สูง**
+- **Unfitness** — สมรรถภาพร่างกายต่ำ, อดนอน, มีไข้/ติดเชื้อ, **แอลกอฮอล์**, สารเสพติด (**cocaine, amphetamine**)
+- **Medical history** — เคยเป็น heat-related illness, **malignant hyperthermia**
+- **Concurrent illness** — โรคหัวใจ เบาหวาน โรคระบบประสาท โรคผิวหนัง
+- **🔑 ยา (จำให้ได้):** **diuretics · antihistamines · anticholinergic antidepressants · beta-blockers · calcium channel blockers**
+
+#### แนวทางการบริหารจัดการ
+- **ตารางการปรับตัว — heat acclimatization 10–14 วัน** ⭐
+- ตารางเวลาพัก
+- สวัสดิการน้ำดื่ม
+- การให้ความรู้
+- **การติดตามเฝ้าระวังอาการ — buddy system + supervisor**
+- แผนฉุกเฉิน
+
+#### B. COLD ENVIRONMENT — Hypothermia และผลกระทบ
+- **Respiratory:** asthma, COPD, infections
+- **Cardiovascular:** coronary/heart disease, MI, cerebrovascular accidents
+- **Peripheral circulation:** **Raynaud's phenomenon**, **hand–arm vibration syndrome**
+- **Musculoskeletal:** carpal tunnel syndrome, tension neck syndrome, tenosynovitis, peritendinitis
+- **Dermatological:** **cold urticaria**, **pernio (chilblains)**, psoriasis, atopic dermatitis
+- **Injuries:** **frostbite, trench foot, hypothermia**, falls
+
+---
+
+### 6.3 ความกดอากาศ
+
+#### A. COMPRESSION (Hyperbaric injury) — Decompression Sickness (DCS)
+- พบใน**นักดำน้ำ** (เช่น นักดำน้ำหาของเก่า) และ **caisson workers**
+- **กลไก:** ที่ความลึก ไนโตรเจนละลายในเลือด/เนื้อเยื่อมากขึ้น → เมื่อขึ้นสู่ผิวน้ำเร็วเกินไป ความดันลดลง → **ไนโตรเจนกลายเป็นฟองก๊าซ (bubble formation)** → อุดหลอดเลือด/กดเนื้อเยื่อ
+- **Boyle's law:** ปริมาตรของก๊าซในโพรงอากาศ **ขยายตัวเมื่อขึ้นสู่ผิวน้ำ (ascent)**
+- **Caisson disease** — ประวัติศาสตร์: การสร้าง Eads Bridge ที่ St. Louis มีคนงานบาดเจ็บ **42 คน**
+- **🔑 การรักษา: Hyperbaric chamber (recompression therapy)**
+
+#### B. ALTITUDE (Hypobaric injury)
+**ความดันบรรยากาศ**
+- **760 mmHg ที่ระดับน้ำทะเล**
+- **ลดลง 1 mmHg ทุกความสูง 11 เมตร**
+- **Acclimatization จำเป็นที่ระดับ 2,500 เมตรขึ้นไป** ⭐
+
+**🔑 Health effects 3 โรค**
+
+| โรค | อาการเด่น | การรักษา |
+|-----|----------|---------|
+| **Acute Mountain Sickness (AMS)** | **ปวดศีรษะ = cardinal symptom** เกิด **2–12 ชม.** หลังขึ้นที่สูง (มักระหว่าง/หลังคืนแรก) + อ่อนเพลีย เบื่ออาหาร คลื่นไส้ อาเจียนบางครั้ง · **หายเองใน 12–48 ชม.** เมื่อ acclimatize | พัก/ยา |
+| **High Altitude Cerebral Edema (HACE)** | **Lethargy, drowsiness, confusion, ataxia (tandem gait test)** | **ต้องลงจากที่สูงทันที (immediate descent)** ⚠️ |
+| **High Altitude Pulmonary Edema (HAPE)** | **Breathlessness, weakness, cough** (อาจมี/ไม่มี HACE ร่วม) | **Oxygen + descend** |
+
+**Management โดยรวม**
+- **Descent** (สำคัญที่สุด)
+- ยา (อาจใช้ prophylaxis): **paracetamol, anti-motion sickness, dexamethasone, acetazolamide**
+- **Hyperbaric chamber**
+
+---
+
+### 6.4 รังสีและคลื่น (Radiation)
+
+#### 🔑 แบ่ง 2 ชนิด (ออกสอบ)
+| | **Ionizing Radiation (ก่อประจุ)** | **Non-Ionizing Radiation (ไม่ก่อประจุ)** |
+|---|---|---|
+| **ตัวอย่าง** | เอกซเรย์, แกมมา, **แก๊สเรดอน** | **แสง UV** |
+| **อาชีพเสี่ยง** | บุคลากรทางการแพทย์แผนกรังสี, **เหมืองแร่ยูเรเนียม** | เกษตรกร, **ไลฟ์การ์ด**, **ช่างเชื่อมโลหะ** |
+| **กลไก/ผล** | **ทำลาย DNA โดยตรง** → **ต้อกระจก (cataract)**, ผิวหนังตาย, **มะเร็งเม็ดเลือดขาว, มะเร็งปอด** | **UV-B ทำลายผิวหนัง → มะเร็งผิวหนัง** |
+
+**Photokeratitis (Welder's flash)** — กระจกตาอักเสบจาก UV ในช่างเชื่อม
+
+#### หลักลดปริมาณรังสี (Radiation protection)
+1. **Time** — ลดเวลาสัมผัส
+2. **Distance** — **Inverse Square Law** (ความเข้มลดลงเป็นกำลังสองของระยะทาง) ⭐
+3. **Shielding** — ใช้ฉากกำบัง
+- ระวัง **Scatter radiation** (รังสีกระเจิง) และ**ตำแหน่งที่ยืนทำงาน**
+- **การวัดปริมาณสัมผัส** — ใช้ personal dosimeter (film badge/TLD)
+- **รังสีกับการตั้งครรภ์** — ต้องเฝ้าระวังเป็นพิเศษ
+- มีกฎหมายความปลอดภัยด้านรังสี ครอบคลุมทั้ง**ความปลอดภัยของผู้ปฏิบัติงาน**และ**ผู้รับบริการ**
+
+---
+
+### 6.5 ความสั่นสะเทือน (Vibration)
+
+**🔑 Hand-Arm Vibration Syndrome (HAVS) / Vibration White Finger**
+- **แหล่งที่พบ:** คนงานใช้**เครื่องเจาะถนน (Jackhammer)**, **เลื่อยยนต์ (chainsaw)**, **เครื่องเจียรผิวโลหะ** เป็นประจำ
+- **กลไก:** ความสั่นสะเทือนสะสมทำลาย**เส้นเลือดและเส้นประสาทที่นิ้วมือ** → หลอดเลือดยืดหดตัวผิดปกติ (คล้าย **Raynaud's phenomenon**)
+- **อาการ:** **นิ้วมือซีดขาว ซ่า และปวดเมื่อเจออากาศเย็น**
+
+> **จำ:** vibration ยังเป็น**ปัจจัยส่งเสริม NIHL** ด้วย
+
+---
+
+## 7. Ergonomics — การยศาสตร์ (Lect 3.3)
+
+### นิยาม
+- **Ergon** (work) + **nomos** (laws) = ศาสตร์ว่าด้วยการทำงาน
+- การเรียนรู้ **ความสามารถและข้อจำกัดของมนุษย์** เพื่อออกแบบลักษณะและวิธีการทำงาน รวมถึงเครื่องมือ เครื่องจักร อาคาร ผลิตภัณฑ์ สภาพแวดล้อม ให้เหมาะสมกับมนุษย์ทั้งกายและใจ → เพื่อให้ทำงาน **ดีขึ้น เร็วขึ้น และปลอดภัยมากขึ้น**
+- อีกชื่อ: **Human Factor Engineering**
+
+### สาเหตุของ Musculoskeletal Disorders (MSDs) — 2 กลุ่ม
+1. **Work-related (ergonomic) risk factors**
+2. **Individual-related risk factors**
+
+### Biomechanics
+> "ใช้กฎฟิสิกส์และหลักวิศวกรรมอธิบายการเคลื่อนไหวของส่วนต่างๆ ของร่างกายและแรงที่กระทำต่อส่วนนั้นระหว่างกิจวัตรประจำวัน" — Frankel and Nordin
+
+### 🔑 Biomechanical Risk Factors 3 ข้อ (ท่องให้ได้)
+1. **Force** — แรงที่ใช้
+2. **Posture** — ท่าทาง (awkward posture)
+3. **Repetition** — ความถี่/การทำซ้ำ
+
+> เพิ่มเติมที่มักถูกกล่าวถึง: Duration, Vibration, Contact stress, Static loading
+
+### ตัวอย่าง Ergonomic Assessment Tools
+- **RULA** (Rapid Upper Limb Assessment)
+- **REBA** (Rapid Entire Body Assessment)
+- **NIOSH Lifting Equation**
+- **OWAS**
+- **Strain Index**
+
+> หลักการเลือกเครื่องมือ: ต้องเลือกให้เหมาะกับลักษณะงาน (เปรียบเหมือนเลือกไขควงให้ตรงกับสกรู)
+
+### หลักการทางการยศาสตร์พื้นฐาน
+- ทำงานในท่าที่เป็นกลาง (neutral posture)
+- ลดแรงที่มากเกินไป
+- ให้ของอยู่ในระยะเอื้อมถึงสะดวก
+- ทำงานที่ระดับความสูงที่เหมาะสม
+- ลดการเคลื่อนไหวซ้ำซาก
+- ลดการกดทับโดยตรง (contact stress)
+- จัดที่ว่างให้เพียงพอ
+- ให้เคลื่อนไหว/ยืดเหยียด/พักเป็นระยะ
+- จัดสภาพแวดล้อมให้เหมาะ (แสง/เสียง/อุณหภูมิ)
+- ใช้อุปกรณ์ช่วย เช่น **handcarts** (การเข็นดีกว่าการดึง)
+
+---
+
+## 8. Occupational Skin Diseases (Lect 3.4)
+
+### 🔑 เกณฑ์วินิจฉัย Occupational Dermatoses (Mathias' criteria) — ออกสอบบ่อย
+1. อาการแสดงเข้าได้กับ **contact dermatitis**
+2. มีประวัติสัมผัส**สารก่อภูมิแพ้หรือสารระคายเคือง**ผิวหนังระหว่างทำงาน
+3. **ผื่นเกิดที่ตำแหน่งที่สัมผัสสาร**
+4. ผื่นเกิดภายหลังเริ่มทำงานใน**ระยะเวลาที่เหมาะสม**
+5. **ไม่พบสาเหตุอื่นนอกเหนือจากการทำงาน**
+6. **อาการดีขึ้นเมื่อหยุดงาน**หรือไม่ได้สัมผัสสาร
+7. **Patch test หรือ provocative test ให้ผลบวก**
+
+### สารก่อภูมิแพ้จากการทำงานที่พบบ่อย (Common occupational allergens)
+| สาร | แหล่งที่พบ |
+|-----|-----------|
+| **Thiurams** | ผลิตภัณฑ์ยาง (rubber) |
+| **Chromate** | **ปูนซีเมนต์**, ฟอกหนัง |
+| **Epoxy resin** | สารเคลือบผิว, กาว |
+| **Para-phenylenediamine (PPD)** | **ยาย้อมผม** |
+| **Ammonium persulfate** | ยาฟอกสีผม |
+| **Nickel** | เครื่องประดับ, วัตถุโลหะ, ชุบโลหะ (electroplating) |
+| **Glyceryl monothioglycolate** | น้ำยาดัดผม |
+| **Fragrance** | น้ำหอม |
+| **Coconut diethanolamide** | แชมพู สบู่เหลว น้ำมันตัดกลึง |
+| **Colophonium/rosin** | กาว เทป ไม้ เครื่องสำอาง |
+| **Formalin** | เสื้อผ้า สารกันเสีย น้ำหล่อเย็น |
+| **Mercaptobenzothiazole** | ผลิตภัณฑ์ยาง |
+| **Cobalt** | เครื่องประดับ |
+| **Diazolidinylurea** | สารกันเสียปล่อย formalin ในครีม โลชั่น แชมพู |
+| **Hydroxyethyl methacrylate** | กาว |
+
+---
+
+### 🔑 การทดสอบทางผิวหนัง 4 แบบ (ตารางเปรียบเทียบ — ออกสอบแน่)
+
+| Test | ใช้วินิจฉัย | วิธีทำ | อ่านผล | ผลบวก |
+|------|-------------|--------|--------|-------|
+| **Patch test** | **Allergic contact dermatitis** (Type IV) | แปะ standard allergens + allergen ที่สงสัย ที่**ด้านหลัง** นาน **48 ชม.** | **48 และ 72 ชม.** | **erythematous papule, vesicle, bullae** |
+| **Skin prick test** | **Contact urticaria** และ **protein contact dermatitis** (Type I) | หยด allergen ที่**ท้องแขน**, NSS = negative control, **histamine = positive control**, สะกิดด้วย lancet | **15–20 นาที** | **wheal** ขนาดใกล้เคียงหรือใหญ่กว่า positive control |
+| **Use test** | Allergic contact dermatitis (กรณีสารระคายเคืองสูง เช่น แชมพู สบู่เหลว) | ทาที่**ท้องแขน วันละ 2–3 ครั้ง ติดต่อกัน 1–2 สัปดาห์** ผู้ป่วยทำเองได้ | มีผื่นคัน = แพ้ (อ่าน immediate-type ที่ 15–20 นาทีได้ด้วย) | ผื่นคัน |
+| **RAST** (Radioallergosorbent test) | **Immediate-type hypersensitivity — ปลอดภัยที่สุด** นิยมใน **latex allergy** | เอา **serum** ไปตรวจหา **specific IgE** | — | มี specific IgE |
+
+⚠️ **ข้อควรระวัง Skin prick test:** immediate-type hypersensitivity ทำให้เกิด **anaphylaxis** ได้ → ต้องมียาและอุปกรณ์ช่วยชีวิตพร้อมใช้ทันที และ**ไม่ทำ prick test ในรายที่เคยมีอาการ systemic มาก่อน**
+
+⚠️ **ข้อเสีย RAST:** **ความไวต่ำ** — หากให้ผลลบแต่ประวัติบ่งชี้ ควรทำ use test และ prick test ต่อ
+
+---
+
+### กลุ่มโรคผิวหนังจากการทำงาน
+
+**A. Allergic reactions**
+- Allergic contact dermatitis
+- **Contact urticaria**
+- **Photosensitivity**
+
+**B. Irritation**
+- Irritant contact dermatitis
+- **Onychodystrophy** — เล็บผิดรูปจาก contact dermatitis จากการระคายเคืองเรื้อรัง
+- **Dyshidrosis**
+
+**C. 🔑 Acne, Folliculitis และ Chloracne** (ออกสอบ)
+
+| | **Oil acne / Acne mechanica** | **Chloracne** |
+|---|---|---|
+| **สาเหตุ** | สัมผัส**น้ำมัน chlorinated hydrocarbon**; ทำงานที่ร้อน + mechanical trauma | สัมผัส **halogenated hydrocarbon** ใน**ยาฆ่าแมลง**และน้ำยาฆ่าเชื้อบางชนิด |
+| **ลักษณะเฉพาะ** | สิวบริเวณที่สัมผัสน้ำมัน | 1) ประวัติสัมผัสสาร **2–8 สัปดาห์** ก่อนมีอาการ<br>2) **ไม่มี inflammation รอบผื่น**<br>3) **lesion บริเวณหางตา หลังหู รักแร้ ลูกอัณฑะ**<br>4) เกิดในทุกกลุ่มอายุ<br>5) **Meibomian gland involvement**, comedone ขนาดใหญ่, **straw-color cyst** |
+
+> **ตัวอย่างประวัติศาสตร์:** อดีตประธานาธิบดียูเครน **Viktor Yushchenko** เชื่อว่าเกิด chloracne หลังถูกวางยาพิษในอาหาร
+
+**D. Metal exposure (Chronic exposure to metals)**
+- **Chronic arsenic toxicity** — hyperpigmentation, hyperkeratosis, **Bowen's disease**, skin cancer
+- **Chronic lead toxicity**
+
+**E. Occupational skin infections** ⭐จับคู่โรค-อาชีพ
+| เชื้อ/โรค | อาชีพ |
+|-----------|-------|
+| **Anthrax** | เกี่ยวกับ**ปศุสัตว์** |
+| **Atypical mycobacterium** | **เลี้ยงสัตว์น้ำ** |
+| **Sporotrichosis** | **ทำสวน** |
+| **Candida infection** | อาชีพที่ต้องอยู่ในที่**ชื้น** |
+
+**F. โรคผิวหนังจากปัจจัยทางกายภาพ**
+- **Heat** — miliaria, burns
+- **Friction / mechanical trauma** — **Calluses at pressure points**
+- **Vibration** — vibration white finger
+- **Sunlight exposure** — photodermatoses
+
+**G. 🔑 Occupational Skin Cancer**
+- **คนผิวขาวที่ทำงานกลางแจ้ง ถูกแดดนาน** → เสี่ยงต่อ **Basal cell carcinoma (BCC)** และ **Squamous cell carcinoma (SCC)**
+- **สารเคมีก่อมะเร็งผิวหนัง:** **coal tar, arsenic**
+- **Bowen's disease** = SCC in situ (พบใน arsenic exposure)
+
+---
+
+## 9. Occupational Lung Diseases (Lect 3.5) ⭐บทใหญ่
+
+### นิยาม
+กลุ่มโรคระบบทางเดินหายใจที่เกิดขึ้นหรือสัมพันธ์กับการสัมผัสสิ่งคุกคามในที่ทำงาน — ฝุ่นอนินทรีย์ ฝุ่นอินทรีย์ เส้นใยแร่ สารเคมี ก๊าซ ไอระเหย **ควันโลหะ** และสารก่อภูมิแพ้
+
+ส่งผลต่อ: ทางเดินหายใจ · เนื้อปอด · เยื่อหุ้มปอด · หลอดเลือดปอด → **การอักเสบ พังผืด อุดกั้นทางเดินหายใจ หรือมะเร็งปอด**
+
+### 🔑 ปัจจัยกำหนดการเกิดโรค 4 อย่าง
+**ชนิด (type) · ขนาด (size) · ปริมาณ (dose) · ระยะเวลา (duration)**
+
+### ขนาดอนุภาคกับการตกในระบบทางเดินหายใจ ⭐
+| ขนาด (µm) | ตำแหน่งที่ตก |
+|-----------|-------------|
+| ≥ 10 | ทางเดินหายใจส่วนบน (จมูก/คอหอย) |
+| 5.8–10 | หลอดลมใหญ่ |
+| 4.7–5.8 | หลอดลมขนาดกลาง |
+| 3.3–4.7 | หลอดลมเล็ก |
+| 2.1–3.3 | หลอดลมฝอย |
+| 1.1–2.1 | terminal bronchiole |
+| 0.43–1.1 | **ถุงลม (alveoli)** |
+
+> **จำหลัก: ฝุ่นขนาด < 5 µm (respirable fraction) จึงจะลงถึงถุงลมและก่อ pneumoconiosis**
+
+---
+
+### 🔑 กลุ่มโรคปอดจากการทำงาน 5 กลุ่มใหญ่ (โครงสร้างของบทนี้)
+1. **Pneumoconiosis**
+2. **Work-related asthma**
+3. **Hypersensitivity pneumonitis**
+4. **Irritant lung reactions**
+5. **Occupational lung cancer**
+   *(+ Infections)*
+
+---
+
+### 9.1 PNEUMOCONIOSIS
+
+**นิยาม (Parkes):** ปฏิกิริยา **non-neoplastic** ของปอดต่อ**ฝุ่นแร่หรือฝุ่นอินทรีย์ที่สูดเข้าไป** และการเปลี่ยนแปลงโครงสร้างที่ตามมา **ไม่รวม asthma, bronchitis และ emphysema**
+
+**รากศัพท์:** pneumos (lung) + konios (dust) + osis (state of) — ตั้งโดย **Zenker** (พยาธิแพทย์)
+
+**ลักษณะสำคัญ:** ดำเนินโรคช้า และ**เมื่อเกิดพังผืดแล้วมักไม่กลับคืนสู่สภาพปกติ (irreversible)**
+
+**ชนิดของ Pneumoconiosis**
+| โรค | สาเหตุ |
+|-----|--------|
+| **Silicosis** | ผลึก **crystalline silica** |
+| **Asbestosis** | **แร่ใยหิน (asbestos)** |
+| **Coal Workers' Pneumoconiosis (CWP)** | ฝุ่นถ่านหิน |
+| **Chronic Beryllium Disease** | เบริลเลียม |
+| อื่นๆ | **Talcosis, Siderosis, Baritosis, Stannosis** |
+
+---
+
+#### A. SILICOSIS
+**อาชีพเสี่ยง:** ตัดหินบนเขา · ตีหินบนเขา · ตัดหินที่หล่อด้วยน้ำ · ต็อกหิน · **แกะสลักหินด้วยเลื่อยวงเดือน** · แกะสลักหินด้วยค้อนและสิ่ว · **งานพ่นทราย (sandblasting)** · เหมืองหิน
+
+**Simple silicosis**
+- **Upper-zone predominant, well-defined nodules** (nodule ขนาดเล็ก)
+- CXR: nodular infiltration บริเวณปอดส่วนบนทั้งสองข้าง
+
+**Complicated silicosis (PMF — Progressive Massive Fibrosis)**
+- **Large opacities ≥ 1 cm** ในบริเวณ mid-lung zones
+- มี **architectural distortion** ร่วมด้วย
+- **Paracicatricial emphysema** รอบๆ large opacities
+- บาง nodule มี **calcification**
+
+**⚠️ ภาวะแทรกซ้อนสำคัญของ Silicosis (ออกสอบ)**
+1. **การติดเชื้อ — TB (silicotuberculosis) และ Nontuberculous mycobacteria (NTM)**
+   - **Cavitation ใน large opacities** → ต้องสงสัย**การติดเชื้อหรือมะเร็ง** (แม้ PMF เองก็ cavitate ได้)
+   - ตัวอย่าง: culture ขึ้น ***M. avium* complex**
+2. **Lung cancer** — mass ที่**เกิดกลางเนื้อปอด (ไม่ใช่ peripheral)** และ**ไม่มี architectural distortion** → ควรสงสัยมะเร็ง (PMF มักเกิด**ที่ขอบปอด peripheral** และมี distortion)
+
+---
+
+#### B. COAL WORKER'S PNEUMOCONIOSIS (CWP)
+- **Upper-zone predominant nodules** — **centrilobular และ perilymphatic nodules**
+- Nodule ของ CWP บรรยายว่า **less well-defined** เมื่อเทียบกับ simple silicosis
+- **⚠️ แต่ในทางภาพรังสี แยกจาก simple silicosis ไม่ได้ (radiographically indistinguishable)**
+
+---
+
+#### C. ASBESTOS-RELATED LUNG DISEASES
+
+**ชนิดของเส้นใยแร่ใยหิน (ดูด้วย transmission electron microscopy)**
+a) **Chrysotile** (serpentine — ขดเป็นเกลียว)
+b) **Crocidolite** c) **Amosite** d) **Anthophyllite** (amphibole — เป็นเส้นตรง)
+- พบ **Asbestos bodies** (ferruginous bodies) ในเนื้อปอด
+
+**โรคที่เกิดได้**
+| โรค | ลักษณะ |
+|-----|--------|
+| **Pleural plaques & pleural thickening** | เป็น marker ของการสัมผัส (มักไม่มีอาการ), อาจ calcified |
+| **Asbestosis** | **Basilar (lower zone) predominant reticulation** — ตรงข้ามกับ silicosis/CWP ที่เป็น upper zone ⭐<br>CT: **peripheral subpleural reticulation + architectural distortion + traction bronchiectasis**<br>**Honeycombing พบเป็นส่วนน้อยของ cases** |
+| **Lung cancer** | **spiculated mass** — พบตามมาได้หลายปี (เช่น non-small cell lung carcinoma) |
+| **Mesothelioma** | มะเร็งเยื่อหุ้มปอด — จากกลไก chronic inflammation |
+
+> **🔑 จำการกระจาย:** **Silicosis/CWP = Upper zone** vs **Asbestosis = Lower zone (basilar)**
+
+---
+
+#### 🔑 ILO Classification of Radiographs of Pneumoconioses
+- ใช้ **ILO Reading Sheet** มาตรฐาน
+- แบ่งเป็น **Small opacities** และ **Large opacities**
+- ใช้ระบบ **profusion** (ความหนาแน่นของ opacity) — เกณฑ์วินิจฉัยไทยใช้ **≥ 1/1**
+
+---
+
+### 9.2 WORK-RELATED ASTHMA
+
+**🔑 การจำแนก (ผังต้องจำได้)**
+```
+                        Asthma
+                          │
+        ┌─────────────────┴─────────────────┐
+   Work-related                      Non–work-related
+      asthma                              asthma
+        │
+   ┌────┴─────────────────┐
+Occupational          Work-exacerbated
+   asthma                 asthma
+   (OA)                    (WEA)
+   │
+   ├── Sensitizer-induced OA
+   └── Irritant-induced OA
+```
+
+**ลักษณะสำคัญ**
+- **โรคทางเดินหายใจจากการทำงานที่พบบ่อยที่สุดในประเทศอุตสาหกรรม** ⭐
+- สาเหตุ: สัมผัสสารก่อภูมิแพ้/สารระคายเคือง — **isocyanates, latex, แป้งสาลี, ฝุ่นไม้, เอนไซม์อุตสาหกรรม, สัตว์ทดลอง**
+- **🔑 ลักษณะเด่น: อาการดีขึ้นในวันหยุด/เมื่อหยุดงาน และกำเริบเมื่อกลับเข้าสู่สภาพแวดล้อมเดิม**
+
+**การวินิจฉัย/คัดกรอง**
+- **Surveillance และ early detection สำคัญมาก — การนำออกจากการสัมผัสตั้งแต่เนิ่นๆ สามารถทำให้โรคหายได้ (reversible)** ⭐
+- **Spirometry** ใช้ทั้ง diagnosis และ screening
+- **Imaging ไม่จำเพาะ** — อาจพบ **bronchial wall thickening, mosaic attenuation, expiratory air trapping**
+
+---
+
+### 9.3 HYPERSENSITIVITY PNEUMONITIS (Extrinsic Allergic Alveolitis)
+
+**นิยาม:** เกิดจากการ**สูดดม antigen ในผู้ที่ถูก sensitize แล้ว**
+
+**สาเหตุ**
+- **Organic antigens — พบบ่อยที่สุด**: **แบคทีเรีย ยีสต์ เชื้อรา และโปรตีนจากนก**
+- **Low molecular weight chemicals**: **zinc, inks, dyes, isocyanates**
+
+> ตัวอย่างคลาสสิก: Farmer's lung, Bird fancier's lung, Humidifier lung, Bagassosis
+
+---
+
+### 9.4 IRRITANT LUNG REACTIONS
+
+#### A. Acute Toxic Inhalation Injury
+การได้รับสารเคมี**เข้มข้นในระยะเวลาสั้น** → อักเสบฉับพลันของ **respiratory mucosa** หรือ **lung parenchyma** → เกิดได้:
+- **Chemical pneumonitis**
+- **Pulmonary edema**
+- **ARDS (Acute Respiratory Distress Syndrome)**
+
+**🔑 สารก่อเหตุ (agents):** ก๊าซ (gases), ฟูม (fumes), ละอองลอย (aerosols)
+> **Ammonia · Cadmium oxide · Hydrogen chloride · Hydrogen fluoride · Sulfur dioxide · Chlorine · Oxides of nitrogen · Ozone · Phosgene · Vanadium pentoxide**
+
+#### B. 🔑 Inhalation Fever Syndromes (ออกสอบ)
+1. **Metal fume fever** (จากงานเชื่อมโลหะ — zinc oxide)
+2. **Polymer fume fever** (จาก PTFE/Teflon)
+3. **Organic dust toxic syndrome (ODTS)**
+
+- **อาการ: ไข้ หนาวสั่น ปวดกล้ามเนื้อ และไอ**
+- **🔑 มักหายเองภายใน 24–48 ชั่วโมงหลังหยุดสัมผัส** (self-limited)
+
+---
+
+### 9.5 OCCUPATIONAL LUNG CANCER
+
+**🔑 สารก่อมะเร็งปอดที่สำคัญ (ท่องให้ได้)**
+- **Asbestos**
+- **Crystalline silica**
+- **Arsenic**
+- **Hexavalent chromium, Cr(VI)**
+- **Nickel**
+- **ควันไอเสียเครื่องยนต์ดีเซล (Diesel exhaust)**
+- **รังสี Radon**
+
+> **⭐ การสูบบุหรี่ร่วมกับการสัมผัสสารก่อมะเร็งจากการทำงาน เพิ่มความเสี่ยงแบบ SYNERGISTIC EFFECT (เสริมฤทธิ์ ไม่ใช่แค่บวกกัน)** — ข้อนี้ออกสอบบ่อยมาก โดยเฉพาะ asbestos + smoking
+
+---
+
+## 10. Mental Health in Workplace (Lect 3.6)
+
+### ปัจจัยทางจิตวิทยาที่มีผลต่ออาการทางกาย (แยกให้ออก)
+| กลุ่ม | ลักษณะ |
+|-------|--------|
+| **Psychological disorders** | โรคทางจิตเวชจริง |
+| **Somatoform disorders** | อาการทางกายโดยไม่มีพยาธิสภาพ **ผู้ป่วยไม่ได้แกล้ง** |
+| **Factitious disorder** | **แกล้งป่วยโดยเจตนา แต่ไม่มีผลประโยชน์ภายนอก** (ต้องการบทบาทผู้ป่วย) |
+| **Malingering** | **แกล้งป่วยเพื่อผลประโยชน์ภายนอก** (เงินชดเชย, ลางาน) ⭐สำคัญในงานอาชีวเวชศาสตร์ |
+
+### โรคทางจิตเวชที่พบบ่อยในที่ทำงาน
+- **Major depressive disorder**
+- **Bipolar disorder**
+- **Generalized anxiety disorder (GAD)**
+- **Post-traumatic stress disorder (PTSD)**
+
+> **ผลกระทบ:** ยา (drugs) → ผลข้างเคียง (side effects) → **ลดประสิทธิภาพการทำงาน (performance)**
+
+### 🔑 Karasek's Job Strain Model (1979) — ออกสอบ
+แบ่งตาม 2 แกน: **Job Demand (ความต้องการของงาน)** × **Job Control/Decision Latitude (อำนาจควบคุมงาน)**
+
+| | **Control ต่ำ** | **Control สูง** |
+|---|---|---|
+| **Demand สูง** | **High Strain Job** ⚠️ (เครียดที่สุด เสี่ยงโรคหัวใจ/ซึมเศร้า) | **Active Job** (ท้าทาย เรียนรู้ได้ดี) |
+| **Demand ต่ำ** | **Passive Job** (เฉื่อยชา ทักษะถดถอย) | **Low Strain Job** (สบาย) |
+
+> การสนับสนุนทางสังคม (social support) เป็นตัวแปรที่ 3 ที่ช่วยลด strain — **Iso-strain** = high demand + low control + low support
+
+### จิตวิทยาในที่ทำงาน (Psychology in workplace) — วงจร
+**Recruitment → Training → Motivation & Productivity → Compensation → Performance appraisal**
+
+- มี **EAP (Employee Assistance Program)** เป็นระบบช่วยเหลือพนักงาน
+
+---
+
+### 🔑 ความรุนแรงในที่ทำงาน (Workplace Violence)
+
+**แหล่งที่มา 2 กลุ่ม**
+1. **ภายในหน่วยงาน (Internal)** — เพื่อนร่วมงาน หัวหน้า
+2. **บุคคลภายนอก (External)** — **ผู้รับบริการ**, **โจร/ผู้ก่อการร้าย**, สื่อ/สังคม
+
+**Internal Workplace Violence — ปัจจัย 3 ข้อ**
+1. **Personal factors**
+2. **The work environment**
+3. **Ineffective management in an organization**
+
+**🔑 External Workplace Violence — Risk Factors (OSHA) ออกสอบ**
+- **Contact with the public** / ติดต่อลูกค้าบ่อย
+- **Exchange of money / Cash handling** (มีการรับ-จ่ายเงินสด)
+- **Delivery of passengers, goods, or services**
+- **Having a mobile workplace** — เช่น **แท็กซี่, รถตำรวจ**
+- **Working with unstable or volatile persons** — งานสาธารณสุข สังคมสงเคราะห์ กระบวนการยุติธรรม
+- **Working alone or in small numbers** — ทำงานคนเดียว
+- **Working late at night or during early morning hours** — กะดึก
+- **Working in high-crime areas** — พื้นที่อาชญากรรมสูง
+- **Guarding valuable property or possessions** — เช่น **รปภ.**
+- **Working in community-based settings** / working outside office
+
+---
+
+## 11. Toxicology & Health Surveillance (Lect 3.7)
+
+### 🔑 คำคมที่ต้องรู้
+> "**All things are poison and nothing is without poison. Solely, the dose determines that a thing is not a poison.**"
+> — **Paracelsus (1493–1541)** — บิดาแห่งพิษวิทยา
+>
+> ใจความ: **ขนาด (dose) เป็นตัวกำหนดความเป็นพิษ**
+
+### ระบบสัญลักษณ์อันตราย
+- **GHS** (Globally Harmonized System) — สัญลักษณ์รูปข้าวหลามตัดขอบแดง
+- **NFPA 704** — เพชร 4 สี (แดง=ไวไฟ, น้ำเงิน=สุขภาพ, เหลือง=ความไวปฏิกิริยา, ขาว=พิเศษ)
+
+---
+
+### 🔑 ลำดับขั้นของการเกิดโรคทางพิษวิทยา (แกนหลักของบทนี้)
+```
+สัมผัสสาร  →  เข้าสู่ร่างกาย  →  การเปลี่ยนแปลงในร่างกาย  →  เจ็บป่วย
+(Exposure)     (Uptake)          (Internal change)          (Disease)
+```
+
+### Toxicokinetics (สิ่งที่ร่างกายทำกับสาร) — ADME
+1. **Absorption** การดูดซึม
+2. **Distribution** การกระจาย
+3. **Biotransformation** การเปลี่ยนโครงสร้างทางเคมี
+4. **Elimination** การกำจัด
+
+### Routes of Exposure — ทางที่สารเข้าสู่ร่างกาย 4 ทาง
+1. **ผิวหนัง (dermal)**
+2. **การหายใจ (inhalation)** ← สำคัญที่สุดในงานอาชีวอนามัย
+3. **การรับประทาน (ingestion)**
+4. **การเข้าสู่เลือดโดยตรง (injection/parenteral)**
+
+### Toxicodynamics (สิ่งที่สารทำกับร่างกาย)
+- **การทำลาย** (damage)
+- **การซ่อมแซม** (repair)
+- **การตอบสนอง** (response)
+
+---
+
+### Dose-Response Relationship
+- **Toxicity rating** — ลำดับความเป็นพิษจากผลการทดลอง
+- **LD50 (Lethal Dose 50)** — ขนาดที่ทำให้สัตว์ทดลองตาย 50%
+  - **LD50 ยิ่งต่ำ = ยิ่งเป็นพิษมาก**
+
+### 🔑 Response to Carcinogen — สำคัญมาก
+> **สารก่อมะเร็ง (genotoxic carcinogen) ไม่มี threshold**
+> → **มีความเสี่ยงในทุกระดับการสัมผัส (no safe level)**
+
+ต่างจากสารพิษทั่วไปที่มี threshold (NOAEL/LOAEL)
+
+---
+
+### 🔑 BIOMARKERS
+
+**นิยาม (IPCS/WHO 2001):**
+> "สาร โครงสร้าง หรือกระบวนการทางชีวภาพใดๆ ที่**สามารถวัดได้จากร่างกายหรือผลิตภัณฑ์ของร่างกาย** และมีแนวโน้มหรือ**ทำนายอุบัติการณ์ของเหตุการณ์หรือโรค**ได้"
+
+**ชนิดของ Biomarker 3 ชนิด (map กับลำดับขั้นการเกิดโรค)**
+| ชนิด | ตำแหน่งในลำดับขั้น | ความหมาย |
+|------|------------------|----------|
+| **Biomarker of Exposure** | สัมผัสสาร → **เข้าสู่ร่างกาย** | วัดสารหรือ metabolite ที่เข้าสู่ร่างกายแล้ว |
+| **Biomarker of Effect** | **การเปลี่ยนแปลงในร่างกาย** → เจ็บป่วย | วัดการเปลี่ยนแปลงทางชีวเคมี/สรีรวิทยาที่เกิดขึ้น |
+| **Biomarker of Susceptibility** | ครอบทุกขั้น | บ่งชี้ความไวต่อการเกิดโรคที่**ต่างกันไปในแต่ละบุคคล** (เช่น พันธุกรรม) |
+
+**ตัวอย่าง: Lead (ตะกั่ว)**
+- Biomarker of exposure: **blood lead level**
+- Biomarker of effect: **ZPP (zinc protoporphyrin)**, ALA ในปัสสาวะ, hemoglobin
+
+**ตัวอย่างชนิดสิ่งส่งตรวจ**
+| **เก็บง่าย ไม่ซับซ้อน** | **เก็บยาก/เจ็บ** |
+|---|---|
+| ลมหายใจ · **ปัสสาวะ** · อุจจาระ · การป้ายจมูก · การป้ายกระพุ้งแก้ม · น้ำลาย · เสมหะ · น้ำนม · อสุจิ · **ผม** · **เล็บ** | **เลือด** · เนื้อปอด · เนื้อตับ · เนื้อเยื่อไขมัน · กระดูก · ไขกระดูก · น้ำคร่ำ · น้ำล้างปอด (BAL) |
+
+**🔑 ปัจจัยที่ควรคำนึงในการใช้ Biomarkers (Mayeux, NeuroRx 2004)**
+1. **ความคลาดเคลื่อนของการวัด** (measurement error)
+2. **อคติ** (bias)
+3. **ปัจจัยที่รบกวนผลตรวจ** (confounders)
+4. **ค่าใช้จ่าย** (cost)
+5. **การยอมรับจากผู้รับการตรวจ** (acceptability)
+
+---
+
+### 🔑 ขั้นตอน Occupational Health Surveillance — 14 ขั้น (ออกสอบ)
+1. **ประเมินสิ่งคุกคามสุขภาพในที่ทำงาน**
+2. **บันทึก/รวมรายการอวัยวะที่ได้รับผลกระทบ**จากสิ่งคุกคามแต่ละชนิด
+3. **เลือกการทดสอบ**ที่สามารถคัดกรองผลของสิ่งคุกคามต่ออวัยวะนั้น
+4. **สร้างข้อกำหนดเลือกกลุ่มผู้ที่ต้องมารับการคัดกรอง**
+5. **เลือกการเก็บข้อมูลแบบมีมาตรฐาน**
+6. ทำการตรวจ/ใช้เครื่องมือวัดหรือคัดกรอง
+7. ทำการตรวจวัด
+8. **แปลผลการตรวจวัด**
+9. **ยืนยันการตรวจ** (confirmation)
+10. **กำหนดสถานะการทำงาน** (fitness for work)
+11. **รายงานผล**
+12. **วินิจฉัยโรค**
+13. **ประเมินและควบคุมระดับการสัมผัส**
+14. **บันทึกเวชระเบียน**
+
+---
+
+## 12. Confined Space — ที่อับอากาศ (Lect 8)
+
+### 🔑🔑 นิยาม "ที่อับอากาศ" (กฎกระทรวงฯ พ.ศ. 2562) — ตามตัวบท
+> **"ที่อับอากาศ" (Confined Space) หมายความว่า ที่ซึ่งมีทางเข้าออกจำกัด และไม่ได้ออกแบบไว้สำหรับเป็นสถานที่ทำงานอย่างต่อเนื่องเป็นประจำ และมีสภาพอันตรายหรือมีบรรยากาศอันตราย เช่น อุโมงค์ ถ้ำ บ่อ หลุม ห้องใต้ดิน ห้องนิรภัย ถังน้ำมัน ถังหมัก ถัง ไซโล ท่อ เตา ภาชนะ หรือสิ่งอื่นที่มีลักษณะคล้ายกัน**
+
+**🔑 องค์ประกอบ 3 ข้อของ "ที่อับอากาศ" (ต้องครบ):**
+1. **ทางเข้าออกจำกัด**
+2. **ไม่ได้ออกแบบไว้สำหรับเป็นสถานที่ทำงานอย่างต่อเนื่องเป็นประจำ**
+3. **มีสภาพอันตราย หรือมีบรรยากาศอันตราย**
+
+---
+
+### 🔑🔑 "สภาพอันตราย" — 4 ข้อ (ตามกฎกระทรวง)
+> **หมายความว่า สภาพหรือสภาวะที่อาจทำให้ลูกจ้างได้รับอันตรายจากการทำงานอย่างหนึ่งอย่างใด ดังต่อไปนี้**
+
+1. **มีวัตถุหรือวัสดุที่อาจก่อให้เกิดการจมลงของลูกจ้างหรือถมทับลูกจ้างที่เข้าไปทำงาน**
+2. **มีสภาพที่อาจทำให้ลูกจ้างตก ถูกกัก หรือติดอยู่ภายใน**
+3. **มีสภาวะที่ลูกจ้างมีความเสี่ยงที่จะได้รับอันตรายจากบรรยากาศอันตราย**
+4. **สภาพอื่นใดที่อาจเป็นอันตรายต่อร่างกายหรือชีวิตตามที่อธิบดีประกาศกำหนด**
+
+---
+
+### 🔑🔑 "บรรยากาศอันตราย" — 5 ข้อ (ออกสอบแน่นอน — ตัวเลขต้องจำ)
+> **หมายความว่า สภาพอากาศที่อาจทำให้ลูกจ้างได้รับอันตรายจากสภาวะอย่างหนึ่งอย่างใด ดังต่อไปนี้**
+
+| # | เกณฑ์ | หมายเหตุ |
+|:-:|-------|---------|
+| **1** | **⭐ มีออกซิเจนต่ำกว่าร้อยละ 19.5 หรือมากกว่าร้อยละ 23.5 โดยปริมาตร** | **< 19.5% → เสี่ยง HYPOXIA**<br>**> 23.5% → เสี่ยงเกิด FLAME/ไฟไหม้** |
+| **2** | **⭐ มีก๊าซ ไอ หรือละอองที่ติดไฟหรือระเบิดได้ เกินร้อยละ 10 ของค่าความเข้มข้นขั้นต่ำของสารเคมีแต่ละชนิดในอากาศที่อาจติดไฟหรือระเบิดได้** | **= 10% ของ LFL (lower flammable limit) หรือ LEL (lower explosive limit)** |
+| **3** | **มีฝุ่นที่ติดไฟหรือระเบิดได้ ซึ่งมีค่าความเข้มข้นเท่ากับหรือมากกว่าค่าความเข้มข้นขั้นต่ำสุดของฝุ่นที่ติดไฟหรือระเบิดได้แต่ละชนิด** | **= MEC (minimum explosible concentration)** |
+| **4** | **มีค่าความเข้มข้นของสารเคมีแต่ละชนิดเกินมาตรฐาน**ที่กำหนดตามกฎกระทรวงว่าด้วยการกำหนดมาตรฐานในการบริหาร จัดการ และดำเนินการด้านความปลอดภัย อาชีวอนามัย และสภาพแวดล้อมในการทำงานเกี่ยวกับสารเคมีอันตราย | |
+| **5** | **สภาวะอื่นใดที่อาจเป็นอันตรายต่อร่างกายหรือชีวิตตามที่อธิบดีประกาศกำหนด** | |
+
+---
+
+### ตัวอย่างสถานที่อับอากาศ (จากสไลด์)
+**Tunnels · Wells · Manholes · Cold storage · Ship Holds · Subcellars · Tanks · Culverts · Silos · Vaults · Open Ditch**
++ ท่อ · ถังหมัก · ถังน้ำมัน · ห้องใต้ดิน · ห้องนิรภัย · เตา · ถ้ำ · บ่อ · หลุม
+
+---
+
+### 🔑🔑 ข้อปฏิบัติด้านสุขภาพ (สำคัญมาก — ออกสอบ)
+
+**🔑 ข้อ 5 (กฎกระทรวงฯ พ.ศ. 2547)**
+> **"ห้ามนายจ้างอนุญาตให้ลูกจ้างหรือบุคคลใดเข้าไปในที่อับอากาศ หากนายจ้างรู้หรือควรรู้ว่าลูกจ้างหรือบุคคลนั้นเป็นโรคเกี่ยวกับทางเดินหายใจ โรคหัวใจ หรือโรคอื่นซึ่งแพทย์เห็นว่าการเข้าไปในที่อับอากาศอาจเป็นอันตรายต่อบุคคลดังกล่าว"** ⭐⭐
+
+> **จำ: 3 กลุ่มโรคที่ห้ามเข้าที่อับอากาศ = โรคทางเดินหายใจ · โรคหัวใจ · โรคอื่นที่แพทย์เห็นว่าอันตราย**
+
+**🔑 ข้อ 7/1 (ประกาศกรมสวัสดิการฯ ฉบับที่ 2 พ.ศ. 2551) — คุณสมบัติผู้เข้ารับการฝึกอบรมภาคปฏิบัติ**
+1. **มีอายุไม่ต่ำกว่า 18 ปีบริบูรณ์**
+2. **มีสุขภาพสมบูรณ์ ร่างกายแข็งแรง ไม่เป็นโรคเกี่ยวกับทางเดินหายใจ โรคหัวใจ หรือโรคอื่นซึ่งแพทย์เห็นว่าการเข้าไปในที่อับอากาศอาจเป็นอันตรายต่อผู้เข้ารับการฝึกอบรม**
+
+---
+
+### 🔑🔑 ข้อบังคับการปฏิบัติงานในที่อับอากาศ — ข้อ 6 (การตรวจวัดบรรยากาศ) ออกสอบ
+
+> **"ให้นายจ้างจัดให้มีการตรวจวัด บันทึกผลการตรวจวัด และประเมินสภาพอากาศในที่อับอากาศว่ามีบรรยากาศอันตรายหรือไม่ โดยให้ดำเนินการทั้ง (1) ก่อนให้ลูกจ้างเข้าไปทำงาน และ (2) ในระหว่างที่ลูกจ้างทำงานในที่อับอากาศ"** ⭐
+
+**🔑 ถ้าตรวจพบบรรยากาศอันตราย ให้นายจ้างดำเนินการ 3 ขั้น (ตามลำดับ):**
+1. **นำลูกจ้างและบุคคลที่อยู่ในที่อับอากาศออกจากบริเวณนั้นทันที** ⚠️
+2. **ประเมินและค้นหาว่าบรรยากาศอันตรายเกิดจากสาเหตุใด**
+3. **ดำเนินการเพื่อทำให้สภาพอากาศในที่อับอากาศนั้นไม่มีบรรยากาศอันตราย เช่น การระบายอากาศ หรือการปฏิบัติตามมาตรการอื่น**
+
+> **หากดำเนินการตามวรรคสองแล้ว ที่อับอากาศนั้นยังมีบรรยากาศอันตรายอยู่ แต่นายจ้างมีความจำเป็นที่จะต้องให้ลูกจ้างเข้าไป → ให้นายจ้างจัดให้ลูกจ้างสวมใส่หรือใช้อุปกรณ์คุ้มครองความปลอดภัยส่วนบุคคลชนิดที่ทำให้บุคคลดังกล่าวทำงานในที่อับอากาศนั้นได้โดยปลอดภัย**
+
+> **ให้นายจ้างเก็บบันทึกผลการตรวจวัด การประเมินสภาพอากาศ และการดำเนินการ ไว้พร้อมที่จะให้พนักงานตรวจแรงงานตรวจสอบได้**
+
+---
+
+### 🔑🔑 บทบาทผู้ปฏิบัติงาน 3 ตำแหน่ง (ออกสอบ)
+| บทบาท | หน้าที่ |
+|-------|---------|
+| **1. ผู้ทำงานในที่อับอากาศ** | ผู้เข้าไปปฏิบัติงานภายใน |
+| **2. ผู้ช่วยเหลือ (Attendant)** | **เฝ้าอยู่ด้านนอกตลอดเวลา** พร้อมช่วยเหลือกรณีฉุกเฉิน |
+| **3. ผู้ควบคุมงาน (Supervisor)** | ควบคุม กำกับ อนุญาตการเข้าทำงาน |
+
+---
+
+### 🔑🔑 หลักปฏิบัติการทำงานในสถานที่อับอากาศ (ตามสไลด์ 6 ข้อ)
+1. **ตรวจสอบสภาพบรรยากาศในที่อับอากาศ** (อ้างอิงกับกฎหมายความปลอดภัยในการทำงานในสถานที่อับอากาศ)
+   - **กำหนดแนวปฏิบัติ "การให้อนุญาตเข้าทำงานในที่อับอากาศ" (Permit-to-Work)**
+2. **สวมใส่อุปกรณ์ความปลอดภัยในการทำงานให้เหมาะสมตลอดระยะเวลาการทำงาน**
+3. **จัดเตรียมอุปกรณ์ความปลอดภัยในการทำงานที่เหมาะสมเพื่อสวมใส่ระหว่างปฏิบัติงาน** (เช่น **หน้ากากส่งอากาศ/SCBA + พัดลมระบายอากาศ**)
+4. **มีผู้ช่วยเหลือกรณีเกิดเหตุฉุกเฉิน + จัดเตรียมอุปกรณ์ช่วยเหลือที่เหมาะสมกรณีเกิดเหตุฉุกเฉิน** (**Tripod + Winch + Harness + Lifeline**)
+5. **ตรวจเพื่อระวังบรรยากาศในที่อับอากาศ "ต้องไม่เกินมาตรฐาน"** (อ้างอิงกับกฎหมายความปลอดภัยฯ)
+6. **กั้นบริเวณ/ติดป้ายเตือน** (กรวยจราจร แผงกั้น)
+
+### 🔑🔑 ก๊าซอันตรายในที่อับอากาศ — เรียงตามชั้น (ออกสอบ)
+> **บรรยากาศอันตรายอาจเกิดจากการมีก๊าซอันตราย เช่น**
+
+| ก๊าซ | ชื่อ | ตำแหน่งในบ่อ (ตามความหนาแน่น) |
+|------|------|------------------------------|
+| **CH₄** | **มีเทน (Methane)** | **ชั้นบน** (เบากว่าอากาศ) — ไวไฟ/ระเบิด |
+| **CO** | **คาร์บอนมอนอกไซด์ (Carbon monoxide)** | **ชั้นกลาง** (ใกล้เคียงอากาศ) — พิษ ไม่มีสี ไม่มีกลิ่น |
+| **H₂S** | **ไฮโดรเจนซัลไฟด์ (Hydrogen sulfide)** | **ชั้นล่าง** (หนักกว่าอากาศ) — กลิ่นไข่เน่า, ความเข้มข้นสูงทำให้ดมไม่ได้กลิ่น (olfactory fatigue) ⚠️ |
+
+---
+
+### 🔑 สิ่งคุกคามในที่อับอากาศ 7 ข้อ (ออกสอบ)
+1. **ก๊าซ** (ขาดออกซิเจน, ก๊าซพิษ เช่น H₂S, CO, ก๊าซไวไฟ)
+2. **เครื่องจักร**
+3. **ไฟฟ้า**
+4. **สารเคมี**
+5. **ความลื่น**
+6. **การตก** (fall)
+7. **การดูดฝัง** (engulfment — จมในวัสดุเช่นเมล็ดพืช ทราย)
+
+### หลักปฏิบัติการทำงานในที่อับอากาศ
+1. **ขออนุญาตทำงาน (Permit-to-Work / Entry Permit)** ⚠️ ห้ามเข้าโดยไม่มีใบอนุญาต
+2. **ตรวจวัดบรรยากาศก่อนเข้า** (O₂, ก๊าซไวไฟ, ก๊าซพิษ) และตรวจวัดต่อเนื่อง
+3. **ระบายอากาศ (ventilation)** ให้เพียงพอก่อนและระหว่างทำงาน
+4. **Lockout/Tagout** ตัดแยกพลังงาน/สารเคมีที่อาจไหลเข้ามา
+5. **มีผู้ควบคุมงาน / ผู้ช่วยเหลือ (attendant) เฝ้าอยู่ด้านนอกตลอดเวลา**
+6. **มีระบบสื่อสารตลอดเวลา**
+7. **มีแผนและอุปกรณ์ช่วยเหลือกรณีฉุกเฉิน (rescue plan)**
+8. **ผู้ปฏิบัติงานต้องผ่านการฝึกอบรม**
+
+### อุปกรณ์ความปลอดภัย
+- **เครื่องตรวจวัดก๊าซ (gas detector)**
+- **อุปกรณ์ช่วยหายใจ — SCBA / Supplied-air respirator** ⚠️ (ห้ามใช้หน้ากากกรองอากาศธรรมดาในภาวะขาดออกซิเจน)
+- **สายกู้ภัย (lifeline) + Full-body harness + Tripod/Winch**
+- พัดลมระบายอากาศ, ไฟฉายชนิดกันระเบิด, อุปกรณ์สื่อสาร
+
+### กฎหมาย/แนวทางอ้างอิง
+- **กฎกระทรวง กำหนดมาตรฐานในการบริหารและการจัดการด้านความปลอดภัย อาชีวอนามัย และสภาพแวดล้อมในการทำงานในที่อับอากาศ พ.ศ. 2547 และ พ.ศ. 2562**
+- **ประกาศกรมสวัสดิการและคุ้มครองแรงงาน** เรื่อง หลักเกณฑ์ วิธีการ และหลักสูตรฝึกอบรมความปลอดภัยในการทำงานในที่อับอากาศ ฉบับที่ 2 พ.ศ. 2551
+- **แนวทางการตรวจสุขภาพคนทำงานในที่อับอากาศ** — สมาคมโรคจากการประกอบอาชีพและสิ่งแวดล้อมแห่งประเทศไทย, 2557
+
+> ⚠️ **ข้อเท็จจริงสำคัญ: ผู้เสียชีวิตในที่อับอากาศส่วนใหญ่คือ "ผู้เข้าไปช่วยเหลือ" ที่ไม่ได้เตรียมอุปกรณ์ → ห้ามเข้าไปช่วยโดยไม่มี SCBA เด็ดขาด**
+
+---
+
+## 13. Emergency Preparedness & Incident Command System (Lect 9.1–9.2)
+
+### 13.1 Emergency Preparedness — แผนตอบโต้ภาวะฉุกเฉิน
+
+**องค์ประกอบการเตรียมรับมือ**
+1. **แผนและการฝึกซ้อม** (plan + drill) — ร่วมกับหน่วยเผชิญเหตุแรก (first responders)
+2. **แผนผังและป้ายสัญลักษณ์** (evacuation map, signage)
+3. **อุปกรณ์พร้อมใช้** (equipment readiness)
+4. **ระบบบัญชาการภาวะฉุกเฉิน (Incident Command System)**
+
+---
+
+### 13.2 🔑 วัฏจักรการจัดการภัยพิบัติ (Disaster Cycle) — ออกสอบ
+```
+        การป้องกัน (Prevention)
+              ↓
+        การลดความเสี่ยง (Mitigation)
+              ↓
+        การเตรียมรับ (Preparedness)
+              ↓
+        การรับมือเหตุการณ์ (Response)
+              ↓
+        การฟื้นฟูหลังเกิดเหตุการณ์ (Recovery)
+              ↓
+        → วนกลับสู่การป้องกัน
+```
+
+---
+
+### 13.3 ICS — Incident Command System (ระบบบัญชาการเหตุฉุกเฉิน)
+
+**หลักการปฏิบัติการ**
+- **กำหนดวัตถุประสงค์ของการปฏิบัติการ**
+- **คำนึงถึงความปลอดภัยของผู้ปฏิบัติงานเป็นหลัก** ⭐
+- มีการประเมินสถานการณ์และปฏิบัติตามแผน
+- **ต้องเป็นคำสั่งจากผู้บัญชาการเหตุการณ์หรือผู้ได้รับมอบอำนาจ**
+
+**🔑 ความรับผิดชอบของผู้ปฏิบัติงาน 3 ข้อ**
+1. **รายงานตัวเมื่อเข้ามาปฏิบัติภารกิจ** (check-in)
+2. **ปฏิบัติงานตามแผนปฏิบัติการ**
+3. **รับฟังคำสั่งจากผู้บังคับบัญชาเพียงคนเดียว** ← **Unity of Command** ⭐ (สำคัญมาก)
+
+---
+
+### 🔑 โครงสร้างพื้นฐาน ICS (ต้องวาดได้)
+```
+                    ผู้บัญชาการเหตุการณ์
+                    (Incident Commander)
+                            │
+        ┌───────────────────┼───────────────────┐
+   ฝ่ายความปลอดภัย    ฝ่ายข้อมูลข่าวสาร    ฝ่ายประสานงาน
+   (Safety Officer)  (Public Information  (Liaison Officer)
+                          Officer)
+                            │  ← Command Staff
+        ┌───────────┬───────┴───────┬───────────────┐
+  ฝ่ายปฏิบัติการ  ฝ่ายแผน      ฝ่ายสนับสนุน    ฝ่ายการเงิน
+  (Operations)   (Planning)   (Logistics)   (Finance/Admin)
+                          ← General Staff (4 ฝ่าย)
+```
+
+**สรุปจำ: ผู้บัญชาการ 1 + Command Staff 3 (ความปลอดภัย, ข้อมูลข่าวสาร, ประสานงาน) + General Staff 4 (ปฏิบัติการ, แผน, สนับสนุน, การเงิน)**
+
+---
+
+### 🔑 การถ่ายโอนอำนาจการบัญชาการ (Transfer of Command) — ทำเมื่อไหร่ 4 กรณี
+1. **มีผู้บัญชาการที่มีความเหมาะสมมากกว่าเข้ามาปฏิบัติงานแทน**
+2. **สถานการณ์มีการเปลี่ยนแปลง**
+3. **สถานการณ์ยืดเยื้อ** (ต้องผลัดเปลี่ยน)
+4. **สิ้นสุดภารกิจ**
+
+---
+
+### 🔑 IAP — Incident Action Plan (แผนปฏิบัติการ)
+1. **การวางแผนปฏิบัติหากเกิดเหตุการณ์**
+2. **การฝึกซ้อม** (drill/exercise)
+3. **การทบทวนปรับปรุง — After Action Review (AAR)** ⭐
+
+---
+---
+
+# PART B — PALLIATIVE CARE
+
+## 14. Concept of Palliative Care (Lect 4.1–4.2)
+
+### 🔑 นิยาม (WHO)
+> **การดูแลแบบประคับประคอง** คือ การดูแลผู้ที่มี**ภาวะจำกัดการมีชีวิต (Life-limiting conditions)** หรือมี**ภาวะคุกคามต่อชีวิต (Life-threatening conditions)** โดยมีจุดประสงค์**เพื่อเพิ่มคุณภาพชีวิต** บำบัด เยียวยา และบรรเทาทุกข์ทางกาย จิต สังคม และจิตวิญญาณ **ตั้งแต่ระยะเริ่มต้นของการเจ็บป่วยจนกระทั่งเสียชีวิต** โดย**ครอบคลุมถึงครอบครัวและผู้ที่มีความสัมพันธ์กับผู้นั้นด้วย**
+
+**จุดสำคัญที่ออกสอบ:** เริ่มตั้งแต่**ระยะเริ่มต้น**ของโรค ไม่ใช่แค่ระยะท้าย · ครอบคลุม**ครอบครัว**ด้วย
+
+---
+
+### 🔑 หลักการของ Palliative Care (Principles) — 7 ข้อ
+1. **บรรเทาความปวดและอาการทุกข์ทรมานอื่นๆ**
+2. **เห็นคุณค่าการมีชีวิตและมองกระบวนการเสียชีวิตเป็นธรรมชาติ**
+3. **ไม่เจตนาเร่งหรือยื้อความตาย** ⚠️ (ไม่ใช่ euthanasia และไม่ใช่การยื้อชีวิต)
+4. **ผสมผสานการดูแลทางจิตใจ และจิตวิญญาณในการดูแลผู้ป่วย**
+5. **สนับสนุนช่วยเหลือผู้ป่วยให้มีชีวิตอย่างมีคุณค่าจนเสียชีวิต**
+6. **สนับสนุนช่วยเหลือครอบครัวผู้ป่วยในการปรับตัวในความเจ็บป่วยของผู้ป่วย**
+7. **ประเมินความต้องการของผู้ป่วยและครอบครัว รวมถึงการให้คำปรึกษาเกี่ยวกับประสบการณ์สูญเสียบุคคลอันเป็นที่รัก (bereavement)**
+
+---
+
+### 🔑 Curative Care vs Palliative Care (ตารางออกสอบแน่นอน)
+| | **CURATIVE CARE** | **PALLIATIVE CARE** |
+|---|---|---|
+| **Goal** | รักษาโรค หรือยื้อชีวิตผู้ป่วย | **สร้างคุณภาพชีวิตที่ดี, การจัดการอาการ และช่วยเหลือด้านต่างๆ** |
+| **Focuses on** | **ตัวโรค** | **ผู้ป่วยและครอบครัว** |
+| **Key information** | การตรวจเพื่อการวินิจฉัย (Lab, X-ray, etc.) | **อาการรบกวนต่างๆ (symptoms)** |
+| **Treatment** | ควบคุมหรือรักษาโรคให้หาย | **การจัดการอาการ (symptom management)** |
+| **Death** | **การตายถือเป็นความล้มเหลว (failure)** | **ความตายเป็นสิ่งที่หลีกเลี่ยงไม่ได้ (inevitable)** |
+
+---
+
+### 🔑 The Concept / Timeline of Palliative Care
+```
+   Curative Care ────────────────────────╲
+                    ╱──────────────────────╲  Palliative Care
+                   ╱                        ╲     ↑
+  PREVENTION → SYMPTOM MANAGEMENT → HOSPICE/END OF LIFE CARE → BEREAVEMENT
+                                                          (DEATH)
+  ├─────────────────── PALLIATIVE CARE ─────────────────────────┤
+```
+- Palliative care **เริ่มควบคู่ไปกับ curative care ตั้งแต่ต้น** และค่อยๆ เพิ่มสัดส่วน
+- ครอบคลุม **prevention → symptom management → hospice/end-of-life → bereavement (หลังผู้ป่วยเสียชีวิต)**
+
+---
+
+### 🔑 ความสำคัญ (Importance) — ตัวเลขที่ควรจำ
+- **40 ล้านคนทั่วโลกต้องการ palliative care ต่อปี แต่มีเพียง ~14% ที่ได้รับ**
+- **ประเทศไทย: 18.7% ของผู้ป่วยที่นอนโรงพยาบาลเป็นผู้ป่วย palliative care แต่มีเพียง 17.3% ที่ได้รับการปรึกษาผู้เชี่ยวชาญ palliative care**
+
+---
+
+### 🔑 ประโยชน์ (Benefits) — 3 มิติ
+| ต่อ **ผู้ป่วย (Patients)** | ต่อ **ครอบครัว (Family)** | ต่อ **ค่าใช้จ่าย (Cost)** |
+|---|---|---|
+| • Improve quality of life<br>• Symptom management<br>• Advance Care Planning | • Support in making decisions that align with patient's goal<br>• Support for family members | • Avoiding unnecessary treatments<br>• Reducing hospitalizations |
+
+---
+
+## 14.2 Initial Assessment & Management
+
+### วัตถุประสงค์ของการประเมิน (Objective of Assessment)
+1. **ประเมินทั้งด้านกาย จิต สังคม และจิตวิญญาณ**
+2. **ให้การประเมินอย่างต่อเนื่อง และเพิ่มคุณภาพชีวิตของผู้ป่วย**
+3. **เป็นผู้นำในการพูดคุยเกี่ยวกับการพยากรณ์โรค แนวทางการรักษา และเป้าหมายในการรักษา**
+4. **ช่วยวางแผนสำหรับการกำหนดแผนการดูแลรักษาล่วงหน้า (ACP) และการตัดสินใจในช่วงวาระสุดท้ายของชีวิต**
+
+### Symptom Assessment
+- ผู้ป่วยประคับประคองมักมีอาการรบกวนต่างๆ มากมาย
+- **🔑 ให้ผู้ป่วยเป็นผู้บอกว่าอาการอะไรที่รบกวนผู้ป่วย = GOLD STANDARD** ⭐
+- หารือวางแผนการจัดการอาการรบกวนต่างๆ ของผู้ป่วยแก่ผู้ดูแล
+- หาสาเหตุของอาการรบกวน: โรคประจำตัว, ผลข้างเคียงการรักษา, อาการทางอารมณ์ความรู้สึก
+
+### 🔑 Dimensions of Symptom Assessment (มิติที่ต้องซัก)
+**Onset · Location · Duration · Characteristics · Aggravating-Relieving · Timing · Severity · Level of interference with activities / Level of distress associated with the symptom**
+
+> วิธีจำแบบย่อ: **OLD CART** (Onset, Location, Duration, Characteristics, Aggravating/Alleviating, Radiation, Timing)
+
+### 🔑 The Most Common Symptoms (10 อาการ)
+| | |
+|---|---|
+| • **Pain** | • **Breathlessness** |
+| • **Depression** | • **Insomnia** |
+| • **Anxiety** | • **Nausea** |
+| • **Confusion** | • **Constipation** |
+| • **Fatigue** | • **Anorexia** |
+
+---
+
+### 🔑 Assessment Tools in Palliative Care — 3 เครื่องมือหลัก (ออกสอบ)
+
+#### 1. ESAS — Edmonton Symptom Assessment Scale
+**วิธีใช้:**
+- ให้**ผู้ป่วยหรือผู้ดูแลหลักเป็นผู้ประเมิน** (ในกรณีผู้ป่วยทำเองไม่ได้)
+- ให้ประเมินคะแนน **ณ เวลาที่ทำการประเมินเป็นหลัก**
+- **ในข้อที่เป็นความเห็นของผู้ป่วยโดยตรง ได้แก่ ซึมเศร้า กังวล ภาวะสุขสบายกายและใจ — หากมีผู้ทำแบบสอบถามแทนผู้ป่วย ให้เว้นการตอบไว้** ⭐
+- ควรถามรายละเอียดของอาการควบคู่กันไปด้วย
+- **บันทึกวัน-เวลาที่ทำการประเมินทุกครั้ง** เพื่อใช้ในการติดตามการรักษา
+
+**คะแนน 0–10 ในแต่ละอาการ:** ปวด · อ่อนเพลีย/อ่อนหลัก · คลื่นไส้ · ซึมเศร้า · วิตกกังวล · ง่วงซึม/สะลึมสะลือ · เบื่ออาหาร · สุขสบายกายและใจ · หายใจเหนื่อย · ปัญหาอื่นๆ
+
+#### 2. PPS — Palliative Performance Scale
+- **แบบประเมินระดับสมรรถนะในผู้ป่วยระยะท้าย**
+- **มีตั้งแต่ 0 – 100%** (ลดทีละ 10)
+- **สื่อสารให้เห็นสมรรถนะของผู้ป่วยและการพยากรณ์ระยะเวลาที่เหลืออยู่ (โดยเฉพาะผู้ป่วยมะเร็ง)** ⭐
+
+**5 คอลัมน์ที่ต้องประเมิน:**
+1. **การเคลื่อนไหว (Ambulation)**
+2. **การปฏิบัติกิจกรรมและขอบเขตของโรค (Activity & Extent of disease)**
+3. **การทำกิจวัตรประจำวัน (Self-care)**
+4. **การรับประทานอาหาร (Intake)**
+5. **ระดับความรู้สึกตัว (Conscious level)**
+
+**🔑 การอ่านตาราง PPS (กติกาสำคัญ — ออกสอบ)**
+- **ให้อ่านจากซ้ายไปขวา**
+- **เริ่มอ่านจากคอลัมน์การเคลื่อนไหว แล้วค่อยๆ อ่านคอลัมน์ถัดไป**
+- **คอลัมน์ซ้ายสุดจะเป็นตัวกำหนดว่าไม่สามารถให้คะแนนในคอลัมน์ที่สูงกว่านั้นได้** — เช่น ถ้าผู้ป่วยคะแนนการเคลื่อนไหว 40 แต่ช่องถัดมาได้เกิน 40 → **ให้คะแนนผู้ป่วยสูงสุดคือ 40**
+- **ไม่สามารถให้คะแนนระหว่างกลาง เช่น 45% ได้** — ผู้ประเมินต้องเลือกว่าจะให้ 40% หรือ 50% ขึ้นกับว่าคะแนนใดใกล้เคียงกับความสามารถของผู้ป่วยในเวลาประเมินมากที่สุด
+
+**🔑 PPS กับ Median Survival Time (ตารางที่ควรจำแนวโน้ม)**
+| PPS (%) | Cancer patients (days) | Non-cancer patients (days) |
+|:-------:|:----------------------:|:--------------------------:|
+| 10 | **2** [1, 4] | 8 [3, 105] |
+| 20 | **6** [3, 19] | 6 [3, 14] |
+| 30 | **13** [7, 31] | 24 [8, 176] |
+| 40–60 | **39** [12, 106] | — |
+| 70–80 | **95** [35, ] | — |
+| **Total** | **18** [5, 58] | 16 [5, 176] |
+
+> **แนวโน้มที่ต้องจำ: PPS ยิ่งต่ำ → survival time ยิ่งสั้น** และในผู้ป่วยมะเร็ง PPS ทำนายได้ดีกว่าผู้ป่วยที่ไม่ใช่มะเร็ง
+
+**ตัวอย่างการให้คะแนน**
+- **ตัวอย่างที่ 1:** ผู้ป่วย CA Prostate with bone metastasis — ใช้เวลาส่วนใหญ่นั่งๆ นอนๆ บนเตียงเนื่องจากอ่อนเพลีย, ต้องประคองเวลาเดิน, ล้างหน้าแปรงฟันได้เอง, พูดคุยสื่อสารได้, รับประทานอาหารได้ปกติ
+- **ตัวอย่างที่ 2:** ผู้ป่วย Advanced stage HCC — นอนติดเตียง, ทำกิจกรรมใดๆ ไม่ได้, รับประทานอาหารได้น้อยลง, ต้องการความช่วยเหลือในการทำกิจกรรม (เช็ดตัว อาบน้ำ ขับถ่ายบนเตียง), บางครั้งมีเพ้อสับสน
+
+#### 3. Zarit Burden Interview
+- **ใช้ประเมินผู้ดูแล** เพื่อประเมินภาวะเหนื่อยล้าและหมดไฟในการดูแล (**Caregiver burden & Burnout**) ⭐
+- **ให้ประเมินผู้ดูแลทุกคน**
+- **การแปลผลคะแนนรวม:**
+  - **no to mild (0–10)**
+  - **mild to moderate (11–20)**
+  - **severe burden (> 20)**
+
+---
+
+## 14.3 🔑 Who are Palliative Care Patients?
+
+### The Gold Standards Framework (GSF) — SPICT
+**Supportive and Palliative Care Indicators Tool** — RCGP (Royal College of General Practitioners)
+
+**3 ขั้นตอน:**
+
+#### **Step 1: Ask the Surprise Question** ⭐⭐ (ออกสอบบ่อยที่สุด)
+> **"Would you be surprised if the patient were to die in the next year, months, weeks, days?"**
+> **"ท่านประหลาดใจหรือไม่ ถ้าผู้ป่วยจะเสียชีวิตในอีก 6–12 เดือนข้างหน้า"**
+
+- **คำตอบคือ "ไม่ประหลาดใจ" → ควรเริ่มดำเนินการวางแผนการดูแลแบบประคับประคอง**
+- **คำตอบคือ "ประหลาดใจ หรือไม่แน่ใจ" → ควรมองหาข้อบ่งชี้ทั่วไป (Step 2)**
+
+#### **Step 2: Do they have General Indicators of Decline?**
+- ถ้า YES → Begin GSF Process
+- ถ้า NO → Reassess regularly
+
+#### **Step 3: Do they have Specific Clinical Indicators?** (เกณฑ์เฉพาะรายโรค)
+**Look for clinical indicators of life-shortening conditions:**
+
+| โรค | ข้อบ่งชี้ |
+|-----|----------|
+| **Cancer** | Functional ability deteriorating due to progressive cancer; too frail for cancer treatment or treatment is for symptoms |
+| **Dementia / Frailty** | Unable to dress, walk or eat without help; eating and drinking less, difficulty with swallowing; urinary and faecal incontinence; not able to communicate by speaking, little social interaction; **frequent falls; fractured femur**; recurrent febrile illnesses or infections; **aspiration pneumonia** |
+| **Heart or vascular disease** | Heart failure or extensive, untreatable coronary artery disease; **breathlessness or chest pain at rest or on minimal effort**; severe, inoperable peripheral vascular disease |
+| **Respiratory disease** | Severe, long term lung disease; **breathlessness at rest** or on minimal effort between exacerbations; persistent hypoxia needing **long term oxygen therapy**; has needed ventilation for respiratory failure or ventilation is contraindicated |
+| **Kidney disease** | **Stage 4 or 5 chronic kidney disease (eGFR < 30 ml/min)** with deteriorating health; kidney failure complicating other life shortening conditions or treatments; **stopping or not starting dialysis** |
+| **Liver disease** | **Cirrhosis with one or more complications in the past year:** diuretic resistant ascites, hepatic encephalopathy, hepatorenal syndrome, bacterial peritonitis, recurrent variceal bleeds; **liver transplant is not possible** |
+| **Neurological disease** | Progressive deterioration in physical and/or cognitive function despite optimal therapy; speech problems with increasing difficulty communicating and/or progressive difficulty with swallowing; **recurrent aspiration pneumonia**; breathless or respiratory failure |
+| **Other conditions** | Deteriorating with physical or mental illnesses, multiple conditions and/or complications that are not reversible; best available treatment has poor outcome |
+
+**Review current care and care planning:**
+- Review current treatments and medication; **minimise polypharmacy**
+- Shared decision making about treatment and care
+- Review holistic care — symptoms; emotional, social, financial, spiritual needs. Support families and carers
+- Ask for specialist advice or a review if symptoms or other problems are difficult to manage
+- **Agree a current and future care plan with the person/family. Discuss future decision making (e.g. Power of Attorney)**
+- **Record, share, and review care plans**
+
+---
+
+### 🔑 Illness Trajectories — 3 เส้นทาง (ออกสอบ วาดกราฟได้)
+| Trajectory | โรค | ลักษณะการเสื่อมของ Function |
+|-----------|-----|---------------------------|
+| **Trajectory 1: Cancer trajectory** | **มะเร็ง** | **Function สูงคงที่นาน แล้วลดลงอย่างรวดเร็วในช่วงท้าย (Short decline)** |
+| **Trajectory 2: Organ failure trajectory** | **หัวใจล้มเหลว, COPD** | **ลดลงเป็นขั้นบันได มี acute exacerbation เป็นระยะแล้วฟื้นไม่เต็มที่ (Intermediate with acute episodes)** |
+| **Trajectory 3: Dementia and frailty trajectory** | **สมองเสื่อม, ผู้สูงอายุเปราะบาง** | **Function ต่ำตั้งแต่ต้นและค่อยๆ ลดลงอย่างช้าๆ ยาวนาน (Gradual dwindling)** |
+
+**ระยะการดูแลตามแกนเวลา:**
+`Progressive chronic disease management → Palliative approach +/− active treatment for advanced disease → End-of-life care → Terminal care (including death) → Bereavement support`
+
+---
+
+## 14.4 🔑 Goals of Palliative Care — 3 เป้าหมายหลัก
+```
+        Symptom control ─────┐
+                             ├──→ Disease Management
+        Psychosocial & ──────┘
+        Spiritual care
+```
+
+### 1. Symptom Control
+- **Assess symptoms by using tools** (ESAS, PPS)
+- **Periodic symptom reassessment** → เพื่อ:
+  - identifying or modifying treatment goals
+  - monitoring the response to specific symptomatic interventions
+  - communicating between members of the health care team & with care givers
+
+### 2. Disease Management
+> **Treat reversible conditions + Symptom management of incurable conditions**
+
+| การรักษา | รายละเอียด |
+|---------|-----------|
+| **Palliative Surgery** | **debulking surgery, immobilize Fx, bowel obstruction (resection, bypass, stent, ostomy), spinal decompression & stabilization** |
+| **Palliative RT** (Radiotherapy) | **control of bleeding, pain control: bone metastasis, shrinkage of tumor mass (brain metastasis)** |
+| **Palliative CMT** (Chemotherapy) | **slow down progression of disease** |
+
+### 3. Psychological & Spiritual Care
+| **PSYCHOLOGICAL CARE** | **SPIRITUAL CARE** |
+|---|---|
+| • **Need assessment**<br>• **Practical care**<br>• **Emotional support** | • **Meaning of life/death**<br>• **Unfinished business**<br>• **Values & Hopes**<br>• **Love, Forgiveness**<br>• **Belief, Religion** |
+
+---
+
+### 🔑 Holistic Care for Palliative Care Patients — 4 มิติ (ตารางออกสอบ)
+| **PHYSICAL** | **PSYCHOLOGICAL** |
+|---|---|
+| Functional ability<br>Strength/Weakness<br>Sleep & Rest<br>Nausea<br>Appetite<br>**Pain** | Anxiety<br>Depression<br>Enjoyment/Relaxation<br>Pain distress<br>Happiness<br>Fear |
+
+| **SOCIAL** | **SPIRITUAL** |
+|---|---|
+| Financial burden<br>**Care giver burden**<br>Roles & Relationship<br>Affection/Sexual function<br>Appearance | Hope<br>Suffering<br>**Meaning of life**<br>Religiosity<br>Transcendence |
+
+---
+
+### 🔑 A GOOD DEATH
+> **A "Good" death or "the least bad" death possible**
+>
+> คือ **การตาย โดยผู้ป่วยได้รับรู้ว่าความต้องการของเขาได้รับการดูแล ให้ปลอดจากความทุกข์ทรมานทางร่างกาย จิตใจ สังคม และจิตวิญญาณ ตั้งแต่ก่อนเข้าถึงช่วงใกล้ตาย สมาชิกในครอบครัวและทีมสุขภาพมีความเคารพ และยอมรับความจ้องการของผู้ป่วย**
+
+---
+---
+
+## 15. Communication Skills in Palliative Care (Lect 5) ⭐บทใหญ่ ออกสอบเยอะ
+
+### 🔑 Goals of Communication (6 ข้อ)
+1. **ช่วยให้ผู้ป่วยและครอบครัวเข้าใจตัวโรค พยากรณ์โรค การดำเนินโรค และทางเลือกของการรักษา**
+2. **เข้าใจคุณค่าและเข้าใจเกี่ยวกับคุณภาพชีวิตที่ผู้ป่วยให้ความสำคัญ**
+3. **ช่วยกำหนดความคาดหวังที่เป็นจริงเกี่ยวกับโรค**
+4. **กำหนดเป้าหมายและการดูแลรักษาในแนวทางที่ผู้ป่วยต้องการ**
+5. **ตอบสนองความต้องการทางอารมณ์และจิตใจ**
+6. **ดูแลและสนับสนุนครอบครัว**
+
+### 🔑 Communication Issues — 7 ประเด็นสำคัญ
+1. **ให้ข้อมูลเกี่ยวกับการดูแลแบบประคับประคอง**
+2. **การบอกข่าวร้าย (Breaking bad news)**
+3. **เมื่อครอบครัวขอให้ปกปิดความจริง (Conspiracy of silence)**
+4. **สื่อสารเรื่องพยากรณ์โรค (Prognosis) การบอกระยะเวลามีชีวิตที่เหลืออยู่ (Survival time)**
+5. **การวางแผนการดูแลล่วงหน้า (Advance Care Planning)**
+6. **การพูดคุยเรื่องการยุติการรักษาตัวโรคและการยุติการรักษาพยุงชีพ**
+7. **พูดคุยเรื่องการดูแลผู้ป่วยในระยะท้าย (End-of-life care) และเมื่อเผชิญกับความขัดแย้ง**
+
+### 🔑 Appropriate Timing for Communication — คุยเมื่อไหร่ (5 ข้อ)
+1. **แพทย์ไม่ประหลาดใจถ้าผู้ป่วยจะเสียชีวิตใน 6–12 เดือนข้างหน้า (Surprise Question)** ⭐
+2. **เมื่อมีสภาวะการณ์เปลี่ยนแปลง**
+3. **เมื่อต้องมีการตัดสินใจรักษาภาวะแทรกซ้อนต่างๆ**
+4. **เมื่อพบว่าความคาดหวังของผู้ป่วยและครอบครัวไม่อยู่ในความเป็นจริง**
+5. **เมื่อการรักษาตัวโรคไม่ได้ผล หรือมีภาวะแทรกซ้อนที่จำกัดผลการรักษา**
+
+---
+
+## 15.1 🔑🔑 CLASS Protocol — A Practical Protocol for Effective Communication
+
+| **C** | **L** | **A** | **S** | **S** |
+|---|---|---|---|---|
+| **Physical CONTEXT** or setting | **LISTENING skills** | **ACKNOWLEDGE EMOTIONS** and explore them | **Management STRATEGY** | **SUMMARY and closure** |
+
+### **C — Physical Context / Setting**
+- **Arrangement:** สถานที่เป็นส่วนตัว, **นั่งระดับสายตา ห่าง 2–3 ฟุต**
+- **Body language:** ผ่อนคลาย ไม่รีบร้อน
+- **Eye contact:** ประสานสายตาเมื่อผู้ป่วยพูด **ยกเว้นเมื่อผู้ป่วยโกรธหรือร้องไห้** ⭐
+- **Touch (Optional):** แตะมือหรือแขน
+- **Introductions:** แนะนำตัวว่าเป็นใคร จะมาทำอะไร
+
+### **L — Listening Skills**
+- **Open-ended questions:** ใช้คำถามปลายเปิด เช่น "คุณรู้สึกอย่างไรบ้าง"
+- **Facilitating:**
+  - รับฟังผู้ป่วยอย่างตั้งใจ **ไม่พูดแทรกหรือตัดบทเมื่อผู้ป่วยพูด**
+  - แสดงท่าทีว่าได้ยินสิ่งที่ผู้ป่วยพูด เช่น **พยักหน้าเป็นระยะ**
+  - **🔑 การเงียบ (Silence):** อาจเป็นช่วงที่กำลังครุ่นคิด อาจกระตุ้นให้ผู้ป่วยบอกสิ่งที่วิตกกังวล "ที่คุณเงียบไป บอกหมอได้หรือไม่ว่ากำลังคิดอะไรอยู่" **แต่ขณะที่ผู้ป่วยร้องไห้ ความเงียบเป็นสิ่งที่ช่วยให้ผู้ป่วยรับรู้ว่าเรากำลังรับรู้อารมณ์เขา** ⭐
+- **Clarify:** ถามให้กระจ่างเมื่อมีข้อสงสัย เช่น "คุณหมายความว่าอย่างไร เมื่อคุณบอกว่า..."
+- **Handling time and interruptions**
+
+### **A — Acknowledge Emotions and Explore Them → ใช้ "NURSE"**
+
+### 🔑🔑 NURSE — Empathic Response (ท่องให้ได้ ออกสอบแน่นอน)
+
+| ตัวอักษร | ความหมาย | ตัวอย่างประโยค |
+|:---:|---|---|
+| **N** | **Name of emotion**<br>(วิเคราะห์อารมณ์ความรู้สึก) | "หมอสังเกตได้ว่าคุณดูวิตกกังวล?"<br>"ฟังดูเหมือนคุณไม่ค่อยพอใจญาติ" |
+| **U** | **Understand**<br>(แสดงความเห็นว่าคุณเข้าใจ) | "ดูเหมือนจะเป็นช่วงเวลาที่ลำบากมากสำหรับคุณ"<br>"หมอรับรู้ได้ว่ามันเป็นเรื่องยากที่จะพูด" |
+| **R** | **Respect**<br>(ให้เกียรติผู้ป่วย) | "ที่ผ่านมาคุณทำได้ดีมากแล้ว"<br>"ผมประทับใจในความตั้งใจของคุณ" |
+| **S** | **Support**<br>(ให้การสนับสนุน) | "ส่วนใหญ่จะรู้สึกเหมือนถูกทิ้งหากการรักษาไปต่อไม่ได้แล้ว"<br>"เราจะให้การดูแลคุณให้ผ่านช่วงนี้ไปได้"<br>⚠️ **(อย่าให้สัญญาในสิ่งที่เป็นไปไม่ได้)** |
+| **E** | **Explore**<br>(ค้นหา) | "สิ่งที่ยากลำบากที่สุดสำหรับคุณคืออะไร?"<br>"ลองเล่ารายละเอียดให้ฟังหน่อย" |
+
+### **S — Management Strategy**
+- **ประเมินความคาดหวังของผู้ป่วยเกี่ยวกับตัวโรค การรักษา และผลลัพธ์**
+- **เสนอแนวทางการดูแล**
+- **ประเมินการตอบสนองของผู้ป่วย >> ตอบรับแผนการดูแล?**
+
+### **S — Summary and Closure**
+- **สรุปผลการพูดคุยในเรื่องสำคัญ**
+- **สอบถามเพิ่มเติมถึงสิ่งที่ผู้ป่วยและครอบครัวต้องการถาม**
+
+---
+
+## 15.2 🔑🔑 SPIKES Protocol — Breaking Bad News
+
+### นิยาม Bad News
+> **ข้อมูลข่าวสารใดๆ ที่จะเปลี่ยนมุมมองต่ออนาคตของบุคคลนั้นๆ ไปในทางลบ**
+
+> **หลักการสำคัญ: ความจริงจะไม่ทำให้ความหวังลดลง** โดยการให้ผู้ป่วยยังสามารถ**กำกับดูแลตนเองได้ (sense of control)** และ**ให้มีความพร้อมสำหรับอนาคต [Autonomy]**
+
+### ตาราง SPIKES
+| **S** | **P** | **I** | **K** | **E** | **S** |
+|---|---|---|---|---|---|
+| **Setting up** | **Perception** | **Invitation** | **Knowledge** | **Emotions & Empathy** | **Strategy & Summary** |
+
+---
+
+### **S — SETTING UP (Prepare to Listen)**
+- **Setting up:** สถานที่เป็นสัดส่วน, ส่วนตัว, สงบ, **วางแผนว่าจะคุยเรื่องอะไร**
+- **Other people:** ผู้ป่วยต้องการให้ผู้อื่นอยู่ด้วยหรือไม่
+- **การแนะนำตัว:** สวัสดี แนะนำตัวเอง เรียกชื่อผู้ป่วย สรรพนามที่ใช้, เริ่มบทสนทนา (**Small talk**)
+- **🔑 ลักษณะทางกายที่แสดงถึงความใส่ใจ (Non-verbal Communication) = SOLER** ⭐
+  - **S** = **Squarely** (นั่งหันหน้าตรงเข้าหาผู้ป่วย)
+  - **O** = **Open** (ท่าทางเปิด ไม่กอดอก)
+  - **L** = **Lean** (โน้มตัวเข้าหาเล็กน้อย)
+  - **E** = **Eye contact** (สบตา)
+  - **R** = **Relax** (ผ่อนคลาย)
+
+---
+
+### **P — PERCEPTION (ประเมินการรับรู้ของผู้ป่วย)**
+> หลักการ: **"Before you tell, ask"**
+
+- **ใช้คำถามปลายเปิด:** "อาการของคุณเป็นอย่างไรบ้าง", "แพทย์ให้ข้อมูลเบื้องต้นว่าอย่างไร"
+- **⚠️ เลี่ยงการใช้คำว่า "ทำไม" และเลี่ยงการถามนำ**
+- **เริ่มจากเรื่องกว้างๆ ไปสู่เรื่องที่เฉพาะ**
+- **ถามโดยการคาดคะเนเอา:** "จากที่คุณถามมา หมอสังเกตว่า..."
+- **ถามโดยอ้างอิงถึงผู้คนทั่วไป:** "หมอเคยดูแลคนไข้คนอื่นที่อาการคล้ายคุณ หลายคนกังวล คุณรู้สึกอย่างไร"
+- **ถามถึงเหตุการณ์อย่างเป็นรูปธรรม:**
+  - "คุณเข้าใจสถานการณ์โรคของคุณขณะนี้อย่างไร คุณคาดว่าจะเป็นอย่างไรต่อจากนี้"
+  - "อาการเจ็บป่วยที่เกิดกับคุณ ส่งผลกระทบต่อคุณอย่างไร"
+  - "คุณคิดอย่างไรกับสิ่งที่เกิดจากอาการเจ็บป่วยที่เกิดขึ้น จนทำให้คุณต้องเข้าโรงพยาบาล คุณคาดหวังต่อการรักษาอย่างไร"
+
+---
+
+### **I — INVITATION (ขออนุญาต/ถามความต้องการรับข้อมูล)**
+> **เป็นการนำเข้าสู่ข้อมูลก่อนการแจ้งข่าวร้าย — ถามความต้องการของผู้ป่วยว่าต้องการทราบข้อมูลระดับใด**
+
+ตัวอย่างประโยค:
+- "เกี่ยวกับอาการเจ็บป่วยที่เกิด คุณต้องการทราบเรื่องอะไรเพิ่มเติม หรือมีข้อสงสัยอะไร"
+- "คุณต้องการให้หมอบอกรายละเอียดของโรคและการรักษาอย่างละเอียดในขณะนี้ หรือต้องการทราบผลเบื้องต้นก่อน"
+- "ผู้ป่วยบางคนต้องการทราบข้อมูลเรื่องโรคอย่างตรงที่สุด คุณต้องการเช่นนั้นหรือไม่"
+- "ผู้ป่วยในสถานการณ์แบบคุณมักมีคำถามที่ต้องการรับรู้ หมอยินดีตอบทุกคำถาม"
+- "จากอาการเจ็บป่วยของคุณ คุณกังวลหรือกลัวว่าจะเป็นโรคอะไรเป็นพิเศษหรือไม่"
+- "ก่อนที่หมอจะบอกการวินิจฉัยโรคและรายละเอียดต่างๆ คุณมีคำถามหรือข้อสงสัยอะไรหรือไม่"
+
+---
+
+### **K — KNOWLEDGE (การให้ข้อมูล/บอกการวินิจฉัย)**
+> **บอกวินิจฉัยโรค ตรง ภาษาเข้าใจง่าย**
+
+**ขั้นตอน:**
+1. **🔑 Warning shot (ยิงสัญญาณเตือน)** ⭐
+   - "อย่างที่ทราบคุณได้ทำ CT scan/Lab **ผลนั้นทำให้หมอค่อนข้างกังวลใจ**" + non-verbal
+   - "หมอเกรงว่าผลการตรวจของคุณจะไม่เป็นตามที่หวัง", "ดูเหมือนว่าผลตรวจไม่ใช่แบบที่เราคิด"
+2. **เว้นจังหวะ** เพื่อสังเกตอารมณ์และปฏิกิริยาที่เกิดขึ้นก่อนแจ้งผล
+3. **แจ้งผลด้วยภาษาที่เข้าใจง่าย**
+   - "หมอเสียใจที่ต้องแจ้งว่าผลตรวจพบว่าคุณเป็นมะเร็ง..."
+4. **เว้นจังหวะ ใช้ silence technique** เพื่อสังเกตอารมณ์และปฏิกิริยาของผู้ป่วย
+5. ผู้ป่วยอาจมีคำถาม เช่น "มันเกิดได้อย่างไร", "ฉันต้องทำอย่างไรต่อ"
+
+---
+
+### **E — EMOTIONS & EMPATHY → ใช้ "NURSE"**
+(ดูตาราง NURSE ด้านบน)
+
+---
+
+### **S — STRATEGY & SUMMARY**
+- **บอกแผนการรักษา**
+- **ค้นหาความต้องการของผู้ป่วย/ครอบครัว**
+- **🔑 มุ่งเน้นไปที่ผลลัพธ์การดูแลและเป้าหมาย มากกว่าพูดคุยเรื่องวิธีการรักษา** ⭐
+  - "คุณคาดหวังหรือตั้งเป้าหมายไว้อย่างไร"
+  - "สิ่งที่คุณรู้สึกกังวลในอนาคตเกี่ยวกับอะไร เล่ารายละเอียดให้หมอฟังได้มั้ย"
+  - "สิ่งสำคัญที่สุดสำหรับคุณคืออะไร ช่วยเล่าให้หมอฟังหน่อย"
+  - "หากการรักษาไม่เป็นไปตามที่หวัง คุณรู้สึกอย่างไร"
+- **ให้การประคับประคองจิตใจ และติดตามดูแล**
+- **วางแผนร่วมกับผู้ป่วยและครอบครัว — "Shared decision making for ACP"**
+- **ตรวจสอบความเข้าใจและเปิดโอกาสให้ซักถาม**
+  - "จากที่เราได้คุยกันมา หมออยากให้คุณทบทวนความเข้าใจ มีข้อสงสัยหรือไม่แน่ใจในประเด็นไหนหรือไม่"
+- **ทบทวนสิ่งสำคัญและให้กำลังใจ**
+  - "ไม่ว่าในอนาคตจะเป็นอย่างไร หมอและทีมเป็นกำลังใจให้คุณและครอบครัว ถ้าคุณต้องการคำปรึกษาเพิ่มเติมสามารถติดต่อทีมหมอได้ที่..."
+
+---
+
+## 15.3 🔑🔑 ABCDEF — Dealing with Conspiracy of Silence
+
+> **สถานการณ์:** ญาติบอกว่า *"อย่าบอกแม่ดิฉันว่าเป็นมะเร็งปอดนะหมอ ดิฉันกลัวอาการแม่จะทรุดไม่มากกว่าเดิม ถ้ารู้ว่าเป็นมะเร็ง"*
+
+| **A** | **B** | **C** | **D** | **E** | **F** |
+|---|---|---|---|---|---|
+| **Acknowledge**<br>of love & care | **Build up information**<br>**Benefit vs Harm** | **Comparison** | **Deal with patient** | **Encounter** | **Follow up** |
+
+### **A — ACKNOWLEDGE (สะท้อนความรู้สึก)**
+> **สะท้อนความรู้สึกว่าการที่ญาติไม่อยากบอกผู้ป่วย เป็นเพราะรักและห่วงใยผู้ป่วย**
+- "ดูเหมือนคุณกังวลที่หมอจะบอกผู้ป่วยว่าเกิดอะไรขึ้น"
+- "หมอเข้าใจว่าคุณเป็นห่วงว่าอาการของผู้ป่วยจะแย่ลง หากบอกอาการ"
+
+### **B — BUILD UP INFORMATION / BENEFIT vs HARM**
+- **ถามความสัมพันธ์ของญาติกับผู้ป่วย** สนิทผู้ป่วยแค่ไหน
+- **สาเหตุที่ไม่อยากให้บอกผู้ป่วย**
+- **ลักษณะนิสัยผู้ป่วยเป็นอย่างไร** หากทราบแล้วจะเป็นอย่างไร ทำไมถึงคิดเช่นนั้น
+- **บอก/ถามถึงข้อดีและข้อเสียของการบอกความจริงกับผู้ป่วย**
+  - "ทำไมคุณถึงไม่อยากให้บอก"
+  - "คุณคิดว่าจะเกิดอะไรขึ้นกับผู้ป่วยถ้าเราพูดคุยกันเรื่องนี้"
+  - "คุณคิดว่าจะเป็นอย่างไรถ้าผู้ป่วยต้องการทราบแต่เราไม่บอกผู้ป่วยว่าเกิดอะไรขึ้น"
+  - **"การบอกความจริงจะช่วยให้เขาได้เตรียมตัวและทำในสิ่งที่เขาอยากทำในเวลาที่เหลือ"** ⭐
+
+### **C — COMPARISON (ให้ญาติเปรียบเทียบ)**
+> **ลองให้ญาติเปรียบเทียบว่า ถ้าเป็นผู้ป่วย จะอยากรู้ความจริงหรือไม่**
+- "หากคุณเป็นผู้ป่วยเองจะอยากรู้หรือไม่"
+- "ถ้าเราลองคิดว่าเราอยู่ในสถานการณ์เดียวกันกับผู้ป่วย เราอยากให้แพทย์สื่อสารกับเราอย่างไร"
+
+### **D — DEAL WITH PATIENT (ตกลงวิธีสื่อสารกับผู้ป่วย)**
+> **ญาติอยากให้บอกผู้ป่วยอย่างไร เพื่อไม่ให้เป็นการโกหกผู้ป่วย**
+- "หมออาจถามว่าเขาคิดว่าอะไรเกิดขึ้นกับเขา **เขาอาจรู้ความจริงแล้วก็ได้**"
+- "ญาติอยากให้หมอสื่อสารกับผู้ป่วยอย่างไร ที่จะไม่โกหกผู้ป่วย"
+
+### **E — ENCOUNTER (สนับสนุนการบอกความจริง)**
+- **อาการผู้ป่วยจะแย่ลงเรื่อยๆ สุดท้ายก็จะทราบเอง แต่การบอกผู้ป่วยก่อน จะได้มีเวลาในการทำสิ่งที่ค้างคา**
+- **🔑 เป็นสิทธิของผู้ป่วยที่จะทราบความจริง**
+  - **"หมอต้องตอบความจริงถ้าผู้ป่วยถาม แต่จะไม่บีบบังคับให้ข้อมูลถ้าผู้ป่วยไม่ต้องการทราบ"** ⭐⭐ (หลักการสำคัญ)
+
+### **F — FOLLOW UP (นัดติดตาม)**
+- **นัดติดตามเพื่อพูดคุยอีกครั้ง ไม่ว่าจะคุยสำเร็จหรือไม่สำเร็จ**
+- **นัดติดตามญาติเหมือนผู้ป่วยอีกคนหนึ่ง**
+- **แจ้งว่าถ้าหากผู้ป่วยไม่ถาม ก็จะยังไม่แจ้งให้ผู้ป่วยทราบ**
+  - "หมออยากให้ครอบครัวลองนำข้อมูลต่างๆ ที่พูดคุยกันในวันนี้ไปลองทบทวน **หมอเคารพการตัดสินใจของครอบครัว** ไว้เรานัดคุยกันอีกครั้ง"
+
+---
+
+## 15.4 Family Meeting (การประชุมครอบครัว)
+
+### 🔑 วัตถุประสงค์ 4 ข้อ
+1. **ให้ข้อมูลเกี่ยวกับตัวโรค การรักษา และการพยากรณ์โรค**
+2. **ทำความเข้าใจถึงคุณค่า และเป้าหมายของผู้ป่วยและผู้ดูแล**
+3. **เตรียมสมาชิกครอบครัวให้พร้อมที่จะเป็นผู้ดูแลผู้ป่วย**
+4. **ให้ความสำคัญกับคุณค่าของการตัดสินใจในการรักษาให้พ้องกันระหว่างผู้ป่วยและครอบครัว**
+
+### 🔑 5 ขั้นตอน
+```
+Preparation → Opening the meeting → Discussing → Summary → Document & Discuss
+```
+
+#### **1. PREPARATION**
+- **เตรียมข้อมูล:** ประวัติการเจ็บป่วยปัจจุบัน, แนวทางการรักษา, การพยากรณ์โรค
+- **Advance care plan ที่เคยทำ (หากมี)**
+- **ตั้งเป้าหมายในการพูดคุย** เช่น เพื่อทำ ACP, เพื่อตัดสินใจเลือกแผนการรักษา
+- **ตั้งผู้นำการประชุมญาติ**
+- **ผู้มีส่วนร่วม:** ผู้ป่วย สมาชิกครอบครัว แพทย์ และพยาบาล
+- **ให้ญาติและผู้ป่วยเตรียมคำถามก่อนการประชุม**
+- **สถานที่:** เงียบสงบ เป็นส่วนตัว หรือข้างเตียงผู้ป่วย
+
+#### **2. OPENING THE MEETING**
+- **แนะนำตัวแพทย์ พยาบาล และสมาชิกครอบครัวทุกคน**
+- **อธิบายวัตถุประสงค์การประชุมญาติ**
+- **ให้โอกาสทุกคนเสนอความคิดเห็น**
+
+#### **3. DISCUSSING**
+**a) ประเมินความเข้าใจของครอบครัวเกี่ยวกับการเจ็บป่วยของผู้ป่วย**
+- **🔑 แพทย์ควรสื่อสารให้ช้า ให้ชัด อาจหยุดเพื่อถามความเข้าใจผู้ป่วยเป็นระยะ (Ask-Tell-Ask)** ⭐
+- ทบทวนเป้าหมายในการรักษาของผู้ป่วยและครอบครัว
+
+**b) ทบทวนโรค และความเจ็บป่วยของผู้ป่วย**
+- ให้ข้อมูลโดยตรงเกี่ยวกับ**การดำเนินโรค ผลข้างเคียง และแนวทางการรักษา**
+- ให้โอกาสผู้ป่วยและญาติได้แสดงความเข้าใจ หรือตอบสนองต่อข้อมูลที่ได้รับ
+- **Empathic response: NURSE**
+
+**c) หารือเพื่อสร้างเป้าหมายการดูแล (Goal of care setting)**
+- ทบทวนเป้าหมายในการดูแลของผู้ป่วยและครอบครัว
+- **ตั้งเป้าหมายการดูแล:** ยอมรับการรักษาอื่นสำหรับตัวโรค, **เปลี่ยนแนวทางการรักษาเป็นแบบประคับประคอง**
+- แนะนำข้อมูลทางการแพทย์เกี่ยวกับข้อดี ข้อเสียของการรักษา หรือคำแนะนำของแพทย์
+- **สนใจในความมุ่งหมายของผู้ป่วย (patient's wishes)**
+
+**d) พัฒนาแนวทางการรักษาโดยคำนึงถึงเป้าหมายการดูแล**
+- **เน้นการจัดการอาการ, รักษาแบบยื้อชีวิต?, แผนสำหรับอาการฉุกเฉิน, อื่นๆ**
+
+#### **4. SUMMARY**
+- **สรุป: เป้าหมายการดูแล, ตัวเลือกการรักษา และแผนการรักษา**
+- **หากครอบครัวยังไม่สามารถบรรลุถึงบทสรุปการดูแลได้ จำเป็นต้องติดตามผู้ป่วย**
+
+#### **5. DOCUMENT & DISCUSS**
+- **บันทึกสรุปผลการประชุมครอบครัว**
+- **ใช้เพื่อสื่อสารระหว่างทีมรักษาเพื่อประโยชน์สูงสุดในการจัดการ และดำเนินการตามแผนการดูแล**
+
+---
+
+## 15.5 🔑 Advance Care Planning (ACP) — การวางแผนการดูแลล่วงหน้า
+
+### นิยาม
+> **กระบวนการวางแผนการดูแลสุขภาพที่ทำไว้ก่อนที่ผู้ป่วยจะหมดความสามารถในการตัดสินใจ หรือเข้าสู่ระยะท้ายของชีวิต** อาจเป็นทางการหรือไม่เป็นทางการ โดยอาจใช้กระบวนการสนทนาปรึกษาร่วมกันระหว่างผู้ป่วย ครอบครัว และทีมบุคลากรสุขภาพ หรือผู้ป่วยอาจทำได้ด้วยตนเอง
+
+### 🔑 ACP vs Advance Directives (ต่างกันอย่างไร — ออกสอบ)
+| | **Advance Care Plan (ACP)** | **Advance Directives (AD)** |
+|---|---|---|
+| **นิยาม** | **ผลลัพธ์ของการวางแผนการดูแลล่วงหน้า ที่บอกถึงความปรารถนาของผู้ป่วย** | **เขียนแผนการดูแลรักษาล่วงหน้าเป็นลายลักษณ์อักษร และมีการลงลายมือชื่อของผู้ป่วย** |
+| **รูปแบบ** | **โดยเป็นการบอกกล่าว หรือเขียนก็ได้** | **ต้องเป็นลายลักษณ์อักษร + ลงลายมือชื่อ** |
+| **เนื้อหา** | ความปรารถนาโดยรวม | **มีรายละเอียดการยินยอมหรือปฏิเสธการรักษาในวาระสุดท้าย** |
+
+---
+
+### 🔑🔑 STEPS FOR CREATING ACP — 5 ขั้นตอน
+```
+1. Set up the conversation
+2. Assess the patient's illness understanding and information preferences
+3. Share prognosis
+4. Explore key topics
+5. Close and document the conversation
+```
+
+#### **STEP 1 — SET UP**
+**a) เริ่มต้นสนทนาและสอบถามความสมัครใจของผู้ป่วยในการสนทนา**
+- "หมอหวังว่าจะได้พูดคุยเกี่ยวกับสถานการณ์สุขภาพของคุณและสิ่งที่จะเกิดขึ้นในอนาคต **คุณอยากคุยเรื่องนี้หรือไม่**"
+- "จะเป็นไปได้หรือไม่ หากหมอจะชวนคุณคุยเกี่ยวกับอาการเจ็บป่วยที่อาจเกิดขึ้นได้ในอนาคต"
+
+**b) ประเมินความเข้าใจเกี่ยวกับการวางแผนการดูแลล่วงหน้า**
+- "คุณเข้าใจเกี่ยวกับการวางแผนการดูแลล่วงหน้าอย่างไร"
+
+**c) ให้ข้อมูลเกี่ยวกับการวางแผนการดูแลล่วงหน้า**
+- "การวางแผนการดูแลล่วงหน้า คือการคิดทบทวนเกี่ยวกับแนวทางการดูแลสุขภาพในอนาคตของคุณ เป็นการสื่อสารให้คนอื่นรู้ว่าอะไรสำคัญสำหรับตัวคุณ และแนวทางการรักษาแบบใดเป็นสิ่งที่คุณต้องการ เผื่อกรณีที่คุณอยู่ในสภาพที่ไม่สามารถรับรู้หรือสามารถสื่อสารด้วยตัวคุณเองได้"
+
+#### **STEP 2 — UNDERSTANDING & INFORMATION PREFERENCES**
+- **ค้นหาความเข้าใจสภาวะสุขภาพของตนเอง** โรคที่เป็น การวินิจฉัย พยากรณ์โรค
+  - "คุณเข้าใจเกี่ยวกับโรคที่คุณเป็นอย่างไรบ้าง"
+- **สอบถามความต้องการทราบข้อมูล**
+  - "คุณอยากจะรู้ข้อมูลอะไรบ้างเกี่ยวกับอาการเจ็บป่วยที่อาจจะเกิดขึ้นในอนาคต"
+- **สอบถามความคาดหวังต่ออาการเจ็บป่วย**
+  - "คุณคาดหวังกับอาการเจ็บป่วยรวมถึงการดูแลรักษาอย่างไรบ้าง"
+  - "ครอบครัวของคุณทราบเกี่ยวกับความเจ็บป่วยของคุณและแนวทางการดูแลที่คุณต้องการหรือไม่ อย่างไร"
+
+#### **STEP 3 — SHARE PROGNOSIS**
+- **ให้ข้อมูลเรื่องโรคที่เหมาะสม** โดยสรุปจากความเข้าใจที่ถูกต้องของผู้ป่วย
+  - "จะเป็นอะไรมั้ย หากเราจะพูดคุยรายละเอียดมากขึ้นเกี่ยวกับอาการเจ็บป่วยที่อาจเกิดขึ้นได้ในอนาคต"
+- **🔑 ให้ข้อมูลให้ผู้ป่วยตระหนักว่าหากไม่เป็นดังหวัง ผู้ป่วยคิดอย่างไร และชวนผู้ป่วยคิดวางแผนสำรอง** (Hope for the best, prepare for the worst) ⭐
+  - "หมอรับรู้ว่าคุณคาดหวังว่า...... **แต่หมอเองก็กังวลใจว่า** ...... หากเป็นอย่างนั้น คุณคิดอย่างไร?"
+  - "เรามาลองวางแผนสำรอง หากสิ่งที่คุณต้องการไม่เป็นไปตามที่คุณหวัง"
+
+#### **STEP 4 — 🔑 EXPLORE KEY TOPICS (6 หัวข้อสำคัญ — ออกสอบ)**
+| หัวข้อ | คำถามตัวอย่าง |
+|--------|--------------|
+| **1. Goals (เป้าหมายของชีวิต)** | "อะไรคือ**เป้าหมายในชีวิตที่สำคัญ**สำหรับคุณ" |
+| **2. Fears & worries (ความวิตกกังวล ความกลัว)** | "อะไรคือสิ่งที่คุณ**กังวลหรือกลัว**เกี่ยวกับสุขภาพของคุณในอนาคต" |
+| **3. Sources of strength (กำลังใจ)** | "อะไรทำให้**ชีวิตของคุณมีความหมาย** อะไรที่มีความสำคัญสำหรับคุณ"<br>"สิ่งไหนที่**สร้างกำลังใจ**ให้กับคุณให้ผ่านอุปสรรคต่างๆ มาได้" |
+| **4. Critical abilities (ผลลัพธ์ที่ไม่ต้องการ)** | "**สภาวะร่างกายแบบไหนที่คุณยอมรับไม่ได้**" |
+| **5. Trade-offs (ขอบเขตของการใช้เครื่องพยุงชีพ)** | "หากคุณเจ็บป่วยวิกฤติอย่างหนัก คุณคิดอย่างไรกับ**การรักษาพยุงชีพ** มีสิ่งใดที่คุณไม่ต้องการหรือไม่" |
+| **6. Surrogate decision maker (ผู้ตัดสินใจแทน)** | "ครอบครัวของคุณรับทราบเกี่ยวกับความต้องการของคุณมากน้อยแค่ไหน"<br>"หากคุณอยู่ในสภาวะที่ไม่สามารถตัดสินใจได้ **คุณจะให้ใครเป็นผู้ตัดสินใจแทน**" |
+
+**🔑 นิยามที่ต้องจำ (สำนักงานสุขภาพแห่งชาติ)**
+- **ผู้ตัดสินใจแทน (Surrogate decision maker):** บุคคลที่ได้รับการมอบหมายจากผู้ป่วย ให้ทำหน้าที่ตัดสินใจเลือกการรักษาที่เป็นไปตามความต้องการของผู้ป่วยขณะยังมีสติสัมปชัญญะ หมายรวมถึง**ผู้แสดงเจตนาแทน** หรือบุคคลที่มีหน้าที่อธิบายความประสงค์ที่แท้จริงของผู้ทำหนังสือแสดงเจตนา โดยจะทำหน้าที่เมื่อผู้ป่วยหมดความสามารถในการตัดสินใจแล้ว **สำหรับกรณีที่ไม่มีการมอบหมายไว้ ญาติหรือผู้ดูแลใกล้ชิด และทีมสหสาขาวิชาชีพจะร่วมกันพิจารณาอย่างรอบคอบ**
+- **🔑 การรักษาพยุงชีพ (Life-sustaining treatment):** การรักษาทางการแพทย์เพื่อใช้ประคับประคองหรือทดแทนการทำงานของอวัยวะสำคัญต่อการมีชีวิต ได้แก่ **การนวดหัวใจผายปอดกู้ชีพ (CPR) · การใส่ท่อช่วยหายใจ · การใช้เครื่องช่วยหายใจ · การให้ยากระตุ้นหัวใจและความดันโลหิต · การให้สารอาหารหรือสารน้ำทางหลอดเลือดดำ · การล้างไต · การให้เลือด · การให้ยาปฏิชีวนะ และอื่นๆ**
+
+#### **STEP 5 — CLOSE & DOCUMENT THE CONVERSATION**
+- **สรุปสิ่งที่ได้พูดคุยมาให้ผู้ป่วยฟัง**
+  - "เท่าที่ฟังมาทั้งหมด ดูเหมือนกับว่า......เป็นสิ่งที่สำคัญสำหรับคุณ"
+- **ให้ข้อแนะนำหรือเสนอทางเลือกในการวางแผนการดูแลล่วงหน้า**
+  - "จากที่เราพูดคุยกันมา หมอคิดว่าการทำแผนการดูแลล่วงหน้า น่าจะมีประโยชน์กับคุณในการวางแผนการดูแลสถานการณ์เจ็บป่วยต่างๆ คุณคิดอย่างไร"
+- **ให้การยืนยัน/ทำให้ผู้ป่วยมั่นใจในการดูแล ให้ช่องทางการติดต่อและนัดติดตาม**
+  - "ไม่ว่าอย่างไรก็ตาม **หมอพร้อมที่จะดูแลและให้ข้อแนะนำ** เพื่อให้การดูแลตรงตามที่คุณต้องการมากที่สุด"
+
+> **มาตรฐาน: มาตรฐานการวางแผนการดูแลล่วงหน้าสำหรับประเทศไทย (Thai Standards for Advance Care Planning) พ.ศ. 2565**
+
+---
+
+## 15.6 🔑🔑 LIVING WILL — หนังสือแสดงเจตนาไม่ประสงค์จะรับบริการสาธารณสุข
+
+### นิยาม
+> **หนังสือซึ่งบุคคลแสดงเจตนาไว้ล่วงหน้าว่าไม่ประสงค์จะรับบริการสาธารณสุขที่เป็นไปเพียงเพื่อยืดการตายในวาระสุดท้ายของชีวิต หรือเพื่อยุติการทรมานจากการเจ็บป่วย**
+
+### 🔑🔑 มาตรา 12 พ.ร.บ.สุขภาพแห่งชาติ พ.ศ. 2550 (ออกสอบแน่นอน)
+> **"บุคคลมีสิทธิทำหนังสือแสดงเจตนาไม่ประสงค์จะรับบริการสาธารณสุขที่เป็นไปเพียงเพื่อยืดการตาย ในวาระสุดท้ายของชีวิต หรือเพื่อยุติการทรมานจากการเจ็บป่วยได้**
+>
+> การดำเนินการตามหนังสือแสดงเจตนาตามวรรคหนึ่ง ให้เป็นไปตามหลักเกณฑ์และวิธีการที่กำหนดในกฎกระทรวง **เมื่อผู้ประกอบวิชาชีพด้านสาธารณสุขได้ปฏิบัติตามเจตนาของบุคคลตามวรรคหนึ่งแล้ว มิให้ถือว่าการกระทำนั้นเป็นความผิดและให้พ้นจากความรับผิดทั้งปวง"** ⭐
+
+> **วาระสุดท้ายของชีวิต** หมายถึง **การบาดเจ็บหรือโรคที่รักษาไม่หาย และทำให้เสียชีวิตในระยะเวลาอันใกล้ รวมถึงสภาพผักถาวร (persistent vegetative state)**
+
+### 🔑 ความสำคัญของ Living Will (4 ข้อ — ออกสอบ)
+1. **จะใช้เฉพาะกรณีที่ผู้ป่วยอยู่ในวาระสุดท้ายของชีวิตเท่านั้น**
+2. **เมื่อถึงวาระสุดท้าย ผู้ป่วยส่วนใหญ่จะไม่สามารถสื่อสารได้ตามปกติ การทำหนังสือแสดงเจตนาไว้ล่วงหน้าตั้งแต่ผู้ป่วยยังรู้สึกตัวปกติ จึงเป็นสิ่งสำคัญ**
+3. **Living will ไม่ใช่การเร่งให้ตายเร็วขึ้น แต่ก็ไม่ได้ยื้อความตายออกไปเรื่อยๆ และก็ไม่ได้ทอดทิ้งผู้ป่วยโดยไม่ทำการรักษาแต่อย่างใด**
+4. **⚠️⚠️ Living will ≠ Euthanasia** (ข้อนี้ออกสอบบ่อยมาก)
+
+### 🔑 คุณสมบัติผู้ทำ Living Will
+- **ผู้ที่มีอายุตั้งแต่ 18 ปีขึ้นไป และมีสติสัมปชัญญะดีพอที่จะสื่อสารได้ตามปกติ สามารถทำหนังสือแสดงเจตนาได้ด้วยตนเอง**
+- **ผู้ที่อายุต่ำกว่า 18 ปี สามารถทำได้ หากได้รับความยินยอมจากบิดา มารดา ผู้ปกครอง หรือผู้อุปการะเลี้ยงดู**
+- **สามารถทำ ณ สถานที่ใดก็ได้**
+- **🔑 พยาน: ควรมีพยานรู้เห็นด้วย เพื่อประโยชน์ในการยืนยันเนื้อหากรณีที่มีข้อสงสัยเรื่องความถูกต้อง โดยพยานจะเป็นใครก็ได้ อย่างไรก็ตาม การทำหนังสือแสดงเจตนาไม่จำเป็นต้องมีพยานก็ได้** ⭐
+
+### 🔑 ข้อมูลที่ต้องระบุในหนังสือแสดงเจตนา
+1. **ชื่อ-สกุล อายุ หมายเลขบัตรประชาชน และหมายเลขโทรศัพท์**ของผู้ทำหนังสือแสดงเจตนา
+2. **วัน เดือน ปี ที่ทำหนังสือแสดงเจตนา**
+3. **ประเภทของบริการสาธารณสุขที่ไม่ต้องการจะได้รับ** เช่น **การปั๊มหัวใจ ใส่ท่อช่วยหายใจ**
+4. **ชื่อ-สกุล อายุ หมายเลขบัตรประชาชนของพยาน และความเกี่ยวข้อง**กับผู้ทำหนังสือแสดงเจตนา
+5. **อาจระบุชื่อบุคคลเพื่อทำหน้าที่อธิบายความประสงค์ที่แท้จริง** — บุคคลผู้ถูกระบุชื่อต้องลงลายมือชื่อและหมายเลขบัตรประชาชนไว้ในหนังสือด้วย
+6. **อาจระบุรายละเอียดอื่นๆ** เช่น **ความประสงค์ในการเสียชีวิต ณ สถานที่ใด, ความประสงค์ที่จะได้รับการเยียวยาทางจิตใจ, และการปฏิบัติตามประเพณี ความเชื่อทางศาสนา**
+
+### 🔑 การจัดเก็บ
+- **เก็บฉบับจริงไว้กับตนเอง หรือญาติที่ได้รับมอบหมาย**
+- **มอบสำเนาที่เซ็นรับรองสำเนาถูกต้องแล้วให้แก่: ผู้แสดงเจตนาแทน, พยาน, คนใกล้ชิด และทีมผู้รักษา**
+- **เมื่อผู้ป่วยเข้ารักษาตัวที่สถานพยาบาล ควรมอบเอกสารดังกล่าวให้ทีมรักษาโดยเร็ว**
+
+### 🔑 การยกเลิก/แก้ไข
+- **ผู้ทำหนังสือแสดงเจตนาอาจยกเลิกหรือเปลี่ยนแปลงเมื่อใดก็ได้** โดย**ขีดฆ่าหรือเพิ่มเติมข้อความใหม่แล้วลงลายมือชื่อ ระบุวันที่แก้ไข**
+- **ควรแจ้งแก่ผู้แสดงเจตนาแทน พยาน คนใกล้ชิด และทีมผู้รักษาให้ทราบทุกครั้ง** หากมีสำเนาเก็บไว้ที่สถานพยาบาลควรแจ้งสถานพยาบาลนั้นรับทราบด้วย
+- **⭐ ฉบับที่มีผลบังคับใช้ คือ ฉบับที่ทำหลังสุดที่ยื่นต่อทีมผู้รักษา**
+
+---
+
+### 📌 สรุป Lect 5 (สไลด์สุดท้าย — ท่องให้ได้)
+> - **การสื่อสารเป็นสิ่งจำเป็นสำหรับการดูแลแบบประคับประคอง**
+> - **Empathic response: "NURSE"**
+> - **Breaking bad news: SPIKES**
+> - **การจัดการกับ Conspiracy of silence: ABCDEF**
+> - *(+ กรอบสนทนาโดยรวม: CLASS)*
+
+---
+---
+
+## 16. Symptomatology & Management (Lect 6) ⭐บทใหญ่ที่สุด
+
+**5 หัวข้อ:** 1) Pain evaluation & Management 2) Dyspnea management 3) Nausea & Vomiting 4) Constipation 5) Wound care
+
+---
+
+# 16.1 PAIN EVALUATION & MANAGEMENT
+
+### 🔑 Definition of Pain (IASP)
+> **"An unpleasant sensory & emotional experience associated with actual or potential tissue damage"**
+> — International Association for the Study of Pain (IASP)
+
+### 🔑 Pain Classification — 4 มิติ
+| มิติ | การแบ่ง |
+|------|---------|
+| **Duration** | **Acute (< 3 months)** vs **Chronic (> 3 months)** |
+| **Location** | Abdomen, Lower legs, etc. |
+| **Severity** | Mild, Moderate, Severe |
+| **Pathophysiology** | **Nociceptive** (→ **Visceral pain** / **Somatic pain**), **Neuropathic**, **Mixed pain** |
+
+### Pain Assessment — 2 ด้าน
+1. **Physical** — History & physical examination + Investigation (for treatable cause & management)
+2. **Psycho-social-spiritual evaluation**
+
+### 🔑 Pain History — SOCRATES (ท่องให้ได้)
+| ตัวอักษร | ความหมาย |
+|:---:|---|
+| **S** | **Site** ตำแหน่ง |
+| **O** | **Onset** เริ่มเมื่อไหร่ |
+| **C** | **Character** ลักษณะปวด |
+| **R** | **Radiation** ร้าวไปไหน |
+| **A** | **Association factors** อาการร่วม |
+| **T** | **Timing** ช่วงเวลา |
+| **E** | **Exacerbating/relieving factors** ปัจจัยกระตุ้น/บรรเทา |
+| **S** | **Severity** ความรุนแรง |
+
+**+ Cause of pain:** disease, treatment-related, others
+
+**Physical examination:**
+- **Head to toe examination** (complete examination)
+- **Observation:** non-verbal, wound, abnormality
+
+---
+
+### 🔑🔑 TOTAL PAIN Concept (ออกสอบแน่นอน)
+> **"Pain is what a person says 'it hurts'"**
+
+**4 มิติของ Total Pain:**
+| **PHYSICAL** | **PSYCHOLOGICAL** |
+|---|---|
+| Cancer<br>Co-morbidity: **DM, RA**<br>Bedridden<br>Joint stiffness | **Anxiety, Panic**<br>Disappoint, Coping<br>Hopeless |
+
+| **SOCIAL** | **SPIRITUAL** |
+|---|---|
+| **Finance**<br>Family<br>**Isolation** | **Meaning**<br>Yearning<br>**Suffering** |
+
+---
+
+### 🔑 Pain Measurement
+- **🔑 Self report — GOLD STANDARD** ⭐
+- Behavioral observation
+- Physiologic measures
+
+**เครื่องมือวัด:**
+| เครื่องมือ | ใช้กับใคร |
+|-----------|----------|
+| **NRS (Numeric Rating Scale)** 0–10 | ผู้ใหญ่ที่สื่อสารได้ |
+| **Wong-Baker FACES Pain Rating Scale** (0, 2, 4, 6, 8, 10) | เด็กโต / ผู้ที่สื่อสารตัวเลขยาก |
+| **FLACC Scale** | **ผู้ป่วยเด็กอายุ 2 เดือน – 7 ปี และผู้ป่วยเด็กที่มีความผิดปกติทางสมอง** ⭐ |
+
+### 🔑 FLACC Scale (คะแนน 0–2 ในแต่ละหมวด, รวม 0–10)
+**5 หมวด:** **F**ace (ใบหน้า) · **L**egs (ขา) · **A**ctivity (การเคลื่อนไหว) · **C**ry (ร้องไห้) · **C**onsolability (การตอบสนองต่อการปลอบโยน)
+
+**การแปลผล:**
+| Score | ความหมาย |
+|:-----:|----------|
+| **0** | Relaxed |
+| **1–3** | Mild discomfort |
+| **4–6** | Moderate pain/discomfort |
+| **7–10** | Severe pain/discomfort |
+| **≥ 4** | **ต้องมี intervention** ⭐ |
+
+---
+
+### 🔑 Acute vs Chronic Pain
+| **Acute Pain** | **Chronic Pain** |
+|---|---|
+| • เกิดอย่างเฉียบพลัน ไม่นานก็หาย<br>• เกิดจากการทำลายเนื้อเยื่อ<br>• **ระยะเวลาน้อยกว่า 3 เดือน** | • เป็นๆ หายๆ หรืออาจเป็นตลอดแม้เนื้อเยื่อที่ถูกทำลายหายดีแล้ว<br>• บอกสาเหตุและกลไกการเกิดได้ไม่แน่นอน อาการปวดขึ้นเองแม้ไม่มีสิ่งกระตุ้น<br>• **ระยะเวลามากกว่า 3 เดือน**<br>• เช่น **cancer pain** |
+
+**🔑 Cancer pain — ลักษณะพิเศษ**
+- **recurrent acute pain**
+- **ปวดแบบ chronic pain ได้**
+- **สามารถปวดได้แบบ nociceptive และ neuropathic pain**
+
+---
+
+### 🔑 Quality of Pain — Nociceptive vs Neuropathic (ออกสอบ)
+| **NOCICEPTIVE PAIN** | **NEUROPATHIC PAIN** |
+|---|---|
+| **Somatic pain** — บอกตำแหน่งได้ชัดเจน เกิดจาก **tissue injury**<br>**Visceral pain** — บอกตำแหน่งได้ไม่ชัดเจน เช่น **bowel obstruction, liver capsule distention** | **เกิดจากการบาดเจ็บของเส้นประสาท**<br>• **Neuralgia:** ปวดเหมือนเข็มทิ่ม แสบร้อน<br>• **Dysesthesia:** การรับรู้ผิดปกติจากปกติเดิม<br>&nbsp;&nbsp;– **Hyperalgesia:** ปวดมากกว่าปกติ<br>&nbsp;&nbsp;– **Allodynia:** **ปวดเมื่อได้รับสิ่งกระตุ้นที่ไม่ปวด** ⭐ |
+
+---
+
+### 🔑🔑 PAIN PATTERN (ออกสอบบ่อยมาก)
+| ชนิด | นิยาม |
+|------|-------|
+| **Background pain** | **"Around the clock"** — ปวดตลอดเวลา |
+| **Episodic pain** | ปวดเป็นครั้งคราว แบ่งเป็น 3 แบบ: |
+| ↳ **End-of-dose failure** | **ปวดก่อนถึงเวลาให้ยาครั้งถัดไป** → แก้โดย**เพิ่มขนาดยาหรือลดช่วงห่างการให้ยา** |
+| ↳ **Breakthrough pain (BTP)** | **ปวดขึ้นอย่างเฉียบพลันแม้ไม่มีสิ่งกระตุ้น → ให้ยา "prn"** |
+| ↳ **Incident pain** | **ปวดเฉียบพลันที่มีสิ่งกระตุ้น → ให้ยา "Before activity"** |
+
+---
+
+### 🔑🔑 WHO ANALGESIC LADDER (ออกสอบแน่นอน)
+
+```
+                              ┌─────────────────────────────┐
+                              │ Step 3: SEVERE PAIN         │
+                              │ Strong-Opioid analgesic     │
+                              │ +/− Non-Opioid, Adjuvants   │
+                      ┌───────┴─────────────────────────────┘
+                      │ Step 2: MODERATE PAIN
+                      │ Weak-Opioid analgesic
+                      │ +/− Non-Opioid, Adjuvants
+              ┌───────┴──────────────────────────
+              │ Step 1: MILD PAIN
+              │ Non-opioid analgesic +/− Adjuvants
+              └──────────────────────────────────
+```
+
+| Step | ยา |
+|------|-----|
+| **Step 1 (Mild)** | **NSAIDs, Acetaminophen** |
+| **Step 2 (Moderate)** | **Tramadol, Codeine** |
+| **Step 3 (Severe)** | **Strong opioids: Morphine, Fentanyl, Oxycodone, Methadone** |
+| **Adjuvants (ทุกขั้น)** | **Anticonvulsants, Antidepressants, Corticosteroids, Anxiolytics** |
+
+### 🔑 หลักการใช้ยา 4 ข้อ (WHO Principles — ท่องให้ได้)
+| หลักการ | ความหมาย |
+|---------|----------|
+| **1. By mouth** | **Oral administration preferred over parenteral route** |
+| **2. By the clock** | **Around the clock dosing to prevent pain** (ไม่ใช่รอปวดแล้วค่อยให้) |
+| **3. For the individual** | **Tailor pain relief to individual needs and circumstances** |
+| **4. Attention to detail** | **Explore all sources of pain and adverse effects of treatment** |
+
+---
+
+### 🔑 NON-OPIOID ANALGESICS
+
+**1. Acetaminophen (Paracetamol)**
+- **Dose: 500–1000 mg q 6 hr (10–15 mg/kg/dose), max 8 gm/day**
+- **⚠️ Acetaminophen overdose: 150 mg/kg >> Hepatic necrosis**
+
+**2. NSAIDs**
+- **ข้อบ่งใช้: bone pain, inflammatory pain, liver pain** ⭐
+- **S/E: GI irritation, platelet dysfunction**
+- ขนาดยา:
+  - **Ibuprofen (400) bid, tid pc**
+  - **Diclofenac (50) bid, tid pc**
+  - **Celecoxib (200–400) OD, bid**
+
+---
+
+### 🔑 WEAK OPIOID ANALGESICS
+
+**1. Codeine**
+- **Derivative of Morphine**
+- **Potency 1/10 of Morphine** ⭐
+- **Dosage: 30–60 mg q 4–6 hr (Max 240 mg/day)**
+
+**2. Tramadol**
+- **μ agonist + serotonin & NE reuptake inhibitor**
+- **Potency 1/20 – 1/5 of Morphine**
+- **Adverse effect: N/V, constipation**
+- **Less respiratory depression** ⭐
+- **Dosage: 50–100 mg q 6–8 hr (max dose 400 mg/day)**
+
+---
+
+### 🔑 STRONG OPIOID ANALGESICS
+
+**1. Morphine (Full μ agonist)**
+- **Standard opioid which others are compared** (ยามาตรฐานเปรียบเทียบ)
+- **Metabolized by hepatic conjugation, excreted via the kidney** ⚠️
+
+**2. Fentanyl (μ agonist)**
+- **Potency 100x of Morphine** ⭐
+- **Rapid onset, short duration of action**
+- **✅ Available in renal disease** (ใช้ได้ในผู้ป่วยไตวาย)
+
+**3. Meperidine (Pethidine)**
+- **⚠️ ไม่ควรใช้ long term >> neurotoxicity**
+- **High euphoria**
+
+**4. Methadone**
+
+---
+
+### 🔑🔑 APPROXIMATE DOSE CONVERSION RATIO (ตารางออกสอบแน่นอน)
+| 1st Opioid | 2nd Opioid | Ratio |
+|-----------|-----------|:-----:|
+| **Tramadol Oral** | **Morphine Oral** | **5 : 1** |
+| **Codeine Oral** | **Morphine Oral** | **10 : 1** |
+| **Morphine IV, SC** | **Morphine Oral** | **1 : 3** |
+| **Morphine IV, SC** | **Fentanyl IV** | **100 : 1** ⚠️ (aware mg, mcg) |
+| **Morphine Oral** | **Fentanyl patch** | **100 : 1**<br>**60 mg/day = 25 mcg/hr**<br>**120 mg/day = 50 mcg/hr** |
+
+---
+
+### 🔑 MORPHINE — รายละเอียด
+- **ผู้ป่วยแต่ละรายต้องการยาขนาดต่างกัน ขึ้นกับความรุนแรงของความปวดและการตอบสนองต่อยา**
+- **🔑 NO CEILING EFFECT** (ไม่มีขนาดสูงสุด — เพิ่มได้เรื่อยๆ ตราบใดที่คุมอาการปวดได้และไม่มี side effect) ⭐⭐
+- **ผู้ป่วย renal impairment ควรหลีกเลี่ยงหรือลดขนาดยา**
+
+### 🔑 Opioid Dosing in Renal Impairment (ตารางสำคัญ)
+| GFR (mL/min) | **Morphine** | **Hydromorphone** | **Oxycodone** | **Methadone** | **Fentanyl** |
+|:---:|---|---|---|---|---|
+| **> 50** | 100% | 50–100% | 100% | 100% | 100% |
+| **10–50** | **50–75%** | 50% | 50% | **100%** | 75–100% |
+| **< 10** | **⚠️ Not recommended** | 25% | **⚠️ Not recommended** | **50–75%** | **50%** |
+
+> **สรุปจำ: ไตวายรุนแรง → หลีกเลี่ยง Morphine และ Oxycodone; ใช้ Fentanyl หรือ Methadone ได้**
+
+### 🔑 Morphine — Preparation & Administration
+| รูปแบบ | ชื่อ/ขนาด | ความถี่ |
+|--------|----------|--------|
+| **Immediate-release (IR)** | **Morphine IR (10 mg)**<br>**Morphine solution (2 mg/ml)** | q 4 hr |
+| **Sustained-release (SR)** | **MST (10, 30, 60, 90 mg)** | **q 8–12 hr** |
+| | **Kapanol (20, 50, 100 mg)** | **q 12–24 hr** |
+| **IV injection** | **10 mg/ml** | — |
+
+### 🔑 Onset & Duration of Action of Opioids (ตารางออกสอบ)
+| Route | **Peak analgesic onset** | **Analgesic duration** |
+|-------|:---:|:---:|
+| **Oral Morphine — IR tablet** | **1 hour** | **4–6 hours** |
+| **Oral Morphine — Solution** | **30 minutes** | **4–6 hours** |
+| **MST** | **3–4 hours** | **8–12 hours** |
+| **Kapanol** | **4–6 hours** | **12–24 hours** |
+| **Subcutaneous injection** | **20–60 minutes** | **4–6 hours** |
+| **Intravenous injection** | **5–20 minutes** | **4–6 hours** |
+| **Intrathecal injection** | **30 minutes** | **24 hours** |
+
+---
+
+### 🔑🔑 STARTING MORPHINE FOR PATIENTS (สำคัญมาก — คำนวณได้)
+1. **Opioid Naive >> ควรเริ่มขนาดน้อย** แล้วค่อยๆ **titrate** ขึ้นจนกว่าจะคุมปวดได้ดี (**ใช้เวลา titrate ยาทุก 2–3 วัน**)
+2. **ควรเริ่มด้วย Morphine ออกฤทธิ์สั้น** โดยให้ยาควบคุม **background pain q 4 hr + prn q 2 hr**
+   หรือ **start 20–30 mg/day**
+3. **ให้ปรับขนาดยาตาม background + BTP ใน 24 ชั่วโมงที่ผ่านมา**
+4. **หากอาการยังไม่ดีขึ้น อาจปรับยาขึ้น 30–100%**
+
+**ตัวอย่าง:**
+- **MST (10) 1 tab PO q 8 hr (30 mg/day)**
+- **Morphine IR (10) ½ tab PO q 4 hr**
+- **+ Breakthrough pain (10–20% ของ 2 hr background pain)**
+- **+ Morphine IR ½ tab PO prn q 2 hr**
+
+---
+
+### 🔑🔑 TITRATION OF MORPHINE FOR PAIN CONTROL (โจทย์คำนวณ — ต้องทำได้)
+
+**ตั้งต้น:** Morphine IR (10) ½ tab PO q 4 hr + Morphine IR (10) ½ tab PO prn q 2 hr
+
+#### **วิธีที่ 1 — ปรับโดยคำนวณยาที่ได้ใน 24 hr (BGP + BTP)**
+> ตัวอย่าง: ผู้ป่วยได้ prn 6 ครั้ง
+> - ขนาดยาที่รับใหม่ = **BGP 30 mg + BTP 30 mg = 60 mg/day**
+> - **BTP ใหม่ = 60/6 = 10 mg**
+> - **ยาที่ปรับใหม่ = Morphine IR (10) 1 tab PO q 4 hr + Morphine IR 1 tab PO prn q 2 hr**
+
+#### **วิธีที่ 2 — ปรับโดยเพิ่ม 30–100%**
+> ตัวอย่าง: ผู้ป่วยมีอาการปวดเพิ่ม → เพิ่ม 100%
+> - ขนาดยาที่รับใหม่ = **BGP 30 mg + 30 mg (100%) = 60 mg**
+> - **BTP ใหม่ = 10–20% ของ 60 mg = 10 mg (6–12 mg)**
+> - **ยาที่ปรับใหม่ = Morphine IR (10) 1 tab PO q 4 hr + Morphine IR 1 tab PO prn q 2 hr**
+
+---
+
+### 🔑🔑 SWITCHING MORPHINE ORAL TO IV (โจทย์คำนวณ)
+**ตั้งต้น:** Morphine IR (10) 1 tab PO q 4 hr + Morphine IR (10) 1 tab PO prn q 2 hr
+→ **Total oral = 60 mg/day**
+
+**เปลี่ยนจาก Route Oral >> IV (หาร 3):**
+- **Morphine IV = 60/3 = 20 mg/day**
+- **Morphine 20 mg + NSS up to 100 ml IV drip 4 ml/hr**
+- **+ Morphine 2 mg IV prn q 2 hr (10% ของ BGP)**
+
+---
+
+### 🔑 FENTANYL
+
+**Fentanyl IV**
+- **Duration: a few minutes to an hour**
+- **ข้อบ่งใช้: Procedural pain control, Post-operative pain control**
+- **✅ Safe in renal failure**
+- **Dosing:**
+  - **ขนาดในผู้ใหญ่: 20 mcg IV q 1 hr**
+  - **ขนาดในเด็ก 2–12 ปี: 0.5–1 mcg/kg IV q 1 hr**
+
+**🔑 Fentanyl Transdermal Patch**
+- **ใช้ในผู้ป่วยที่คุมความปวดได้ดีแล้ว หรือผู้ป่วยที่รับประทานยาไม่ได้** ⭐
+- **Peak onset: หลังจากแปะ ระดับยาจะค่อยๆ เพิ่มขึ้น คงที่หลัง 12–24 hr** ⚠️
+- **Dosing interval: 72 hr (เปลี่ยนทุก 72 hr)**
+- **Preparation: 12.5, 25, 50 mcg/hr**
+- **Dosing:** แนะนำให้เปลี่ยนจากการใช้ยาชนิดอื่น โดยเปรียบเทียบจาก conversion ratio
+- **⚠️ เมื่อเปลี่ยน fentanyl TD >> Morphine ใน 6–12 hr แรก ควรให้ยาขนาดครึ่งเดียวก่อน**
+
+**🔑 Fentanyl Sublingual**
+- **สำหรับ INCIDENT PAIN** ⭐
+- **Fentanyl citrate 50 mcg = 1 ml**
+- **Sublingual for 5–10 min**
+- **Onset 5–15 min**
+- **Duration 45 min**
+- **Repeat in 5–10 min**
+- **Titrate 25 >> 50 >> 100 mcg**
+
+---
+
+### 🔑🔑 SIDE EFFECTS OF OPIOIDS (ออกสอบแน่นอน)
+| # | Side effect | รายละเอียด |
+|---|------------|-----------|
+| **1** | **Nausea, Vomiting** | **มักพบในช่วงแรก อาจให้ยาแก้อาเจียนในช่วง 3–4 วันแรก** |
+| **2** | **Constipation** ⚠️ | **เป็นตลอดระยะที่รับประทานยา ต้องให้ยาระบายตลอดการใช้ยา** (**ไม่เกิด tolerance**) ⭐⭐ |
+| **3** | **Sedation** | **พบช่วงแรก มักปรับตัวได้ภายใน 2–3 วัน** |
+| **4** | **ปากแห้ง ปัสสาวะลำบาก สับสน** | **พบได้น้อย** |
+
+### 🔑 Sedation Score
+| Score | ความหมาย |
+|:-----:|----------|
+| **0** | ตื่นดี alert |
+| **1** | ง่วงบางครั้ง |
+| **2** | หลับ ปลุกตื่นง่าย |
+| **3** | หลับ ปลุกตื่นยาก ไม่ตื่น |
+
+> **⚠️ ถ้า Sedation score > 2 → ให้ลดขนาดยาลง 25–50%**
+
+---
+
+### 🔑 OPIOID ROTATION
+- **Opioid rotation / Opioid switching**
+- **🔑 Indication 3 ข้อ:**
+  1. **Cannot tolerate to side effect**
+  2. **Tolerance**
+  3. **High dose opioid but cannot control pain**
+- **⚠️ After opioid rotation >> DECREASE 25–50% due to INCOMPLETE CROSS TOLERANCE** ⭐⭐ (ออกสอบบ่อย)
+
+---
+
+### 🔑 NEUROPATHIC PAIN — Management (5 กลุ่ม)
+| # | ยา | รายละเอียด |
+|---|-----|-----------|
+| **1** | **Opioids** | **First line in acute severe cancer neuropathic pain** |
+| **2** | **TCAs** | **Amitriptyline, Nortriptyline**<br>**Starting low dose (10–25 mg daily), titrate q 3–4 days** |
+| **3** | **SNRI** | **Duloxetine (30–60 mg/day), Venlafaxine** |
+| **4** | **Topical lidocaine** | **max 3 patches of 5% lidocaine for 12 hr** |
+| **5** | **Anticonvulsants** | **Gabapentin, Pregabalin** (ปรับตาม CrCl) |
+
+**🔑 Gabapentin — Dose adjustment by CrCl**
+| CrCl (mL/min) | Adjustment | Max Maintenance Dose |
+|:---:|---|---|
+| **> 79** | No dose adjustment necessary | **3,600 mg/day** in 3 divided doses |
+| **50–79** | No dose adjustment necessary | **1,800 mg/day** in 3 divided doses |
+| **30–49** | **~50% reduction** | **900 mg/day** in 2–3 divided doses |
+| **15–29** | **~75% reduction** | **600 mg/day** in 1–2 divided doses |
+| **< 15** | **~90% reduction** | **300 mg/day** in 1 dose |
+
+**🔑 Pregabalin — Total Daily Dose by CrCl**
+| CrCl (mL/min) | Starting Dose (mg/day) | Maximum Dose (mg/day) | Dose Regimen |
+|:---:|:---:|:---:|:---:|
+| **≥ 60** | 150 | **600** | BID or TID |
+| **≥ 30 – < 60** | 75 | **300** | BID or TID |
+| **≥ 15 – < 30** | 25–50 | **150** | QD or BID |
+| **< 15** | 25 | **75** | QD |
+| **Supplementary after hemodialysis** | 25 | 100 | Single dose |
+
+---
+
+### 🔑 INTERVENTION MANAGEMENT (สำหรับปวดที่คุมด้วยยาไม่ได้)
+- **Spinal analgesia**
+- **Nerve block: ฉีด Phenol, Alcohol**
+- **Nerve Ablation**
+- **Vertebroplasty, Kyphoplasty**
+
+### 🔑 NON-PHARMACOLOGIC PAIN MANAGEMENT
+**Cognitive & behavioral methods:**
+- **Distraction** (เบี่ยงเบนความสนใจ)
+- **Imagery** (จินตภาพ)
+- **Hypnosis**
+- **Relaxation techniques:** Deep breathing, Progressive muscle relaxation, meditation, Yoga, Tai chi
+
+**Physiological methods:** **warm bath, massage, acupuncture**
+
+---
+---
+
+# 16.2 DYSPNEA MANAGEMENT
+
+### 🔑 Dyspnea — นิยาม
+- **Clinical term: Breathlessness, shortness of breath — NOT tachypnea** ⚠️ (แยกให้ออก)
+- **ประสบการณ์ที่หายใจลำบาก ไม่สุขสบาย ก่อให้เกิดความกลัว**
+- **การรับรู้เฉพาะบุคคลต่ออาการหายใจที่ผิดปกติ**
+- **🔑 อาการหายใจเหนื่อย หายใจไม่อิ่ม เป็นตัวทำนาย Survival ที่สำคัญ รองลงมาจาก performance** ⭐
+
+### 🔑 General Approach to Breathlessness (กราฟที่ต้องเข้าใจ)
+```
+                 Non-drug            Symptomatic drug
+                treatment                treatment
+        ─────────────────────────────────────────────
+              Correct the correctable
+        ─────────────────────────────────────────────
+        On exertion        At rest         Terminal
+    Prognosis =        Prognosis =      Prognosis =
+    Months–years       Weeks–months      Days–weeks
+```
+> **แนวคิด: ยิ่งพยากรณ์โรคสั้นลง (on exertion → at rest → terminal) สัดส่วนการ "correct the correctable" ยิ่งลดลง และ symptomatic drug treatment ยิ่งเพิ่มขึ้น**
+
+### Assessment ของ Dyspnea
+- **ประเมินจากการบอกเล่าและบรรยายของผู้ป่วย**
+- **🔑 Self report is gold standard** ⭐
+- **ประเมิน severity ใช้ dyspnea score 0–10**
+- **แยกระหว่าง dyspnea / fatigue**
+- ลักษณะอาการหายใจลำบาก อะไรทำให้แย่ลง/ดีขึ้น ดีขึ้นขณะให้ **O₂** หรือไม่
+- อาการเป็นขณะมีกิจกรรม/นั่งพัก ท่าใดเป็นท่าที่สบายที่สุด
+- เคยรักษาอย่างไรมาก่อน ใช้ยาอะไร
+- รบกวนการใช้ชีวิต/การนอนหรือไม่ อย่างไร
+
+### 🔑 Vicious Cycle of Anxiety, Panic, Dyspnea (วงจรที่ต้องวาดได้)
+```
+    หายใจไม่อิ่ม → หายใจเร็วตื้น → กล้ามเนื้อหายใจอ่อนล้า ขาดพลังงาน
+         ↑                                      ↓
+    หวาดกลัวมากขึ้น                      กังวล หวาดกลัว
+         ↑                                      ↓
+    จำกัดการมีกิจกรรม ← หายใจไม่อิ่มมากขึ้น ←──┘
+```
+
+### 🔑🔑 CORRECTABLE CAUSE OF BREATHLESSNESS (ตารางออกสอบแน่นอน)
+| **สาเหตุ** | **การรักษา** |
+|---|---|
+| **Infection** | **Antibiotics, PT** |
+| **COPD/asthma** | **Bronchodilators, steroids, PT** |
+| **Obstruction of trachea/bronchus/SVT** | **Steroids, radiotherapy, laser therapy, stenting, chemotherapy** |
+| **Lymphangitis carcinomatosis** | **Steroids, diuretics, bronchodilators** |
+| **Pleural effusion** | **Drainage +/− Pleurodesis** |
+| **Pericardial effusion** | **Paracentesis, steroids** |
+| **Ascites** | **Diuretics, paracentesis** |
+| **Anemia** | **Blood transfusion** |
+| **Pulmonary embolism** | **Anticoagulation** |
+| **Heart failure** | **Diuretics, ACE inhibitors, opioids** |
+
+### 🔑 Symptom Control — Dyspnea
+| **Pharmacological** | **Non-Pharmacological** |
+|---|---|
+| • **Opioids**<br>• **Benzodiazepines**<br>• **Corticosteroids**<br>• **Bronchodilators**<br>• **Mucolytics or NSS nebulizer** | • **Positioning**<br>• **Exercise**<br>• **Relaxation techniques** (Distraction, Imaginary, Meditation)<br>• **Ambient airflow: handheld fan** ⭐<br>• **Patient & family education & follow up** |
+
+### 🔑🔑 OPIOIDS FOR BREATHLESSNESS (สำคัญมาก)
+**กลไก:**
+- **Opioids ช่วยลด ventilatory response ต่อ hypercapnia, hypoxia, exercise**
+- **ลด respiratory effort และอาการหายใจลำบาก**
+- **Opioids ได้ผลดีในผู้ป่วยที่มีอาการหายใจลำบากในขณะไม่มีกิจกรรม (dyspnea at rest)**
+- **⭐ ใช้ opioids ขนาดน้อย ไม่มีผลกดการหายใจ** (ข้อนี้ออกสอบบ่อย)
+
+**ขนาดยา:**
+| กลุ่มผู้ป่วย | Dose |
+|-------------|------|
+| **ผู้ป่วย morphine naive** | **เริ่มด้วย 2.5–5 mg PO prn q 4–6 hr** ปรับยาตามการตอบสนอง<br>**ถ้าใช้ morphine > 2 ครั้ง/วัน >> Regular long acting morphine** |
+| **ผู้ป่วยที่ใช้ Morphine อยู่แล้ว** | **เพิ่ม Morphine ที่ใช้อยู่ขึ้นอีก 30%** ⭐ |
+| **การ titrate** | **ให้ prn เหมือนจัดการความปวด** |
+
+### 🔑 BENZODIAZEPINES (สำหรับ dyspnea ร่วมกับ anxiety)
+**Action: decrease anxiety, act as muscle relaxants, reduce anxiety & panic attacks**
+
+| Medication | Dose |
+|-----------|------|
+| **Diazepam** | **2–5 mg PO up to TDS** |
+| **Lorazepam** | **0.5–1 mg PO/SL prn q 8 hr** |
+| **Midazolam** | **2.5–5 mg SC q 4 hr** |
+
+### 🔑 Goal Therapy of Breathlessness (ตามความรุนแรง)
+| Severity | แนวทาง |
+|----------|--------|
+| **Mild (NRS 1–3)** | Ongoing assessment and treatment of psychosocial, spiritual, and emotional distress · **Fan** · **Repositioning and medical air** · Supplemental oxygen if hypoxemic |
+| **Moderate (NRS 4–6)** | + **Short acting prn opioids** |
+| **Severe (NRS 7–10)** | + **Long acting scheduled opioids** |
+| **Refractory** | + **Goals of care discussion and consideration of palliative sedation** ⭐ |
+
+---
+---
+
+# 16.3 NAUSEA & VOMITING
+
+### 🔑 Definition (แยกให้ออก)
+| | นิยาม |
+|---|---|
+| **Nausea** | **Unpleasant SUBJECTIVE sensation >> may or may not result in vomiting** |
+| **Vomiting** | **OBJECTIVE patient experiences involving forceful elimination of contents in stomach** |
+
+### 🔑🔑 MECHANISM — Neurotransmitter & Pathway (สำคัญมาก)
+**3 Neurotransmitters หลัก:**
+1. **Dopamine**
+2. **Serotonin**
+3. **Histamine**
+
+**Receptors:** **H1 receptor · D2 receptor · 5-HT receptor · Muscarinic receptor**
+
+**เส้นทางที่กระตุ้น Vomiting Center:**
+```
+Higher Cortical Centers ──┐    (Emotional factors, Pain, Smell,
+                          │     Repulsive sight, IICP)
+Vestibular nuclei ────────┤    (Motion sickness)
+                          ├──→ VOMITING CENTER ──→ EMETIC REFLEX
+CTZ ──────────────────────┤    (Metabolic/Chemical cause)
+                          │
+Peripheral pathway ───────┘    (Vagal afferents, Enterochromaffin
+(Cytotoxic Chemotherapy,        cells)
+ Cell Damage, Inflammation,
+ Necrosis)
+```
+
+### 🔑 Assessment ของ N/V
+- มีอาการคลื่นไส้หรืออาเจียน หรือมีทั้ง 2 อาการ
+- **ลักษณะการอาเจียน** (ความถี่, ปริมาณ, **ความสัมพันธ์กับการรับประทานอาหาร**)
+- **มีท้องผูกร่วมด้วยหรือไม่**
+- **มีท้องอืดร่วมด้วยหรือไม่**
+- **มีอาการหรือลักษณะเฉพาะหรือไม่ >> Gut obstruction, IICP** ⭐
+- **Hypercalcemia**
+- **ได้รับยาที่อาจทำให้มีผลข้างเคียง**
+- **มีอาการเครียด หรือวิตกกังวลหรือไม่**
+
+### 🔑🔑 DRUG TREATMENT FOR N/V — ตามตำแหน่งที่ออกฤทธิ์ (ตารางออกสอบแน่นอน)
+| **ตำแหน่ง** | **ยา** |
+|---|---|
+| **Chemoreceptor trigger zone (CTZ)** | **Haloperidol · Ondansetron · Metoclopramide** |
+| **Abdominal visceral & Vagus nerve** | **Prokinetic:** Metoclopramide, Domperidone<br>**Antisecretory:** Buscopan, Octreotide |
+| **Vestibular apparatus** | **Diphenhydramine** |
+| **Cerebral cortex** | **Dexamethasone, Lorazepam** |
+
+### 🔑 ANTIEMETIC DRUGS — ตารางรายละเอียด
+| **Drug** | **Receptor & site** | **Indications** | **Dosage & routes** | **Side effects** |
+|---|---|---|---|---|
+| **Butyrophenones — Haloperidol** | **D₂ — CTZ** | **Opioid induced N; chemical/metabolic N** | **1.5–5.0 mg/day; PO, SC** | **EPS, QTc, somnolence** |
+| **Prokinetic — Metoclopramide** | **D₂ (CTZ), D₂ (GIT), 5-HT₄ (GIT, potentiation)** | **Gastric stasis, ileus** | **10–20 mg 4-hrly; PO, SC, IV** | **EPS, restlessness, drowsiness, colic in GI obstruction** |
+| | 5-HT₃ (at high doses) — CTZ, GIT | Chemotherapy | N/A | |
+| **Domperidone** | **D₂ — CTZ, GIT** | **Gastric stasis, ileus** | **10–20 mg PO 4–8 hrly; 30–90 mg PR 4–8 hrly** | **Colic if GIT obstructed; oesophageal pain, QTc** |
+| **Cisapride** | 5-HT₄ (potentiation), Ach — GIT | Gastric stasis, ileus | 10 mg PO 6–8 hrly; 30 mg PR 6–8 hrly | Abdominal cramps; diarrhoea; **cardiac arrhythmias** particularly with systemic azole antifungals |
+| **Phenothiazines** (prochlorperazine, chlorpromazine, thiethylperazine) | **D₂ (CTZ, GIT), H₁, Ach, α₁ Ad (VC, CNS, GIT, CVS)** | **Intestinal obstruction; peritoneal irritation; nausea of unknown aetiology; vestibular causes; raised ICP** | **Prochlorperazine: 5–10 mg PO, 12.5–25 mg IM, 25 mg PR 6–8 hrly**<br>**Chlorpromazine: 25–50 mg IM 4–6 hrly** | Vary according to spectrum of receptor blockade, **QTc** |
+| **Levomepromazine** | 5-HT₂, H₁, D₂, α₁ Ad — VC, CNS, CVS | | **5–12.5 mg/24-hrly PO, SC** | **Drowsiness at higher doses, orthostatic hypotension** |
+| **Antihistamines** (Cyclizine, Cinnarizine, Diphenhydramine, Promethazine) | **H₁ — CTZ, GIT, CVS, CNS, VC, vestibular afferents, brain substance** | | **Cyclizine: 25–50 mg 8-hrly PO/SC/PR**<br>**Promethazine: 12–25 mg 8-hrly PO** | **Dry mouth, blurred vision, sedation, EPS; Skin irritation at SC injection sites; QTc** |
+| **Anticholinergics** (Hyoscine hydrobromide, Butylbromide) | **Ach_m — VC, GIT** | **Intestinal obstruction; peritoneal irritation; raised ICP; excess secretions** | **200–400 mcg 4–8 hrly sublingual/SC; 500–1500 mcg/72-hour transdermal patches; 20 mg PO/SC 6-hrly** | **Dry mouth, sedation, ileus, urinary retention, blurred vision, occasionally agitation** |
+| **5-HT₃ antagonists** (Granisetron, Ondansetron, Tropisetron, Polanesetron, Dolasetron) | **5-HT₃ — GIT, CTZ, (VC)** | **Chemotherapy; abdominal radiotherapy; postoperative NV** | **Granisetron: 3 mg slowly IV up to 8-hrly**<br>**Ondansetron: 8 mg PO or slowly IV 8-hourly**<br>**Tropisetron: 5 mg PO or slowly IV daily**<br>**Palonosetron: 250 mcg IV daily** | **Headache in 30%; constipation; diarrhoea, dizziness, QTc** |
+| **NK1 antagonist — Aprepitant** | **NK₁ — Widespread** | **Late-onset chemotherapy-related NV** | **125 mg 1 hour prior to chemotherapy; then 80 mg OD for the next 2 days** | **Hiccups, asthenia, fatigue; somnolence; anxiety; anorexia; GI upset** |
+
+### 🔑 Non-Pharmacologic Management (N/V)
+- **Oral hygiene care ทุกครั้งหลังอาเจียน**
+- **การรับประทานอาหาร และเครื่องดื่ม**
+- **การจัดท่าและการมีกิจกรรมที่เหมาะสม**
+- **ลดปัจจัยกระตุ้นที่ทำให้มีอาการมากขึ้น**
+- **อธิบายให้คำแนะนำผู้ป่วยและครอบครัว**
+- **Psychological interventions** เช่น **การเบี่ยงเบนความสนใจ การสร้างจินตภาพ**
+
+---
+---
+
+# 16.4 CONSTIPATION
+
+### 🔑 Definition (NIH)
+> **A condition in which you may have:**
+> - **fewer than 3 bowel movements/week**
+> - **Stools that are hard, dry, or lumpy**
+> - **Stools that are difficult or painful to pass or a feeling that not all stool has passed**
+
+### 🔑 Bristol Stool Chart (ต้องจำ)
+| Type | ลักษณะ | แปลผล |
+|:----:|--------|-------|
+| **Type 1** | Separate hard lumps, like nuts (hard to pass) | **Constipation** |
+| **Type 2** | Sausage shaped but lumpy | **Constipation** |
+| **Type 3** | Sausage shaped with cracks on the surface | **Normal** |
+| **Type 4** | Sausage shaped smooth and soft | **Normal** |
+| **Type 5** | Soft blobs with clear-cut edges (passed easily) | **Diarrhea** |
+| **Type 6** | Fluffy pieces with ragged edges (a mushy stool) | **Diarrhea** |
+| **Type 7** | Watery with no solid pieces (entirely liquid) | **Diarrhea** |
+
+### 🔑 Prevalence (ตัวเลขที่ควรจำ)
+- **30% of general population**
+- **30–100% in palliative care population** ⭐
+- **40–70% ของผู้ป่วยที่ได้รับ laxatives ยังคงมีอาการท้องผูก**
+- **Negative impact on their quality of life**
+
+### 🔑🔑 CLASSIFICATION OF CONSTIPATION (ออกสอบ)
+| **PRIMARY (Functional causes)** | **SECONDARY** |
+|---|---|
+| • **Diet:** poor appetite, low fiber diet, poor fluid intake<br>• **Environmental:** **lack of privacy**<br>• **Other factors:** advanced age ↑, inactivity, depression, sedation | • **Cancer:** GI, pelvic, ovarian, cervical<br>• **Structural:** painful anorectal conditions (**hemorrhoids, anal fissure, perianal abscess**)<br>• **Metabolic disturbance:** **hyperCa, hypoK**, Hypothyroidism, Uremia, Dehydration<br>• **Neurological disorders:** **spinal cord compression**, autonomic failure (Parkinson disease, Multiple sclerosis)<br>• **Malignant ascites**<br>• **Partial intestinal obstruction** |
+
+### 🔑 Assessment — History
+- **Frequency, onset**
+- **Previous bowel pattern**
+- **Stool character (hard, blood, mucus)**
+- **Medication, food**
+- **Staging of disease**
+- **Need to strain** (ต้องเบ่ง)
+- **Painful defecation**
+- **Nausea or vomiting**
+- **Neurological symptoms**
+- **Sensation of defecation (Complete?)**
+- **Impact on patient**
+
+### 🔑 Assessment — Physical Examination
+- **Inspection:** Abdominal distention, **visible peristalsis**
+- **Auscultation:** Bowel sound
+- **Palpation:** tenderness, mass
+- **Percussion**
+- **🔑 Per-rectal examination:** **Feces, mass, Enlarged dilated rectum** ⭐ (ห้ามลืม PR)
+
+### 🔑🔑 FECAL IMPACTION WITH OVERFLOW DIARRHEA (ออกสอบ — กับดักคลาสสิก)
+> **ผู้ป่วยที่มีถ่ายเหลว ถ่ายกระปริดกระปรอย ต้องระวังว่าเป็น overflow diarrhea ซึ่งเกิดจาก STOOL IMPACTION** ⚠️
+
+**ลักษณะ:**
+| **Severe constipation (overflow)** | **Normal** |
+|---|---|
+| • **Distended rectum**<br>• **Abnormal sensation**<br>• **Overflow diarrhoea** (overflow of liquid stool) | • Empty rectum<br>• Rectum filling → sensation for defecation |
+
+**🔑 แนวทางจัดการ:**
+```
+PR → Stool impaction >> ให้ stool softeners
+   → Soft stool >> ให้ Senna, Bisacodyl
+   → Empty rectum >> Plain film R/O gut obstruction
+```
+
+### 🔑 Investigation
+- **Supine and upright abdominal film**
+
+### 🔑🔑 CONSTIPATION SCORE (คำนวณจากฟิล์ม — ออกสอบ)
+**วิธี:** ลากเส้นทแยงมุมแบ่งช่องท้องเป็น **4 ส่วน (quadrants)** แล้วให้คะแนนแต่ละส่วน
+
+| Score | ความหมาย |
+|:-----:|----------|
+| **0** | **No feces** |
+| **1** | **Stool occupy < 50% of lumen** |
+| **2** | **Stool occupy > 50% of lumen** |
+| **3** | **Stool completely occupy the lumen** |
+
+**คะแนนรวม 0–12**
+
+> **🔑 Constipation score > 7 >> aggressive treatment** ⭐
+> - **Evacuate ถ้ามี impact feces**
+> - **ให้ metoclopramide, ทำ abdominal massage, SSE, unison enema**
+> - **Laxative + Stool softener**
+
+### 🔑🔑 DRUG USED IN CONSTIPATION (ตารางออกสอบ)
+| **กลุ่ม** | **ยา** |
+|---|---|
+| **Stimulants** | **Senna (Senokot), Bisacodyl (Dulcolax), Castor oil** |
+| **Softeners** | **Lactulose, Magnesium salts** |
+| **Suppositories & Enemas** | **Glycerin/Bisacodyl, Unison enema, SSE** |
+| **Fiber** | **Psyllium (Metamucil)** ⚠️ *ต้องกินน้ำเยอะ ถ้าน้ำไม่พอจะ impact กว่าเดิม* |
+| **Lubricant** | **Mineral oil, Castor oil** |
+
+### 🔑 Non-Pharmacologic for Constipation
+- **ให้ข้อมูล สาเหตุ อาการ แผนการดูแลที่จะได้รับ**
+- **ดูแลให้อาหารที่มีกากใยและกระตุ้นการขับถ่าย** เช่น ขี้เหล็ก มะขาม ลูกพรุน เม็ดแมงลัก
+- **ดูแลให้ได้รับน้ำอย่างน้อย 1,500 ml/day** ⭐
+- **ดูแลให้ได้รับยาระบายตามแผนการรักษา**
+- **กระตุ้นให้มีการเคลื่อนไหวร่างกาย**
+- **ฝึกการขับถ่ายเป็นเวลา**
+- **จัดสถานที่มิดชิด ส่วนตัว มีม่านกั้น**
+- **พิจารณา manual evacuation ตามเหมาะสม**
+
+### 🔑🔑 CONSTIPATION FROM OPIOIDS (สำคัญมาก ออกสอบบ่อย)
+1. **เป็นผลข้างเคียงของการใช้ Opioids**
+2. **Opioids ลด Peristalsis ของลำไส้**
+3. **⚠️⚠️ ไม่พบ Tolerance จึงต้องให้ยาระบายตลอดเวลาที่ใช้ Opioids** ⭐⭐ (จุดที่ออกสอบที่สุด)
+4. **ควรให้ยากลุ่ม Stimulants / Softeners** — **Senna, Bisacodyl, Lactulose**
+5. **Constipation prophylaxis >> Senna**
+6. **Constipated with hard feces >> Softeners +/− enema**
+7. **การดูแลเรื่องอาหารอย่างเดียวมักไม่ช่วยให้ดีขึ้น**
+8. **⚠️ หลีกเลี่ยงยา/เพิ่มภาคอาหาร bulk-forming agents** (เพราะจะทำให้ impact มากขึ้นในลำไส้ที่ peristalsis ลดลง)
+
+---
+---
+
+# 16.5 WOUND CARE — FUNGATING WOUND
+
+### 🔑 Definition
+- **Related term:** tumor necrosis, ulcerative malignant wounds, malignant cutaneous wounds
+- **นิยาม: การกระจายลุกลามของก้อนมะเร็งไปทำลายโครงสร้างของผิวหนังที่อยู่ใกล้เคียง แตกทะลุจนเป็นแผลขึ้น**
+
+### 🔑 Prevalence (ตัวเลขออกสอบ)
+- **พบได้ 5% ของผู้ป่วยมะเร็ง และ 10% ของผู้ป่วยมะเร็งระยะลุกลาม**
+- **⭐ มักพบในช่วง 3–6 เดือนสุดท้ายก่อนเสียชีวิต**
+- **⭐ พบใน breast cancer บ่อยที่สุด**
+
+### 🔑 Impact to Quality of Life — 6 ด้าน
+```
+                    Pain (มาก)
+                        ↑
+      Bleeding ← Fungating wound → Itching
+                        ↓
+    Bad smell → Care giver distress ← Psychosocial
+```
+> **หมายเหตุ: กลิ่นเหม็นเป็นสาเหตุสำคัญที่ทำให้ผู้ดูแลเกิด distress**
+
+### 🔑🔑 MANAGEMENT OF FUNGATING WOUND — 7 เป้าหมาย (ท่องให้ได้)
+1. **การจัดการอาการปวด** (Pain control)
+2. **ควบคุมภาวะเลือดออก** (Bleeding control)
+3. **ป้องกันการติดเชื้อของแผล** (Infection control)
+4. **ควบคุมกลิ่นที่ไม่พึงปรารถนา** (Odor control)
+5. **ควบคุมปริมาณสิ่งคัดหลั่งที่ออกมาจากแผล** (Exudate control)
+6. **ดูแลปัญหาจิตสังคมและภาพลักษณ์** (Psychosocial & body image)
+7. **การให้ข้อมูล/ความรู้ (Health education) ผู้ป่วยและผู้ดูแล**
+
+---
+
+### 🔑 1. PAIN CONTROL
+- **ให้ยาลดปวดก่อนทำแผล**
+  - **Morphine oral solution 2 ml (หรือเท่ากับ Breakthrough pain dose) PO ก่อนทำแผล 15–30 นาที** ⭐
+- **Superficial pain:**
+  - **Ice pack ประคบก่อนและหลังทำแผล**
+  - **Topical lidocaine ให้ก่อนทำแผล**
+- **🔑 Topical analgesia (Opioid) — โดยไปจับกับ Peripheral opioid receptor (off-label)** ⭐
+  - **Morphine IR บดผสม KY-gel ใส่ที่แผล**
+  - **Morphine injection 5 mg ผสม KY-gel 5 ml**
+
+### 🔑 2. BLEEDING CONTROL
+- **⭐ Direct compression (ทำก่อนเป็นอันดับแรก)**
+- **Adrenaline ชุบก๊อซ กดตรงจุด bleeding นาน 5–10 นาที**
+- **Sucralfate (Ulsanic) 1 gm ผสม water 1 ml + KY gel 1 หยด → ทาบริเวณที่เลือดออก**
+- **ใช้ Sofra-tulle หรือ Vaseline gauze ปิดแผล**
+- **Dressing strategies:**
+  - **Calcium alginate**
+  - **Gelatin gel foam, sponge, hemostatic foam**
+
+### 🔑 3. INFECTION CONTROL
+- **Dressing ด้วย NSS**
+- **สามารถอาบน้ำได้ตามปกติ เป็นผลดีต่อจิตใจ ทำให้ผู้ป่วยรู้สึกว่าร่างกายสะอาดกว่า** ⭐
+- **Debridement necrotic tissue:**
+  - **สำลีชุบ NSS จนชุ่ม ขัดถู (Scrubbing) เนื้อตายออกอย่างนุ่มนวล**
+  - **ใช้ syringe ขนาด 20 ml ดูด NSS ใช้เข็มเบอร์ 18 ฉีดสวนล้างแผลด้วย low pressure**
+  - **Autolytic โดยการใช้ผลิตภัณฑ์ Hydrogel**
+
+### 🔑 4. ODOR CONTROL (⭐ ออกสอบบ่อย)
+- **บดยา metronidazole ให้ละเอียด โรยบนแผล** ⭐
+- **ใช้ gauze ชุบ metronidazole injection จนชุ่ม แล้วนำไปปิด หรือ pack เข้าไปภายในโพรงแผล — สามารถลดกลิ่นได้ภายใน 2–7 วัน** ⭐
+- **⚠️ ระวังอย่าให้แผลแห้ง มะเนั้น gauze จะติดแผล ระวังขณะลอกออกจะส่งผลให้ปวดและเลือดออกได้**
+
+### 🔑 5. EXUDATE CONTROL
+- **เปลี่ยนวัสดุชั้นแรกวันละครั้ง**
+- **ใช้ Vaseline gauze ปิดแผลชั้นแรก**
+- **Top gauze ชั้นที่ 2**
+- **เปลี่ยนแผลชั้นนอก วันละ 2–3 ครั้ง ถ้าสารคัดหลั่งปริมาณมาก**
+- **ปกป้องผิวหนังรอบๆ แผลจากสารคัดหลั่งโดยใช้ skin barriers**
+- **วัสดุกลุ่ม Hydrofiber:** เหมาะสมกับแผลที่และมีการติดเชื้อ
+- **วัสดุกลุ่ม Calcium alginate:** ดูดซับ exudate มีลักษณะนุ่ม ปิดแผลได้ดี
+
+---
+---
+
+## 17. Emergency in Palliative Care (Lect 7) ⭐บทใหญ่
+
+**7 ภาวะฉุกเฉิน:**
+1. **Severe pain**
+2. **Spinal cord compression**
+3. **Superior vena cava obstruction**
+4. **Airway obstruction**
+5. **Hypercalcemia**
+6. **Acute confusion – Delirium**
+7. **Acute hemorrhage**
+
+---
+
+# 17.1 SEVERE PAIN
+
+### 🔑 Severe Pain as an Emergency
+- **Severe pain is an emergency**
+- **Pain with even mild movement** (ขยับนิดเดียวก็ปวดมาก):
+  - **Fracture of a long bone**
+  - **Vertebral collapse**
+- **🔑 Rescue medication (ใช้ IV เป็นหลัก เวลา severe มาก):**
+  - **Intravenous Morphine**
+  - **Intravenous Fentanyl**
+  - **Sublingual Ketamine**
+
+### 🔑🔑 INITIAL DOSING ALGORITHMS — "Rapid Titration Method"
+> **Morphine is the first-line drug used**
+
+#### **Step 1 — Starting dose**
+| กลุ่ม | ขนาดยา |
+|-------|--------|
+| **Opioid Naive** | **Morphine 1–2.5 mg IV** (เริ่มน้อยๆ titrate ขึ้น) |
+| **Already Opioid use** | **10–20% of the total opioid requirement in the 24 hours** (around the clock/scheduled doses plus as-needed doses) |
+
+#### **Step 2 — Re-assess in 5–15 minutes** (ระยะเวลาที่ยาออกฤทธิ์ full effect)
+| Pain response | Action |
+|---------------|--------|
+| **Pain unchanged or higher** | **→ re-dose & increase by 50–100% per dose** |
+| **Pain score decreased 4–6** | **→ repeat same dose** (ให้ dose เดิม) |
+| **Pain score 0–3** | **→ continue at current effective dose** |
+
+> **\*\*Assess unwanted side effects: somnolence, nausea, confusion**
+
+#### **Step 3 — คำนวณ Maintenance Dose**
+```
+Dosing being used assumed = ____ mg in 4 hours
+    → total 24 hrs = ____ mg/day
+    → split to around the clock = ____ mg q 4 hr
+    → Breakthrough pain dose = 10–20% of total daily dose
+    → ____ mg prn for BTP
+```
+
+### 🔑🔑 CASE SCENARIO (ตัวอย่างโจทย์คำนวณ — ออกสอบ)
+> **ผู้ป่วยหญิงไทย อายุ 45 ปี U/D: CA Cervix with bone metastasis**
+> - Admit Palliative care ward due to pain
+> - Current medication: **Morphine 2 mg IV prn q 2–4 hr**
+> - Patient has severe pain, cannot rest after get Morphine 2 mg IV prn x 2 dose
+
+**การ titrate:**
+| ครั้งที่ | ยา | ผล |
+|:---:|---|---|
+| 1 | **Morphine 2 mg IV x 2 doses in 15 min** | **Pain score 9/10** |
+| 2 | **Morphine 3 mg** → re-assess 15 min | **Pain score 5/10** |
+| 3 | **Morphine 3 mg** → re-assess 15 min | **Pain score 3/10** |
+
+**คำนวณ:**
+- **Total prn dose = 10 mg in 4 hr → 60 mg/24 hr**
+- **→ Morphine 10 mg IV q 4 hr**
+- **→ Morphine 10 mg IV prn for pain q 2 hr**
+
+### 🔑🔑 MONITORING ระหว่าง Rapid Titration (ออกสอบ)
+| Parameter | เป้าหมาย |
+|-----------|---------|
+| **RASS score** | **0 to −1** (ตื่นดี/หลับ ปลุกตื่นง่าย) |
+| **RR** | **> 10/min** |
+| **SpO₂** | **> 90%** |
+| **Acceptable pain score** | **< 4/10** |
+| **Vital sign** | **q 15 minutes during titration** |
+| **⚠️ ยาแก้พิษ** | **Prepare NALOXONE for Opioid overdose** ⭐ |
+
+---
+
+# 17.2 SPINAL CORD COMPRESSION (MSCC)
+
+### 🔑 นิยาม & ความสำคัญ
+- **Malignant spinal cord compression is caused by a tumor pressing on the spinal cord or cauda equina**
+- **Spinal tumors can be primary, or secondary to metastatic disease**
+- **Leads to significant morbidity, and sensory loss and autonomic dysfunction**
+- **⚠️ Urgent diagnosis and treatment is essential to prevent irreversible spinal cord injury and disability**
+
+### 🔑🔑 Epidemiology & Pathophysiology (ตัวเลขออกสอบ)
+- **พบ 3–15% ในผู้ป่วย metastatic cancer**
+- **🔑 Common primaries: Breast, Prostate, Lung, Thyroid, Cancer & Multiple myeloma**
+- **⭐⭐ The most common level = THORACIC (70%)** (ออกสอบบ่อยที่สุด)
+- **Compression >> edema, venous congestion & demyelination (REVERSIBLE)**
+- **⚠️ Prolonged compression >> vascular injury, cord necrosis & permanent damage (IRREVERSIBLE)**
+
+### 🔑🔑 CLINICAL FEATURES (ตารางออกสอบแน่นอน)
+| **Clinical Symptoms** | **Incidence** | **Features** |
+|---|:---:|---|
+| **Back pain** | **80–95%** | • **Localized or Radicular**<br>• Unilateral or Bilateral<br>• Constant, Aching pain<br>• **⭐ Classically WORSE AT NIGHT, and with VALSALVA MANEUVER** (i.e. coughing, sneezing) |
+| **Motor deficits** | **35–75%** | • Often described as **"Heaviness or clumsiness"** (ไม่ใช่แค่อ่อนแรง)<br>• Can involve upper or lower motor neuron depending on level involved |
+| **Sensory deficits** | **50–70%** | • **Change/Loss of sensation typically begins DISTALLY & ASCENDS** as the disease advances |
+| **Autonomic dysfunction** | **50–60%** | • **Bowel or Bladder symptoms** (Urinary retention, Overflow urinary incontinence, Fecal incontinence) |
+
+### 🔑🔑 IMAGING
+| Modality | รายละเอียด |
+|----------|-----------|
+| **⭐ MRI whole spine** | **GOLD STANDARD (Sensitivity 93%, Specificity 97%)** |
+| **CT myelography** | **When MRI is contraindicated** |
+| **X-ray** | **⚠️ Inadequately sensitive for metastatic disease** |
+
+### 🔑🔑 TREATMENT OPTIONS
+| **General management** | **Definite management** |
+|---|---|
+| • **Glucocorticoid** (ลดบวม ลด pain)<br>&nbsp;&nbsp;○ Improve analgesia & neurologic function<br>• **Analgesia (pain control)** — opioid<br>• **Rehabilitation**<br>&nbsp;&nbsp;○ Avoidance of complications | • **Radiotherapy**<br>&nbsp;&nbsp;○ Suitable: **spinal stability without neurologic deficits**<br>&nbsp;&nbsp;○ **Radiosensitive tumors**<br>• **Surgery**<br>&nbsp;&nbsp;○ Suitable: **vertebral body collapse, unstable fracture, tissue diagnosis**<br>• **Chemotherapy**<br>&nbsp;&nbsp;○ **Chemo-responsive tumors** |
+
+### 🔑🔑 GLUCOCORTICOIDS (สำคัญมาก ออกสอบ)
+- **⭐ Dosing: Start Dexamethasone 16 mg IV/PO (loading dose) then 16 mg daily (8 mg × 2 doses IV/PO)**
+- **⚠️ Contraindication: Suspicious of hematological malignancy (Lymphoma/Myeloma)** — making biopsy & histologic confirmation more difficult
+- **⭐⭐ DO NOT DELAY WHILE AWAITING IMAGING RESULTS** (ให้ steroid ก่อน ไม่ต้องรอผล imaging)
+
+### 🔑 RADIOTHERAPY
+| กลุ่มผู้ป่วย | แนวทาง |
+|-------------|--------|
+| **Patients with GOOD prognosis** (ambulant or with immobility for < 24 hr) | **⭐ Urgent treatment is indicated within 24 hr of diagnosis**<br>**Regimens:**<br>• **20 Gy in 5 daily fractions**<br>• **30 Gy in 10 daily fractions** |
+| **Patients with POOR prognosis** (< 6 months life expectancy, poor performance status, established paraplegia for > 24 hr) | **Indicated only for pain relief**<br>**Regimen: single dose of 8 Gy** |
+
+### 🔑 SURGERY
+- **Goals: Stabilization & decompression to preserve or recover neurological function**
+- **⭐ Timing: EARLY SURGERY BEFORE ESTABLISHED NEUROLOGICAL DEFICIT >> best outcome**
+- **Patient selection (based on estimated patient survival):**
+  - **The Revised Tokuhashi Scoring System**
+  - **Tomita score**
+
+**🔑 The Revised Tokuhashi Scoring System**
+| **Total Score** | **Survival** | **Strategy** |
+|:---:|---|---|
+| **0–8 points** | **6 months** | **→ Conservative Treatment** |
+| **9–11 points** | **6–12 months** | **→ Palliative Surgery** (หรือ Excisional Surgery ถ้า single lesion; without metastases in important internal organs) |
+| **12–15 points** | **More than 12 months** | **→ Excisional Surgery** |
+
+**องค์ประกอบที่ใช้ให้คะแนน (0–2 หรือ 0–5):** General condition (PS) · Number of extraspinal metastatic foci · Number of metastases in vertebral body · Metastases to other internal organs · **Primary site of malignancy** · Palsy (Frankel grade)
+
+> **Primary site scoring:** Lung, osteosarcoma, stomach, bladder, esophagus, pancreas = **0** | Liver, gallbladder, unidentified = **1** | Others = **2** | Kidney, uterus = **3** | **Thyroid, breast, prostate, carcinoid = 5** (พยากรณ์โรคดีที่สุด)
+
+### 🔑 CHEMOTHERAPY — Chemo-responsive tumors
+- **Lymphoma**
+- **Germ cell tumor**
+- **Small cell lung cancer**
+
+---
+
+# 17.3 SUPERIOR VENA CAVA OBSTRUCTION (SVCO)
+
+### 🔑 นิยาม
+- **Partial or complete obstruction of blood flow through the SVC**
+- **Most common causes: Thrombus formation or tumor infiltration**
+
+### 🔑🔑 ETIOLOGY (ตัวเลขออกสอบ)
+**Malignant mediastinal tumors (80%)**
+| สาเหตุ | % |
+|--------|:--:|
+| **Non-small cell lung cancer** | **43–59%** |
+| **Small-cell lung cancer** | **7–39%** |
+| **Lymphoma** | **1–25%** |
+| **Metastatic cancers** | **1–15%** |
+
+> **จำ: CA lung, Lymphoma, CA metastasis**
+
+**Non-malignant conditions**
+- **Vascular disease** (aortic aneurysm, vasculitis)
+- **Infections** (histoplasmosis, TB, syphilis)
+- **Benign mediastinal tumors** (teratoma, cystic hygroma, thymoma)
+- **⭐ Catheter-related thrombosis** (สำคัญขึ้นเรื่อยๆ)
+
+### 🔑🔑 SIGNS & SYMPTOMS (ออกสอบ)
+- **Face or neck swelling** (บวมที่หน้าและคอ)
+- **Upper extremities swelling**
+- **⭐ Dyspnea, orthopnea**
+- **Dysphagia** (กด esophagus)
+- **⭐ Dilated chest vein collaterals**
+- **⚠️ Severe: Cerebral edema & Upper respiratory compromise**
+
+### 🔑 EVALUATION
+| Modality | รายละเอียด |
+|----------|-----------|
+| **Ultrasound** | **Identify a thrombus within the vessel lumen** |
+| **X-ray** | • **Widened mediastinum**<br>• **Mass in the Rt side of the chest**<br>• **Pleural effusion (Rt side)** |
+| **⭐ CT chest** | **Sensitivity 96%, Specificity 92%**<br>**More accurate information on the location/cause of the obstruction** |
+
+### 🔑🔑 MANAGEMENT
+**A. Supportive treatment**
+- **⭐ Elevating the patient's head to decrease venous pressure**
+- **Oxygen supplement** (ให้ O₂ ถ้ามี hypoxia)
+- **⭐ Glucocorticoid: 16 mg/day PO/IV × 5 days**
+
+**B. Chemotherapy**
+- **Chemo-sensitive tumors: small-cell lung cancer, lymphoma, and mediastinal germ cell tumors**
+
+**C. Radiotherapy**
+- **Radio-sensitive tumors: non-small cell lung cancer, lymphoma**
+- **⭐ Initial treatment if a histologic diagnosis cannot be established**
+
+**D. Thrombolytics / Anticoagulants**
+- **Thrombolytics (e.g. streptokinase) หรือ anticoagulants (e.g. heparin or oral anticoagulants)**
+- **สำหรับ SVCs due to thrombus**
+
+**E. Stenting**
+- **⭐ A useful procedure for patient with severe symptoms (e.g. stridor)**
+
+---
+
+# 17.4 MALIGNANT AIRWAY OBSTRUCTION
+
+### 🔑 นิยาม
+- **Occlusion or narrowing of the airways leading to compromise in ventilation** — can be partial or complete obstruction
+- **⚠️ Deaths are often painful because of slow asphyxiation**
+- **Rapid, accurate diagnosis and treatment may prove to be a challenging and life-saving task; most therapies do not lead to a cure**
+
+### 🔑 ประเภทของการอุดกั้น (3 แบบ)
+| **A. Intrinsic (Endoluminal)** | **B. Extrinsic (Extraluminal)** | **C. Mixed** |
+|---|---|---|
+| ก้อนในโพรงหลอดลม | **ก้อนกดจากภายนอก** | **ก้อนนอกหลอดลม invade เข้าในหลอดลม** |
+
+### 🔑 ETIOLOGY — Malignant tumors
+- **⭐ Lung cancer (most common)**
+- **Head and neck cancer** (tongue, floor of the mouth, tonsils, posterior pharynx, larynx, thyroid gland)
+- **Mediastinal tumors** (lymphomas, thymic lesions, germ cell tumors)
+
+### 🔑🔑 CLINICAL MANIFESTATION
+- **Depend on the severity & location of the obstruction**
+- **Location:**
+  | ตำแหน่ง | อาการ |
+  |---------|-------|
+  | **Proximal (Trachea syndrome)** | **cough, wheezing, dyspnea, stridor** |
+  | **Distal** | **dyspnea, stridor, drooling, cough, wheezing, obstructive pneumonitis** |
+- **Other symptoms: hemoptysis (can be massive hemoptysis)**
+- **⭐⭐ Cardinal feature: WORSEN IN THE SUPINE POSITION** (นอนราบแล้วแย่ลง) — ออกสอบ
+
+### 🔑 DIAGNOSIS
+| Modality | ที่พบ |
+|----------|------|
+| **Plain chest X-ray** | **Tracheal deviation, lobar atelectasis, or complete lung collapse** |
+| **CT chest** | **Determine the type of obstructive lesion (intraluminal, extrinsic, or mixed)** |
+| **⭐ Bronchoscopy** | **Location and morphology of the lesion, pathologic diagnosis** |
+
+### 🔑🔑 MANAGEMENT (แยกตามสถานการณ์ — ออกสอบ)
+> **Mostly dependent on the INITIAL PRESENTATION** (ดูสภาพผู้ป่วย + ความต้องการของผู้ป่วย)
+
+**A. Severe respiratory distress**
+- **>> Secure the airway & relieve the obstruction**
+- **(require endotracheal intubation or urgent rigid bronchoscopy)**
+
+**B. ⭐ In advanced stage & patients request comfort care**
+- **>> Focused primarily on SYMPTOM PALLIATION & QUALITY OF LIFE IMPROVEMENT**
+- **Support for decreased anxiety or agitation:**
+  - **Purse lip breathing exercise, Fan therapy**
+  - **+/− Oxygen**
+  - **Opioids** (ใช้ถ้าผู้ป่วย agitate)
+  - **+/− Sedatives: Benzodiazepines (Lorazepam, Midazolam)**
+
+---
+
+# 17.5 HYPERCALCEMIA
+
+### 🔑 Epidemiology
+- **Occur in up to 30% of patients who have a malignancy, especially later-stage malignancies**
+- **⭐ Most common: lung (SCC), multiple myeloma, renal cell carcinoma, breast, colorectal cancer**
+
+### 🔑🔑 PATHOPHYSIOLOGY (2 กลไกหลัก)
+| **A. Humoral Hypercalcemia of Malignancy (HHM)** | **B. Local Osteolytic Hypercalcemia (LOH)** |
+|---|---|
+| **Solid tumors (lung, head and neck, endometrium, breast, parathyroid) + some lymphomas**<br>→ **Systemic secretion ของ PTHrP** ⭐<br>→ ↑ Intestinal calcium absorption<br>→ ↑ Bone resorption<br>→ ↓ Fractional urinary calcium excretion<br>→ **Serum hypercalcemia** | **Solid tumor bone metastases + Multiple myeloma**<br>→ **Release of DKK1** (multiple myeloma) ⭐<br>→ ↑ **Osteoclast activation** (RANKL)<br>→ ↓ Osteoblast suppression<br>→ ↑ Bone resorption<br>→ **Serum hypercalcemia** |
+
+> **จำ: Solid tumor → PTHrP (systemic); Multiple myeloma → DKK1 → osteoclast ↑**
+
+### 🔑🔑 INVESTIGATION (สูตรที่ต้องจำ)
+- **Normal Calcium = 8–10 mg/dL**
+- **⭐⭐ Corrected Calcium = 0.8 × (4.0 − serum Albumin) + serum Calcium** (ออกสอบแน่นอน)
+
+**🔑 Severity of hypercalcemia (total calcium)**
+| ระดับ | ค่า |
+|-------|-----|
+| **Mild** | **10.5–11.9 mg/dL** |
+| **Moderate** | **12–13.9 mg/dL** |
+| **Severe** | **> 14 mg/dL** |
+
+### 🔑🔑 SIGNS AND SYMPTOMS (ตารางออกสอบ)
+> **ขึ้นกับทั้งระดับ serum Calcium และ RATE OF CHANGE ของ serum Calcium** ⭐
+
+| **Organ system** | **Clinical features** |
+|---|---|
+| **1. Neurologic** | **Fatigue**<br>**Altered mental status (confusion to coma)** |
+| **2. Gastrointestinal** | **Nausea & vomiting**<br>**Constipation**<br>**Peptic ulcer disease** |
+| **3. Cardiovascular** | **ECG: short QT interval, ST-T change (MI mimic)**<br>**Malignant ventricular arrhythmia**<br>**Hypertension** |
+| **4. Renal** | **Nephrogenic diabetes insipidus**<br>**Acute kidney injury (AKI)** |
+
+> **วิธีจำแบบคลาสสิก: "Stones, Bones, Abdominal groans, Psychic moans"**
+
+### 🔑 DIAGNOSTIC ALGORITHM
+```
+                    Hypercalcemia
+                          ↓
+                   Measure iPTH
+              ┌───────────┴────────────┐
+           HIGH                       LOW
+              ↓                        ↓
+   Measure urine Ca/Cr      Measure PTHrP and vitamin D levels
+    ┌─────────┴────────┐      ┌──────┬──────┬──────┬─────────┐
+High ratio      Low ratio  Elevated Elevated Elevated  Normal
+ > 0.03          < 0.02     PTHrP  1,25(OH)₂D 25(OH)D  vit D,
+    ↓               ↓          ↓        ↓        ↓      PTHrP
+Primary hyper-  Possible  Malignancy Lymphoma Vitamin D   ↓
+parathyroidism    FHH      likely    Sarcoid   intake  Myeloma
+    ↓                                Granulo-          Vitamin A
+ Negative                            matous            Thyrotropin
+    ↓                                disorders
+Consider genetic testing for CaSR
+Review family history
+```
+> **หมายเหตุ: ในมะเร็ง iPTH จะ LOW (negative feedback จาก Ca สูง) → ต้องวัด PTHrP ต่อ**
+
+### 🔑🔑 MANAGEMENT (ตาม severity — ออกสอบ)
+```
+                    Hypercalcemia management
+        ┌─────────────────┬──────────────────┬──────────────────┐
+      MILD            MODERATE              SEVERE
+   Ca 10–12 mg/dL    Ca 12–14 mg/dL       Ca > 14 mg/dL
+        ↓                 ↓                     ↓
+  Usually        ┌────────┴────────┐    Rehydrate + Bisphosphonates
+  asymptomatic  Asymptomatic  Symptomatic
+        ↓                          ↓
+   No medical Mx        • Rehydrate: IV NSS 2-3 L/d
+   Avoid:                 +/− Furosemide
+   • Thiazide           • Bisphosphonates:
+   • Lithium              Pamidronate 60–90 mg in 4 hr
+   • High calcium diet    Zoledronate 4 mg in 30 min
+   • Volume depletion
+   • Prolonged inactivity
+```
+
+**ยาที่ใช้:** **IV NSS · Bisphosphonates · (+) Calcitonin · (+) Corticosteroids**
+
+> **⭐⭐ หมายเหตุสำคัญ (สไลด์เน้น): "Treatment depends on the patient's condition. If the patient is near-dying, they have a few days/weeks. Treatment should only be with medication to manage the discomfort"** — คือถ้าผู้ป่วยใกล้เสียชีวิตแล้ว ไม่ต้องรักษาแบบ aggressive ให้เน้นแค่จัดการอาการไม่สุขสบาย
+
+---
+
+# 17.6 ACUTE CONFUSION — DELIRIUM
+
+### 🔑🔑 DEFINITION — DSM-5 Criteria (ต้องครบทุกข้อ)
+1. **A disturbance in ATTENTION & AWARENESS**
+2. **An ACUTE onset & FLUCTUATING course**
+3. **An additional deficit in cognition**
+4. **Impairment not better explained by dementia & do not occur in context of severely impaired level of consciousness or coma**
+5. **Evidence of an underlying medical etiology or multiple etiologies**
+
+### 🔑🔑 CAM — Confusion Assessment Method (ออกสอบแน่นอน)
+> **The presence of delirium requires feature 1 & 2 & either 3 or 4**
+> **สูตร: 1 + 2 + (3 or 4)**
+
+| Feature | รายละเอียด |
+|:---:|---|
+| **1** | **The presence of ACUTE ONSET & FLUCTUATING course** |
+| **2** | **INATTENTION** |
+| **3** | **Disorganized thinking** |
+| **4** | **Altered level of consciousness** |
+
+> **⭐ Sensitivity 94–100%, Specificity 90–95%**
+
+### 🔑 CLASSIFICATION OF DELIRIUM (3 ชนิด)
+| ชนิด | ลักษณะ |
+|------|--------|
+| **Hypoactive** | **⚠️ พบบ่อยกว่าในผู้สูงอายุ (more common in older patients) และมักตรวจไม่พบ (detect ยาก)** ⭐ |
+| **Hyperactive** | กระวนกระวาย เอะอะ |
+| **Mixed** | ผสม |
+
+### 🔑🔑 ETIOLOGY — Predisposing vs Precipitating (โมเดลที่ออกสอบ)
+> **หลักการ: High vulnerability ต้องการ less noxious insult ก็เกิด delirium ได้**
+
+| **Predisposing factors (Vulnerability)** | **Precipitating factors (Noxious Insult)** |
+|---|---|
+| **High Vulnerability →** | **← Noxious Insult** |
+| • **Dementia**<br>• **History of delirium**<br>• **Advanced age (> 65 yr old)**<br>• **Functional impairment**<br>• **Comorbidity/Severity of illness**<br>• **Visual/Hearing impairment**<br>• **Alcohol abuse** | • **Major high-risk Surgery**<br>• **Severe sepsis / ICU admission**<br>• **Acute organ dysfunction**<br>• **Infection**<br>• **Metabolic disturbance**<br>• **Pain**<br>• **High risk medication**<br>• **Use of restrains / Foley's catheter** |
+
+> อ้างอิง: Inouye SK, Charpentier PA. JAMA. 1996;275(11):852-7.
+
+**Post-admission factors เพิ่มเติม:** Pain · Infection · **Invasive devices** · Immobility · Metabolic abnormalities · Prolonged ileus · Blood transfusion · **Opioids** · **Polypharmacy** · Sleep deprivation · **Physical restraints** · Poor sleep · **Psychoactive drugs** · **Benzodiazepines** · **Anticholinergic agents** · Fall risk · Longer duration of ventilation
+
+### 🔑🔑 MNEMONIC "I WATCH DEATH" (ท่องให้ได้ — ออกสอบ)
+| ตัวอักษร | Causes | Differential diagnosis |
+|:---:|---|---|
+| **I** | **Infection** | **Sepsis, Encephalitis, Meningitis, Syphilis, Urinary tract infection** |
+| **W** | **Withdrawal** | **Alcohol, Barbiturates, Sedative-hypnotics (Benzodiazepines)** |
+| **A** | **Acute Metabolic** | **Acidosis, Electrolyte disturbance, Hepatic/Renal failure, other metabolic disturbances (Glucose, Magnesium, Calcium)** |
+| **T** | **Trauma** | **Head injury, Burns** |
+| **C** | **CNS pathology** | **Hemorrhage, Cerebrovascular accident, Vasculitis, Seizure, Tumor** |
+| **H** | **Hypoxia** | **Acute hypoxia, Chronic lung disease, Hypotension** |
+| **D** | **Deficiencies** | **Vitamin B12, Hypovitaminosis, Niacin, Thiamine** |
+| **E** | **Endocrinopathies** | **Hypo/Hyperthermia, Endocrinopathies, Diabetes, Adrenal, Thyroid** |
+| **A** | **Acute vascular** | **Hypertensive emergency, Subarachnoid hemorrhage, Sagittal vein thrombosis** |
+| **T** | **Toxin or drugs** | **Medications, Street drugs, Alcohols, Pesticides, Industrial poisons, Carbon monoxide, Cyanide, Solvents, etc.** |
+| **H** | **Heavy metals** | **Lead, Mercury** |
+
+### 🔑 EVALUATION — 3 ขั้นตอนหลัก
+1. **Establishing the diagnosis of delirium** (ใช้ criteria)
+2. **Determining the potential cause(s) & ruling out life-threatening contributors**
+3. **Managing the symptoms while assuring patient safety**
+
+#### **ขั้นที่ 1 — Establishing the Diagnosis**
+```
+Suspected Delirium?
+       ↓
+Establish BASELINE COGNITIVE FUNCTION and time course of any changes
+and perform COGNITIVE ASSESSMENT
+       ↓  (R/O dementia, depression, psychosis)
+Delirium confirmed
+```
+
+**รายละเอียด:**
+- **History taking:**
+  - **Acuity of change from the patient's baseline cognitive state**
+  - **History taking from a knowledgeable information** (ญาติ/ผู้ดูแล)
+- **Cognitive assessment:**
+  - **Degree of attention: a digit span (forward, backward), recitation of the months of the year backward**
+  - **⭐ Inattention = inability to repeat 5 digits forward or 3 digits backward**
+  - **Brief cognitive screening tests: UB-CAM assessment, 3D-CAM assessment, CAM-ICU**
+  - **If patient has severely reduced level of consciousness = coma/stupor (End testing)**
+
+**🔑 UB-CAM (Ultra-brief Confusion Assessment Method) — 2 ข้อคัดกรอง**
+```
+1. "Please tell me the day of the week"
+   ✗ ผิด → Use 3D-CAM to continue assessing DISORGANIZED THINKING
+           (e.g. what year is it? What type of place are we at?)
+   ✓ ถูก ↓
+2. "Please tell me months of the year BACKWARDS, say 'December' as your 1st month"
+   ✗ ผิด → Use 3D-CAM to continue assessing ATTENTION
+           (e.g. Please tell me days of the week backwards)
+   ✓ ถูก ↓
+   Patient is NOT delirious
+
+⭐ One or both item wrong = Delirium (ต้องประเมินต่อ)
+```
+
+**🔑 3D-CAM (3-minute diagnostic interview for CAM-defined delirium)**
+```
+Feature 1: Acute Change/Fluctuating Course
+  → Yes/No
+Feature 2: Inattention
+  → No → Delirium not present
+  → Yes ↓
+Feature 3: Disorganized Thinking
+  → Yes → Delirium present (only if the first box, feature 1, is a yes)
+  → No ↓
+Feature 4: Altered Level of Consciousness
+  → Yes → Delirium present
+  → No → Delirium not present
+```
+
+### 🔑🔑 DIFFERENTIAL DIAGNOSIS (ตารางออกสอบแน่นอน)
+| **CHARACTERISTIC** | **DELIRIUM** | **DEMENTIA** | **DEPRESSION** | **ACUTE PSYCHOSIS** |
+|---|---|---|---|---|
+| **Onset** | **Acute (hours to days)** | **Progressive, insidious (weeks to months)** | Either acute or insidious | Acute |
+| **Course over time** | **Waxing and waning** | **Unrelenting** (คงที่/แย่ลงเรื่อยๆ) | Variable | Episodic |
+| **Attention** | **⭐ IMPAIRED, a hallmark of delirium** | **Usually intact, until end-stage disease** | Decreased concentration and attention to detail | Variable |
+| **Level of consciousness** | **⭐ ALTERED, from lethargic to hyperalert** | **Normal, until end-stage disease** | Normal | Normal |
+| **Memory** | **Impaired commonly** | Prominent short- and/or long-term memory impairment | Normal, some short-term forgetfulness | Usually normal |
+| **Orientation** | **Disoriented** | Normal, until end-stage disease | Usually normal | Usually normal |
+| **Speech** | **Disorganized, incoherent, illogical** | Notable for parsimony, aphasia, anomia | Normal, but often slowing of speech (psychomotor retardation) | Variable, often disorganized |
+| **Delusions** | **Common** | Common | Uncommon | **Common, often complex** |
+| **Hallucinations** | **⭐ Usually VISUAL** | Sometimes | Rare | **⭐ Usually AUDITORY and more complex** |
+| **Organic etiology** | **Yes** | **Yes** | **No** | **No** |
+
+> **จุดแยกสำคัญ: Delirium = acute + fluctuating + inattention + visual hallucination | Dementia = insidious + unrelenting + attention intact**
+
+#### **ขั้นที่ 2 — Identify and address all potential causes**
+> **ใช้ mnemonic "I WATCH DEATH"**
+
+**History**
+- **Intercurrent illnesses**
+- **Recent adjustments in medications**
+- **The possibility of withdrawal from alcohol, other substances, or medications**
+- **Pertinent environmental changes**
+
+**Physical examination**
+- **Vital sign assessment: Fever, Tachycardia, or decrease oxygen saturation**
+- **Complete physical examination (**Neurological examination**)**
+- **Lab: CBC, Chemistries, Glucose, Renal & Liver function tests, UA, Occult infection**
+- **Thyroid function tests, B12 level, Cortisol level, Drug levels**
+- **Imaging: X-ray, CT scan, MRI**
+
+**Medication review including**
+- **Prescription drugs**
+- **As needed drugs**
+- **Over the counter medication**
+- **Herbal supplement**
+
+**Additional evaluation directed by clinical history**
+- **Labs: TFT, B12, drugs level, Toxicity screen**
+- **Neuroimaging, LP, EEG**
+
+---
+
+### 🔑🔑 MANAGEMENT OF DELIRIUM (3 เสาหลัก)
+```
+1. Treat precipitating causes  →  2. Non-pharmacologic &  →  3. Prevention
+   (แก้ที่สาเหตุ)                    Pharmacologic Management
+```
+
+### 🔑 NON-PHARMACOLOGIC MANAGEMENT (ต้องทำก่อนเสมอ)
+- **⭐ Calendars, Clocks & the day's schedule** (ตั้งไว้ให้เห็นในบ้าน)
+- **⭐ Familiar personal objects from the patient's home environment**
+- **Increased supervision** (family members, use of sitters, transferring patient to a private room) — **กันคนใน family มาช่วย**
+- **Personal contact & communication** (พูดคุยกับ pt. บ่อยๆ)
+- **Reorientation & Behavioral intervention**
+- **⭐ Correction of sensory impairments (e.g. vision & hearing)** — จัดเครื่องช่วยฟัง แว่นตา ทำ sensory ให้ปกติ
+- **⚠️⚠️ AVOID PHYSICAL RESTRAINTS** (ยิ่งมัดยิ่งกระตุ้น)
+- **Promote mobility and independence**
+- **⭐ Low level of noise at night**
+
+### 🔑🔑 PHARMACOLOGIC MANAGEMENT (ข้อความสำคัญ ออกสอบ)
+> **⚠️⚠️ The US FDA has NOT APPROVED any medications for delirium.** (ไม่มียาที่เป็น standard)
+>
+> **However, guidelines recommend ANTIPSYCHOTIC medications as the FIRST-LINE drugs for patients in whom delirium symptoms would result in:**
+> 1. **Interruption of needed medical therapies** (e.g. mechanical ventilation, central lines)
+> 2. **May endanger the safety of the patient or other persons**
+
+### 🔑 SELECTING & USING ANTIPSYCHOTICS
+| **Typical Antipsychotic** | **Atypical Antipsychotic** |
+|---|---|
+| Chlorpromazine<br>Fluphenazine<br>**Haloperidol**<br>Loxapine<br>Perphenazine<br>Thioridazine<br>Thiothixene<br>Trifluoperazine | Aripiprazole<br>Asenapine<br>Clozapine<br>Lurasidone<br>Olanzapine<br>**Quetiapine**<br>**Risperidone**<br>Ziprasidone |
+
+### 🔑🔑 ตารางยา Antipsychotics (ขนาดและผลข้างเคียง — ออกสอบ)
+| **Medication** | **Dosage** | **Total daily dose** | **Price** | **EPS** | **QT prolong** | **Orthostatic hypotension** | **Sedation** |
+|---|---|:---:|---|:---:|:---:|:---:|:---:|
+| **⭐ Haloperidol** (Oral, IV, IM) | **0.25–1 mg q 4 hr prn** | **5 mg** | 0.5 mg (0.5฿)<br>5 mg IV (10฿) | **+++** | **+PO, IV**<br>**++IM** | + | + |
+| **⭐ Risperidone** (Oral) | **0.25–1 mg q 4 hr prn** | **3 mg** | 1 mg (3.25฿) | **+++** | + | **+++** | ++ |
+| **⭐ Quetiapine** (Oral) | **12.5–50 mg q 4 hr prn** | **100 mg** | 25 mg (6.5฿)<br>50 mg XR (45฿)<br>200 mg (18฿) | + | + | **+++** | **+++** (ตัวเป็นน้อยลง/ง่วงมาก) |
+| **Olanzapine** (Oral) | **2.5–5 mg q 12 hr** | **20 mg** | 5 mg (104.25฿) | ++ | + | ++ | ++ |
+| **Aripiprazole** (Oral) | **2 mg q 4–6 hr** | **15–30 mg** | 2 mg (33฿)<br>5 mg (35฿)<br>10, 15 mg (105฿) | ++ | − | ++ | ++ |
+
+> **จำ: Haloperidol & Risperidone = EPS สูง (+++) | Quetiapine = Sedation + Orthostatic hypotension สูง (+++) แต่ EPS ต่ำ → เหมาะกับผู้ป่วย Parkinson**
+
+### 🔑🔑 PREVENTION — Multicomponent Intervention Protocol (HELP Program) ออกสอบ
+| **Risk factors** | **Intervention protocol** |
+|---|---|
+| **Cognitive impairment** | • **Orienting communication, including orientation board**<br>• Therapeutic activities program |
+| **Immobilization** | • **Early mobilization** (e.g. ambulation, or bedside exercises)<br>• **Minimizing immobilization equipment** (e.g. restrains, bladder catheters) |
+| **Psychoactive medications** | • **Restricted use of prn sleep & psychoactive medication** (e.g. sedative-hypnotics, narcotics, anticholinergic drug)<br>• Non-pharmacologic protocols for management of sleep & anxiety |
+| **Sleep deprivation** | • **Noise-reduction strategies**<br>• **Scheduling of nighttime medications, procedures & nursing activities to allow uninterrupted period of sleep** |
+| **Vision impairment** | • **Provision of vision aids** (e.g. magnifiers, special lighting)<br>• Provision of adaptive equipment (e.g. illuminated phone dials, large print books) |
+| **Hearing impairment** | • **Provision of amplifying devices**; repair hearing aids; instruct staff in communication methods |
+| **Dehydration** | • **Early recognition & volume repletion** |
+
+---
+
+# 17.7 BLEEDING IN PALLIATIVE CARE (Acute Hemorrhage)
+
+### 🔑 GENERAL PRINCIPLES
+- **⭐ Highly distressing symptom for patients, carers, and health professionals** (ทำให้ทั้ง pt. และ caregiver distress)
+- **Various presentations: occult bleed, overt external bleeding** (bleed ในตัว internal vs external)
+- **⭐ Common sites: Carotid, Femoral, and inter-pulmonary vessels**
+
+### 🔑 IDENTIFICATION OF PATIENTS AT RISK OF HEMORRHAGE — 3 กลุ่มสาเหตุ
+| **Local causes** | **Treatment-related causes** | **Systemic causes** |
+|---|---|---|
+| **Tumor progression, metastasis** | **CMT, RT** | **Liver disease, Coagulopathy, Drugs** |
+
+> **หลักการ: หา cause → treat/ Mx cause**
+
+### 🔑🔑 FACTORS ASSOCIATED WITH INCREASED BLEEDING RISK (ตารางออกสอบ)
+| **General risk factors** | **Tumor related** |
+|---|---|
+| • **Thrombocytopenia** (Plt ต่ำ)<br>• **Coagulopathy**<br>• **Diabetes (DM)**<br>• **Age over 50 years** (> 50 yr)<br>• **10–50% loss of body weight** (BW ลด)<br>• **Anticoagulants** (ยา)<br>• **Previous bleeds** | • **Radiotherapy (RT)**<br>• **Tumor site close to major vessels**<br>• **Head & Neck tumors**<br>• **Larger tumor size** (size ใหญ่)<br>• **Hematological Malignancy**<br>• **Fungating tumors** (ก้อนแตกออกมา)<br>• **GI tumors with previous bleeding**<br>• **Fistulating tumors**<br>• **Surgical interventions** (complication) |
+
+### 🔑🔑 WHAT TO DISCUSS WITH PATIENT & FAMILY (3 ข้อ — ออกสอบ)
+1. **⭐ WARNING patients & families about the possibility of a bleed** (เตือนล่วงหน้า)
+2. **⭐ GOAL OF CARE** — Available treatment modalities along with associated risks & benefits
+3. **⭐ PLACE TO STAY** (home or hospital)
+
+> **\*\* Record on medical record** (บันทึกในเวชระเบียน)
+
+### 🔑🔑 MANAGEMENT — Local Intervention
+| **วิธี** | **รายละเอียด** |
+|---|---|
+| **⭐ Direct compression** | ทำเป็นอันดับแรก |
+| **Hemostatic & alginate dressing** | |
+| **Gauze soaked in adrenaline (1:1000)** | **>> Vasoconstriction** |
+| **⭐ 2–4% Formalin** | **Intractable RECTAL & BLADDER hemorrhaging** |
+| **⭐ 1% Alum** | **Continuous BLADDER irrigation** |
+| **⭐ Sucralfate** | **Controls cancer-related GI bleeding & cutaneous oozing** |
+| **⭐ Tranexamic acid** | **Control bleeding when used LOCALLY or SYSTEMICALLY** |
+
+### 🔑🔑 MANAGEMENT — Systemic Interventions
+| **ยา** | **กลไก/ข้อบ่งใช้** |
+|---|---|
+| **⭐ Vitamin K** | **Factor II, VII, IX and X**<br>**Warfarin overdose**<br>**Oral/SC dose 2.5–10 mg** |
+| **⭐ Vasopressin/Desmopressin** | **Upper GI bleeding from cancer** |
+| **⭐ Somatostatin analogues (Octreotide)** | **Decreased splanchnic flow & pressure by causing venous dilatation** |
+| **⭐ Antifibrinolytic agents** — **Tranexamic acid (TA), Epsilon-aminocaproic acid (EACA)** | **Inhibit plasminogen >> decreased fibrin clots** |
+
+---
+
+### 🔑🔑 TERMINAL BLEEDING (สำคัญมาก)
+
+**นิยาม:**
+> **A major hemorrhage which results in DEATH within a period of time that may be as short as MINUTES due to rapid internal or external loss of circulating blood volume**
+> **e.g. ⭐ CAROTID BLOWOUT SYNDROME** (พบใน CA head & neck)
+
+### 🔑🔑 NON-PHARMACOLOGIC MANAGEMENT IN TERMINAL BLEEDING (ท่องให้ได้ — ออกสอบ)
+1. **⭐ Stay calm & call for help**
+2. **⭐ Ensure that a healthcare professional STAYS WITH THE PATIENT AT ALL TIME** (ห้ามทิ้งผู้ป่วยไว้คนเดียว)
+3. **⭐ Lie patient in RECOVERY POSITION to keep airway clear** (ป้องกันสำลัก/airway อุดตัน)
+4. **⭐⭐ COVER BLEEDING WITH DARK TOWELS** (ใช้ผ้าสีเข้ม เพื่อลดความหวาดกลัวจากการเห็นเลือด) — ข้อนี้ออกสอบบ่อย
+5. **⭐ Apply pressure to the area if bleeding from external wound with hemostatic dressings/gauze or adrenaline soaks if available**
+
+### 🔑🔑 PHARMACOLOGIC MANAGEMENT IN TERMINAL BLEEDING
+> **หลักการ: ให้ sedative เพื่อลด anxiety (ไม่ใช่เพื่อเร่งการตาย)**
+
+- **⭐ Sedative medication(s) e.g. benzodiazepines, strong opioids and ketamine**
+- **⭐ Given route with RAPID ABSORPTION (buccal, SC, IM, IV)** — ไม่ใช้ oral เพราะช้าเกินไป
+- **🔑 Dose:**
+  - **Midazolam 5–10 mg IV/SC/IM (deltoid muscle)**
+  - **Midazolam 10 mg SL/buccal**
+  - **Diazepam 5–20 mg IV**
+
+---
+---
+
+# PART C — COMMUNITY PROJECT
+
+## 18. Community Project (Lect 10.1–10.2)
+
+### 🔑🔑 หลักการและกลวิธีการทำงานในชุมชน — 5 ขั้นตอนหลัก (โครงสร้างของบทนี้ ท่องให้ได้)
+```
+1. Community Health Assessment  (การประเมินภาวะอนามัยชุมชน)
+              ↓
+2. Community Diagnosis & Priority Setting  (การวินิจฉัยและจัดลำดับความสำคัญ)
+              ↓
+3. Planning  (การวางแผนการดำเนินการเพื่อแก้ปัญหา)
+              ↓
+4. Intervention, Implementation  (การดำเนินงานตามแผนที่กำหนด)
+              ↓
+5. Evaluation  (การประเมินผลการดำเนินงาน)
+```
+
+---
+
+## 18.1 COMMUNITY HEALTH ASSESSMENT
+
+### นิยาม
+> **กระบวนการค้นหาความต้องการตามการรับรู้ของชุมชน**
+
+### 🔑 วัตถุประสงค์ 5 ข้อ
+1. **ประเมินภาวะเสี่ยง ภาวะการเจ็บป่วย และปัจจัยที่มีผลต่อปัญหา**
+2. **ทราบทรัพยากร ความพร้อม ความเข้มแข็ง การมีส่วนร่วม จุดอ่อน จุดแข็งของชุมชน** เป็นพื้นฐานในการตัดสินใจ
+3. **เพื่อทราบข้อมูลด้านสิ่งแวดล้อมที่เกี่ยวข้องกับสุขภาพ**
+4. **เพื่อทราบความเป็นอยู่ พฤติกรรมเสี่ยง ค่านิยม ความเชื่อ ปัญหาสุขภาพ**
+5. **ช่วยกระตุ้นความสนใจของประชาชน**
+
+### 🔑 เครื่องมือที่ใช้ในการประเมินอนามัยชุมชน
+1. **เครื่องมือการศึกษาชุมชนทั้ง 7 ชิ้น** (ดูรายละเอียดด้านล่าง)
+2. **เครื่องมือการวัดพฤติกรรมสุขภาพ**
+   - แบบสอบถามความรู้ทางสุขภาพ (**Knowledge**)
+   - แบบสำรวจทัศนคติ (**Attitude**)
+   - แบบสำรวจทางการปฏิบัติ (**Practice**)
+   - วัดพฤติกรรม
+   > *(= KAP survey)*
+
+### 🔑🔑 เครื่องมือ 7 ชิ้น ในการศึกษาชุมชน (ออกสอบ)
+> ⚠️ **หมายเหตุ:** สไลด์ระบุแค่หัวข้อ "เครื่องมือ 7 ชิ้น" โดยไม่ได้แจกแจงรายชื่อ — รายการด้านล่างอ้างอิงจากตำรามาตรฐาน (นพ.โกมาตร จึงเสถียรทรัพย์) **ควรเช็คกับสไลด์ตัวจริง/อาจารย์อีกครั้ง**
+
+| # | เครื่องมือ | ใช้ทำอะไร |
+|:-:|-----------|----------|
+| **1** | **แผนที่เดินดิน** (Community mapping) | เดินสำรวจและวาดแผนที่ทางกายภาพและสังคมของชุมชน — เห็นภาพรวมทั้งหมด |
+| **2** | **ผังเครือญาติ** (Genogram) | เข้าใจความสัมพันธ์ในครอบครัวและเครือญาติ |
+| **3** | **โครงสร้างองค์กรชุมชน** (Community organization) | รู้ว่ามีองค์กร/กลุ่มใดบ้างในชุมชน ทั้งทางการและไม่เป็นทางการ |
+| **4** | **ระบบสุขภาพชุมชน** (Community health system) | ระบบดูแลสุขภาพทั้ง 3 ระบบ (การแพทย์แผนปัจจุบัน/พื้นบ้าน/การดูแลตนเอง) |
+| **5** | **ปฏิทินชุมชน** (Community calendar) | กิจกรรม/ประเพณี/ฤดูกาลทำมาหากินตลอดปี |
+| **6** | **ประวัติศาสตร์ชุมชน** (Community history) | ความเป็นมา เหตุการณ์สำคัญที่หล่อหลอมชุมชน |
+| **7** | **ประวัติชีวิต** (Life history) | เรื่องราวชีวิตของบุคคลสำคัญ/ผู้ป่วย เพื่อเข้าใจเชิงลึก |
+
+### 🔑 แหล่งของข้อมูลอนามัยชุมชน
+| | นิยาม |
+|---|---|
+| **1. Primary Data** | ข้อมูลที่เก็บเอง (สำรวจ สัมภาษณ์ สังเกต) |
+| **2. Secondary Data** | ข้อมูลที่มีอยู่แล้ว (ทะเบียนราษฎร์ รายงาน รพ.สต. สถิติสาธารณสุข) |
+
+### 🔑 การใช้ประโยชน์ข้อมูลจากการประเมินอนามัยชุมชน
+| ข้อมูล | ประโยชน์ |
+|--------|---------|
+| **1. ข้อมูลประชากร** | • ทราบจำนวนประชากรทั้งหมด ขนาดของกลุ่มคนต่างๆ ที่รับผิดชอบ<br>• **แสดงขนาดของกลุ่มเสี่ยงต่อการเกิดโรค แนวโน้มของโรค** |
+| **2. ข้อมูลทางเศรษฐกิจสังคม** | • ทราบลักษณะอาชีพของประชาชน<br>• **แสดงถึงรายได้ของครอบครัว ภาวะเสี่ยงต่อการเกิดโรคจากการประกอบอาชีพ** |
+| **3. ข้อมูลด้านสิ่งแวดล้อมและบริการสุขภาพ** | ประเมินการเข้าถึงบริการและปัจจัยสิ่งแวดล้อม |
+
+### 🔑 วิธีการนำเสนอข้อมูล 4 แบบ
+1. **Text Presentation** — รูปข้อความ
+2. **Semi-Tabular Presentation** — กึ่งข้อความกึ่งตาราง
+3. **Tabular Presentation** — รูปตาราง
+4. **วิธีอื่นๆ** — **กราฟเส้น (Line Graph), แผนภูมิแท่ง (Bar Chart), แผนภูมิวงกลม (Pie Diagram), ปิรามิดประชากร (Population Pyramid)**
+
+---
+
+## 18.2 COMMUNITY DIAGNOSIS
+
+### 🔑🔑 หลัก 5 D (ท่องให้ได้ — ออกสอบ)
+| ตัวอักษร | ความหมาย |
+|:---:|---|
+| **D** | **Death** — การตาย |
+| **D** | **Disability** — ความพิการ |
+| **D** | **Disease** — การเจ็บป่วย |
+| **D** | **Discomfort** — ความไม่สุขสบาย |
+| **D** | **Dissatisfaction** — ความไม่พึงพอใจ |
+
+### วิธีวินิจฉัยชุมชน 3 แนวทาง
+1. **ใช้หลัก 5 D**
+2. **เปรียบเทียบกับเกณฑ์หรือค่ามาตรฐานต่างๆ** — เป้าหมายแผนพัฒนาสุขภาพ
+3. **กระบวนการกลุ่มโดยให้ชุมชน/ผู้นำ/ประชาชนมีส่วนร่วมในการตัดสินใจด้วยตนเอง**
+
+---
+
+## 18.3 🔑🔑 PRIORITY SETTING — 5 วิธี (บทนี้ออกสอบเยอะที่สุด)
+
+> **มีหลายวิธี เลือกใช้ให้เหมาะสมกับสถานการณ์**
+
+| # | วิธี |
+|:-:|-----|
+| **1** | **วิธีของ John J. Halon** |
+| **2** | **วิธีขององค์การอนามัยโลก (WHO)** |
+| **3** | **วิธีของ 5D** |
+| **4** | **วิธีกระบวนการกลุ่ม (Nominal Group Process)** |
+| **5** | **วิธีของคณะสาธารณสุขศาสตร์ มหาวิทยาลัยมหิดล** |
+
+---
+
+### 🔑 วิธีที่ 1 — John J. Halon (BPRS)
+> ⚠️ **หมายเหตุ:** สไลด์กล่าวถึงเฉพาะ **ข้อดี/ข้อจำกัด** และอ้างถึงสูตร **O.P.R.** โดยไม่ได้แสดงสูตรเต็ม — สูตรด้านล่างอ้างอิงตำรามาตรฐาน (Hanlon method / BPRS) **ควรยืนยันกับอาจารย์**
+
+**สูตร: Overall Priority Rating (O.P.R.) = (A + B) × C × D**
+- **A** = **Size of problem** (ขนาดของปัญหา)
+- **B** = **Seriousness of problem** (ความรุนแรง)
+- **C** = **Effectiveness of intervention** (ประสิทธิผลของการแก้ไข)
+- **D** = **PEARL factors** (Propriety, Economics, Acceptability, Resources, Legality)
+
+| **ข้อดี** | **ข้อจำกัด** |
+|---|---|
+| 1) มีองค์ประกอบให้พิจารณาค่อนข้างละเอียด<br>2) เกณฑ์การให้คะแนนชัดเจนในแต่ละองค์ประกอบ<br>3) **เหมาะสำหรับการจัดลำดับความสำคัญของปัญหาในระดับนโยบาย** | 1) เป็นการให้คะแนนโดยใช้ความรู้สึกของเจ้าหน้าที่ ซึ่งอาจคลาดเคลื่อนจากปัญหาที่แท้จริงในชุมชน<br>2) **⚠️ ในองค์ประกอบ D ถ้าคะแนนเป็น 0 จะทำให้คะแนนขององค์ประกอบเป็น 0 และเมื่อแทนค่าในสูตรหา O.P.R. จะมีค่าเป็น 0 ทั้งหมด** ⭐ |
+
+---
+
+### 🔑🔑 วิธีที่ 2 — องค์การอนามัยโลก (WHO) — 3 ขั้นตอน
+
+#### **ขั้นที่ 1: การประเมินความสำคัญของปัญหา** — พิจารณา 3 ปัจจัย
+a. **อัตราอุบัติการณ์ของปัญหา** (incidence rate)
+b. **อัตราตาย** (mortality rate)
+c. **อัตราความพิการหรือไร้สมรรถภาพ** (disability rate)
+
+**🔑 เกณฑ์การจัดระดับ (ออกสอบ)**
+| ระดับ | เกณฑ์ |
+|-------|-------|
+| **สูง** | **ถ้าผลการประเมินของอย่างน้อย 2 ปัจจัย เป็นสูง** |
+| **ปานกลาง** | **ถ้าผลการประเมินพบ 1 ปัจจัยเป็นสูง หรือ เป็นปานกลางทั้ง 3 ปัจจัย หรือ เป็นปานกลาง 2 ปัจจัยและต่ำ 1 ปัจจัย** |
+| **ต่ำ** | **ถ้าผลการประเมินพบทั้ง 3 ปัจจัยเป็นต่ำ หรือ เป็นปานกลาง 1 ปัจจัยและต่ำ 2 ปัจจัย** |
+
+#### **ขั้นที่ 2: การประเมินความเป็นไปได้ของมาตรการในการแก้ไขปัญหา** — 3 ปัจจัย
+a. **ความเป็นไปได้ทางด้านเทคนิค**
+b. **ความเป็นไปได้ทางด้านงบประมาณ**
+c. **ความเป็นไปได้ด้านความร่วมมือของชุมชน**
+
+> **วิธีการให้คะแนนใช้หลักเกณฑ์เดียวกันกับการประเมินความสำคัญของปัญหา**
+
+#### **ขั้นที่ 3: การจัดระดับความสำคัญของปัญหา**
+- **นำคะแนนของ (1) ความสำคัญของปัญหา และ (2) ความเป็นไปได้ มาพิจารณาร่วมกัน**
+- **กรณีที่ทั้งสององค์ประกอบมีคะแนนเท่ากัน** → **สรุปความสำคัญของปัญหาได้ทันที**
+- **กรณีที่ทั้งสององค์ประกอบมีคะแนนที่แตกต่างกัน** (เช่น ความสำคัญของปัญหาเป็นสูง แต่ความเป็นไปได้ของมาตรการเป็นปานกลาง) → **อาจพิจารณาปัจจัยอื่นประกอบเพิ่มเติม เช่น วิธีควบคุมโรคที่เหมาะสมที่สุด**
+
+---
+
+### 🔑 วิธีที่ 3 — วิธีของ 5D
+**ใช้ระบุปัญหาและจัดลำดับความสำคัญโดยใช้หลักการทางระบาดวิทยา**
+1. **Death** 2. **Disability** 3. **Disease** 4. **Discomfort** 5. **Dissatisfaction**
+
+| **ข้อดี** | **ข้อจำกัด** |
+|---|---|
+| **มีองค์ประกอบที่ชัดเจนไม่ซับซ้อน ง่ายต่อการพิจารณาและทำความเข้าใจ** | **เป็นเกณฑ์ที่วัดยากในทางปฏิบัติจริง เนื่องจากเป็นความรู้สึกของเจ้าหน้าที่และประชาชน ซึ่งมีการรับรู้และให้ความสำคัญที่แตกต่างกัน** |
+
+---
+
+### 🔑🔑 วิธีที่ 4 — กระบวนการกลุ่ม (Nominal Group Process)
+- **เป็นการใช้ประชาชนหรือกลุ่มตัวแทนตัดสิน**
+- **สมาชิกในกลุ่มจะต้องมีความรู้ในปัญหาที่พบในชุมชนเป็นอย่างดี**
+- **มักใช้ร่วมกับการจัดเวทีประชาคม (Focus group discussion / การทำประชาคม)**
+
+**🔑 ประกอบด้วย 2 ขั้นตอน (ออกสอบ)**
+| ขั้นตอน | รายละเอียด |
+|---------|-----------|
+| **1. Listing Technique** | **ประชาชนเสนอปัญหาต่างๆ ที่มีในชุมชน** |
+| **2. Ranking Technique** | **ประชาชนลงคะแนน ตัดสินเลือกปัญหาโดยใช้หลักประชาธิปไตย — ปัญหาที่มีจำนวนผู้เลือกมากที่สุดถือเป็นปัญหาที่มีความสำคัญ** |
+
+| **ข้อดี** | **ข้อจำกัด** |
+|---|---|
+| 1) **ประชาชนมีส่วนร่วมในการจัดลำดับความสำคัญของปัญหา**<br>2) **ประชาชนในชุมชนมีโอกาสแสดงความคิดความเห็นในปัญหาของชุมชน ส่งผลดีต่อความร่วมมือแก้ปัญหาในอนาคต** | **การเสนอปัญหาและการเลือกปัญหา ส่วนใหญ่ประชาชนมักใช้ความรู้สึกของตัวเองเป็นสำคัญ ซึ่งบางครั้งเสนอและถูกเลือกด้วยเสียงข้างมาก แต่ไม่สามารถแก้ไขได้หรือแก้ไขได้ยากมากในทางปฏิบัติ** |
+
+---
+
+### 🔑🔑🔑 วิธีที่ 5 — คณะสาธารณสุขศาสตร์ มหาวิทยาลัยมหิดล (นิยมที่สุดในปัจจุบัน — ออกสอบแน่นอน)
+
+**🔑 4 องค์ประกอบ (A, B, C, D)**
+| องค์ประกอบ | หลักในการพิจารณา |
+|-----------|------------------|
+| **A. ขนาดของปัญหา (Size of Problem)** | **พิจารณาจากจำนวนคนที่เกิดโรค คิดเป็นร้อยละ** |
+| **B. ความรุนแรงของปัญหา (Severity of Problem)** | **พิจารณาจากผลของโรค/ปัญหา — ตาย/พิการ/สภาพเศรษฐกิจของบุคคล ครอบครัว ชุมชน** |
+| **C. ความยากง่ายและความพร้อมในการแก้ไขปัญหา (Feasibility of Management)** | **พิจารณาจากความเป็นไปได้ด้านวิชาการ บริหาร ศีลธรรม ต้นทุนทางสังคม เวลา ทรัพยากร งบประมาณ เทคโนโลยี** |
+| **D. ความวิตกกังวลต่อปัญหาของชุมชน (Community Concerns)** | **พิจารณาจากความเห็นของประชาชนว่าปัญหานั้นมีความสำคัญหรือไม่ ต้องการให้แก้ไขปัญหามากน้อยเพียงใด** |
+
+**🔑🔑 เกณฑ์การให้คะแนน (ตารางออกสอบ)**
+
+| **A. ขนาดของปัญหา** | คะแนน | ร้อยละ |
+|---|:---:|---|
+| | **0** | ไม่มีคนป่วย/ปัญหา |
+| | **1** | **1–25** |
+| | **2** | **26–50** |
+| | **3** | **51–75** |
+| | **4** | **76–100** |
+
+| **B. ความรุนแรงของปัญหา** | คะแนน | ร้อยละ |
+|---|:---:|---|
+| | **0** | **ไม่มีผลกระทบ** |
+| | **1** | **> 25 (น้อยมาก)** |
+| | **2** | **26–50 (น้อย)** |
+| | **3** | **51–75 (มาก)** |
+| | **4** | **76–100 (มากที่สุด)** |
+
+| **C. ความยาก-ง่ายในการแก้ปัญหา** | คะแนน | ร้อยละ |
+|---|:---:|---|
+| | **0** | **แก้ไขไม่ได้** |
+| | **1** | **> 25 (ยากมาก)** |
+| | **2** | **26–50 (ยาก)** |
+| | **3** | **51–75 (ง่าย)** |
+| | **4** | **76–100 (ง่ายมาก)** |
+
+| **D. ความวิตกกังวลต่อปัญหาของชุมชน** | คะแนน | ร้อยละ |
+|---|:---:|---|
+| | **0** | **ไม่มีคนป่วย/ปัญหา** |
+| | **1** | **> 25 (น้อยมาก)** |
+| | **2** | **26–50 (น้อย)** |
+| | **3** | **51–75 (มาก)** |
+| | **4** | **76–100 (มากที่สุด)** |
+
+**🔑 การจัดลำดับความสำคัญ — 2 วิธี**
+| วิธี | สูตร |
+|------|------|
+| **1. วิธีบวก (Additive Method)** | **ความสำคัญของปัญหา = A + B + C + D** |
+| **2. วิธีคูณ (Multiplicative Method)** | **ความสำคัญของปัญหา = A × B × C × D** |
+
+| **ข้อดี** | **ข้อจำกัด** |
+|---|---|
+| **มีเกณฑ์ในการให้คะแนนในแต่ละองค์ประกอบที่ชัดเจน** | 1) **ในการจัดเวทีประชาคมโดยให้ประชาชนเลือกปัญหาและให้คะแนนในทุกองค์ประกอบ ซึ่งแต่ละองค์ประกอบมีคะแนน 4-3-2-1-0 มักเกิดความสับสนและต้องยกมือหลายครั้ง**<br>2) **ต้องแปลงข้อมูลปัญหาออกมาในรูปของอัตราหรือเปอร์เซ็นต์ ในบางครั้งปัญหาที่ได้จากการสำรวจและสัมภาษณ์คนในชุมชนที่ไม่ใช่โรค** |
+
+---
+
+### 🔑🔑 CRITERIA WEIGHTING METHOD (วิธีการให้น้ำหนักเกณฑ์)
+
+**ระดับความสำคัญกับน้ำหนัก (W)**
+| ความสำคัญ | น้ำหนัก (W) |
+|-----------|:-----------:|
+| **ต่ำ** | **1** |
+| **ค่อนข้างต่ำ** | **2** |
+| **ปานกลาง** | **3** |
+| **ค่อนข้างสูง** | **4** |
+| **สูง** | **5** |
+
+**🔑🔑 น้ำหนักมาตรฐานที่นิยมใช้ (ออกสอบ)**
+| องค์ประกอบ | **น้ำหนัก (W)** |
+|-----------|:---------------:|
+| **ขนาดของปัญหา** | **4** |
+| **ความรุนแรง/เร่งด่วน** | **3** |
+| **ความยากง่าย** | **5** |
+| **ความร่วมมือของชุมชน** | **5** |
+
+> **สูตร: คะแนนรวม = Σ (คะแนนแต่ละองค์ประกอบ × น้ำหนัก W)**
+
+---
+
+## 18.4 PLANNING — การวางแผนการดำเนินการเพื่อแก้ปัญหา
+
+### นิยาม
+- **กลุ่มคนเข้าร่วมกระบวนการตัดสินใจในการกำหนดสิ่งที่จะนำมาใช้ในการแก้ไขปัญหาอนามัยชุมชน โดยระบุวัตถุประสงค์ กิจกรรม ทรัพยากร ผู้รับผิดชอบ และการประเมินผล**
+- **ระบุว่าจะให้ใครทำอะไร ที่ไหน อย่างไร เมื่อไหร่**
+- **มีขั้นตอนดำเนินงานอย่างไร อะไรบ้าง มีการประสานงานอย่างไร และใช้ทรัพยากรอะไรบ้าง**
+
+### 🔑🔑 องค์ประกอบของการเขียนโครงการ — 11 ข้อ (ท่องให้ได้)
+
+| # | องค์ประกอบ | รายละเอียด |
+|:-:|-----------|-----------|
+| **1** | **ชื่อโครงการ** | กำหนดชื่อตามลักษณะกลุ่มเป้าหมายและหัวข้อหลัก |
+| **2** | **ผู้รับผิดชอบโครงการ** | |
+| **3** | **หลักการและเหตุผล (บทนำ)** | **4 ส่วน:**<br>• **ส่วนที่ 1 ระบุปัญหา**<br>• **ส่วนที่ 2 ระบุผลกระทบด้านลบของปัญหา มากน้อยเพียงใด**<br>• **ส่วนที่ 3 ระบุแนวทางในการแก้ปัญหา**<br>• **ส่วนที่ 4 ระบุผลกระทบด้านบวกหลังจากการดำเนินการแก้ไขปัญหาแล้ว**<br>**\*อ้างอิงแหล่งที่มา (Reference) ด้วย** |
+| **4** | **วัตถุประสงค์และเป้าหมาย** | **ใช้หลัก SMART** (ดูด้านล่าง) |
+| **5** | **กลุ่มเป้าหมาย** | |
+| **6** | **วัน เวลา สถานที่ดำเนินการ** | ระบุให้ชัดเจน |
+| **7** | **วิธีดำเนินการ** | • กำหนดกิจกรรม/ภารกิจที่ต้องปฏิบัติให้บรรลุวัตถุประสงค์<br>• **จำแนกเป็นกิจกรรมย่อยหลายกิจกรรมเป็นขั้นตอนอย่างชัดเจน — ทำอะไร ทำเมื่อใด ผู้ใดรับผิดชอบ และทำอย่างไร**<br>• **โดยปกติจะทำเป็น Gantt Chart ควบคู่กันไป** |
+| **8** | **ระยะเวลา** | ระบุเวลาตั้งแต่เริ่มต้นจนสิ้นสุดโครงการ |
+| **9** | **งบประมาณและทรัพยากร** | |
+| **10** | **การประเมินผลโครงการ** | **ต้องระบุบุคคล/หน่วยงาน/เครื่องมือที่ใช้หรือวิธีไว้ด้วย ควรบอกระยะเวลาในการประเมินด้วย** |
+| **11** | **ผลที่คาดว่าจะได้รับ** | ผลประโยชน์ที่พึงได้จากความสำเร็จของโครงการ |
+
+### 🔑🔑 SMART Objectives (ท่องให้ได้ — ออกสอบ)
+| ตัวอักษร | คำเต็ม | ความหมาย |
+|:---:|---|---|
+| **S** | **Sensible** | **มีความเป็นไปได้ในการดำเนินการ** |
+| **M** | **Measurable** | **สามารถวัดและประเมินผลได้** |
+| **A** | **Attainable** | **ระบุสิ่งที่ต้องการดำเนินงานอย่างชัดเจนและเฉพาะเจาะจง** |
+| **R** | **Reasonable** | **มีความเป็นเหตุเป็นผลในการปฏิบัติงาน** |
+| **T** | **Time** | **มีขอบเขตของเวลาที่แน่นอนในการปฏิบัติงาน** |
+
+> *(บางตำราใช้ Specific, Measurable, Achievable, Relevant, Time-bound — แต่สไลด์ของอาจารย์ใช้แบบข้างบน)*
+
+### 🔑 ตัวอย่างแผนปฏิบัติงาน (Gantt Chart)
+| ลำดับ | กิจกรรม |
+|:---:|---------|
+| **1** | **ศึกษาข้อมูล ทำแผนที่** |
+| **2** | **วิเคราะห์ข้อมูล ระบุปัญหา** |
+| **3** | **นำเสนอข้อมูลต่อชุมชน ให้ชุมชนมีส่วนร่วมจัดลำดับความสำคัญของปัญหา** |
+| **4** | **วิเคราะห์สาเหตุของปัญหา** |
+| **5** | **วางแผนแก้ปัญหา/โครงการ (Master Plan, Sub Plan)** |
+| **6** | **ดำเนินการตามแผนงาน/โครงการที่กำหนด** |
+| **7** | **ประเมินผลการปฏิบัติงาน** |
+| **8** | **นำเสนอผลปฏิบัติงานต่อชุมชน** |
+
+> คอลัมน์: ระยะเวลาที่ใช้ในการปฏิบัติ (วัน เดือน ปี) · **ผู้รับผิดชอบ** · **ทรัพยากร** · หมายเหตุ
+
+### 🔑🔑 การเขียนโครงการต้องตอบคำถาม 11 ข้อ (ออกสอบ)
+| # | คำถาม | หมายถึง |
+|:-:|-------|---------|
+| 1 | **โครงการอะไร** | **ชื่อโครงการ** |
+| 2 | **ทำไมต้องทำโครงการนี้** | **หลักการและเหตุผล** |
+| 3 | **ทำเพื่ออะไร** | **วัตถุประสงค์** |
+| 4 | **ทำอย่างไร** | **วิธีดำเนินการ** |
+| 5 | **ทำเมื่อใดและนานแค่ไหน** | **ระยะเวลาดำเนินการ** |
+| 6 | **ใช้ทรัพยากรอะไร เท่าใด** | **งบประมาณ/ทรัพยากรอื่นๆ และได้มาจากไหน** |
+| 7 | **ใครทำ** | **ผู้รับผิดชอบโครงการ** |
+| 8 | **ต้องทำกับใคร** | **กลุ่มเป้าหมาย** |
+| 9 | **ทำแล้วบรรลุวัตถุประสงค์** | **การประเมินผล** |
+| 10 | **เกิดอะไรขึ้นเมื่อสิ้นสุด** | **ผลที่คาดว่าจะได้รับ** |
+| 11 | **มีปัญหาอุปสรรคหรือไม่** | **ข้อเสนอแนะ** |
+
+---
+
+## 18.5 INTERVENTION & IMPLEMENTATION
+
+### 🔑 1. ขั้นตอนการเตรียมงาน
+**a) เตรียมผู้ปฏิบัติงาน**
+- **ศึกษารายละเอียดของกิจกรรมให้เข้าใจทุกขั้นตอน**
+- **แบ่งหน้าที่ความรับผิดชอบ ป้องกันการทำงานซ้ำซ้อน**
+- **เตรียมทรัพยากร อุปกรณ์ บุคลากรที่เกี่ยวข้อง**
+
+**b) เตรียมกลุ่มเป้าหมายหรือผู้รับบริการ**
+- **ชี้แจงให้ทราบว่าจะเข้าไปทำกิจกรรม/บริการอะไรในชุมชน**
+
+**c) ประสานกับผู้นำชุมชน** ให้การสนับสนุน กระตุ้น และมีส่วนร่วมในกิจกรรม
+**d) คัดเลือกสมาชิกกลุ่ม/องค์กรในชุมชนที่มีส่วนเกี่ยวข้องกับปัญหา**
+**e) การประชาสัมพันธ์** แจ้งให้ประชาชนในชุมชนทราบถึงวัน เวลา และวัตถุประสงค์ของการปฏิบัติงาน
+
+### 🔑 2–5. ขั้นดำเนินการ
+2. **ขั้นดำเนินการตามแผนโครงการ** — จัดทำกำหนดการปฏิบัติงานโดย **ตารางปฏิบัติงาน** และ **แผนภูมิแกนท์ (Gantt Chart)**
+3. **กำหนดสื่อและทรัพยากรที่ใช้**
+4. **แสดงผู้รับผิดชอบแต่ละกิจกรรม**
+5. **การติดตามประเมินผล / การควบคุมตรวจสอบ / การรายงานความก้าวหน้าของกิจกรรมเป็นระยะ**
+
+---
+
+## 18.6 🔑🔑 EVALUATION — การประเมินผลการดำเนินงาน
+
+> **การประเมินการดำเนินงานว่ากิจกรรมนั้นได้ดำเนินไปตามเป้าหมายหรือแผนงานหรือไม่**
+
+### 🔑🔑 องค์ประกอบ 5 ประการ (ท่องให้ได้ — ออกสอบแน่นอน)
+> **เพื่อต้องการทราบว่าโครงการนั้นสามารถแก้ปัญหาได้จริงหรือไม่**
+
+| # | องค์ประกอบ | ความหมาย |
+|:-:|-----------|----------|
+| **1** | **ความเหมาะสม สอดคล้อง ถูกต้องตามปัญหาที่ต้องการแก้ไข (Relevance)** | โครงการตรงกับปัญหาจริงหรือไม่ |
+| **2** | **ความก้าวหน้า (Progress) — Formative Evaluation** ⭐ | ประเมินระหว่างดำเนินงาน |
+| **3** | **ประสิทธิภาพ (Efficiency)** | ใช้ทรัพยากรคุ้มค่าหรือไม่ (input vs output) |
+| **4** | **ประสิทธิผล (Effectiveness)** | บรรลุวัตถุประสงค์หรือไม่ |
+| **5** | **ผลกระทบ (Impact, Efficacy)** | ผลกระทบระยะยาวต่อชุมชน |
+
+> **จำ: Relevance → Progress → Efficiency → Effectiveness → Impact**
+> **Formative Evaluation = ประเมินระหว่างทาง (Progress) | Summative Evaluation = ประเมินตอนจบ (Effectiveness, Impact)**
+
+---
+
+## 18.7 เทคนิคการเข้าชุมชน (Lect 10.2)
+
+### 🔑 เตรียมตัวก่อนไปศึกษาชุมชน
+- **เตรียมตัวเตรียมใจ**
+- **เตรียมของให้พร้อม**
+- **วางแผนก่อนออกสำรวจ**
+- **งานที่ต้องทำระหว่างศึกษาชุมชน: รายงานเยี่ยมบ้าน + Community project**
+
+### 🔑 ความรู้เรื่องมนุษยสัมพันธ์
+**หลักสำคัญในการสร้างมนุษยสัมพันธ์ที่ดี**
+- **การรักผู้อื่น มีประโยชน์เกื้อกูลกัน เอาใจเขามาใส่ใจเรา การให้อภัยผู้อื่น**
+- **เปิดใจกว้างเรียนรู้ หากเราทำผิดต้องแก้ไข ให้เกียรติซึ่งกันและกัน**
+
+**การฝึกตนเองให้มีมนุษยสัมพันธ์ที่ดี**
+- **ต้องยิ้มง่าย ทักทายคนอื่นด้วยไมตรี จริงใจ**
+
+### 🔑🔑 การปฏิบัติตัวเมื่ออยู่ในชุมชน (ออกสอบ)
+> **ต้องเรียนรู้เพื่อปรับตัวเข้ากับชุมชน**
+- **ค่านิยมของชุมชน**
+- **สิ่งต้องห้ามในชุมชน**
+- **⭐ เป็นผู้เรียนรู้ — ไม่ทำตัวเป็นผู้รู้**
+- **⭐ คงไว้ซึ่งความเป็นคนนอกชุมชน** (รักษาระยะห่างที่เหมาะสม)
+- **เรียนรู้ภาษาถิ่น**
+- **เรียนรู้วัฒนธรรมการกินอยู่ของชุมชน**
+- **เรียนรู้การใช้ชีวิตในชุมชน**
+
+### 🔑 การออกจากชุมชน
+- **การเรียนรู้ชุมชนเป็นกระบวนการเรียนรู้ร่วมกันของผู้ศึกษาชุมชนและชุมชนเอง จากการทำงานร่วมกันและปัญหาที่เกิดขึ้นจริงในชุมชน**
+- **ระหว่างที่ทำงานร่วมกันเกิดเป็นความสัมพันธ์**
+- **⭐ การออกจากชุมชนจึงต้องมีวัฒนธรรม "ไปลามาไหว้" ทำให้ความสัมพันธ์ของผู้ศึกษาชุมชนและชุมชนไม่แยกจากกัน**
+
+### 🔑 ความรู้เรื่องงาน
+- **การศึกษาชุมชนต้องมองเป็นองค์รวม — ด้านเศรษฐกิจ สังคม การเมือง การศึกษา ภาวะสุขภาพ และวัฒนธรรม**
+- **การตั้งวัตถุประสงค์ในการศึกษาชุมชนเป็นลักษณะคำถามข้อย่อยๆ จะช่วยให้เห็นแนวทางในการหาคำตอบ**
+- **การหาคำตอบจะอาศัย:**
+  - **การหาข้อมูลจาก Key informant และ Stakeholder**
+  - **เครื่องมือในการเก็บข้อมูล** เช่น แบบสอบถาม แบบบันทึกการสังเกต แบบสัมภาษณ์
+  - **การวิเคราะห์ข้อมูล**
+
+### 🔑🔑 ขั้นตอนการทำงานร่วมกับชุมชน (4 ขั้น)
+| # | ขั้นตอน | รายละเอียด |
+|:-:|--------|-----------|
+| **01** | **เตรียมการ (PREPARATION)** | **เตรียมชุมชน · เตรียมเจ้าหน้าที่ · เตรียมผู้ปฏิบัติงาน · เตรียมเครื่องมือที่ใช้เก็บรวบรวมข้อมูล** |
+| **02** | **ประเมินภาวะอนามัยชุมชน (ASSESSMENT)** | **Data collection: Primary data, Secondary data**<br>**รวบรวมข้อมูลพื้นฐาน: ข้อมูลทั่วไปของชุมชน ด้านสังคม ประชากร คุณภาพชีวิต สภาวะอนามัยของชุมชน ด้านสิ่งแวดล้อม** |
+| **03** | **วิเคราะห์ปัญหา (DATA ANALYSIS)** | **รวบรวมปัญหา, ลักษณะปัญหา · วิเคราะห์ปัญหาร่วมกับชุมชน** |
+| **04** | **ลำดับความสำคัญของปัญหา (PRIORITY SETTING)** | **จัดทำเกณฑ์และวิเคราะห์ตามเกณฑ์**<br>**⭐ ชุมชนเป็นผู้เลือกปัญหา โดยเจ้าหน้าที่ไม่ชี้นำ** |
+
+> **เครื่องมือสำคัญในขั้นตอนนี้: Focus Group Discussion (การทำประชาคม)**
+
+---
+---
+
+# 📌 สรุปย่อสำหรับทบทวนก่อนสอบ (CHEAT SHEET)
+
+## ตัวย่อที่ต้องท่องได้ทั้งหมด
+
+| ตัวย่อ | ใช้ทำอะไร | ขยายความ |
+|--------|-----------|----------|
+| **NSODD** | วินิจฉัยโรคจากการทำงาน | Nine Steps in Occupational Diseases Diagnosis |
+| **SOCRATES** | ซักประวัติปวด | Site, Onset, Character, Radiation, Association, Timing, Exacerbating/relieving, Severity |
+| **CLASS** | กรอบการสื่อสาร | Context, Listening, Acknowledge emotions, Strategy, Summary |
+| **NURSE** | Empathic response | Name, Understand, Respect, Support, Explore |
+| **SPIKES** | Breaking bad news | Setting, Perception, Invitation, Knowledge, Emotions, Strategy |
+| **SOLER** | ท่าทางแสดงความใส่ใจ | Squarely, Open, Lean, Eye contact, Relax |
+| **ABCDEF** | Conspiracy of silence | Acknowledge, Benefit vs Harm, Comparison, Deal with patient, Encounter, Follow up |
+| **ESAS** | ประเมินอาการ | Edmonton Symptom Assessment Scale |
+| **PPS** | ประเมินสมรรถนะ + พยากรณ์ | Palliative Performance Scale (0–100%) |
+| **FLACC** | วัดปวดในเด็ก | Face, Legs, Activity, Cry, Consolability |
+| **CAM** | วินิจฉัย Delirium | 1 + 2 + (3 or 4) |
+| **I WATCH DEATH** | สาเหตุ Delirium | Infection, Withdrawal, Acute metabolic, Trauma, CNS, Hypoxia, Deficiencies, Endocrinopathies, Acute vascular, Toxin, Heavy metals |
+| **SPICT/GSF** | คัดกรองผู้ป่วย palliative | Surprise Question → General → Specific indicators |
+| **SMART** | เขียนวัตถุประสงค์ | Sensible, Measurable, Attainable, Reasonable, Time |
+| **5D** | Community diagnosis | Death, Disability, Disease, Discomfort, Dissatisfaction |
+
+---
+
+## ตัวเลขที่ออกสอบบ่อยที่สุด
+
+### อาชีวเวชศาสตร์
+| ตัวเลข | เรื่อง |
+|--------|-------|
+| **85 dB(A)** | เกณฑ์เสียงที่ต้องทำมาตรการอนุรักษ์การได้ยิน |
+| **4000 Hz** | ความถี่ที่พบ notch ใน NIHL |
+| **12 ชั่วโมง** | งดสัมผัสเสียงก่อนตรวจ audiometry |
+| **< 5 µm** | ขนาดฝุ่นที่ลงถึงถุงลม |
+| **> 40°C + CNS dysfunction** | Heat stroke |
+| **10–14 วัน** | Heat acclimatization |
+| **19.5% – 23.5%** | ช่วง O₂ ที่ปลอดภัยในที่อับอากาศ |
+| **10% LEL** | เกณฑ์ก๊าซไวไฟในที่อับอากาศ |
+| **2,500 เมตร** | ระดับที่ต้อง acclimatize |
+| **1 mmHg / 11 เมตร** | อัตราลดของความดันบรรยากาศ |
+| **profusion 1/1** | เกณฑ์ ILO สำหรับวินิจฉัย silicosis ไทย |
+| **2 ปี / 2 ใน 3 ข้อ** | เกณฑ์วินิจฉัย silicosis ไทย |
+| **24–48 ชม.** | Type IV hypersensitivity / Inhalation fever หาย |
+| **48 & 72 ชม.** | อ่านผล patch test |
+| **15–20 นาที** | อ่านผล prick test |
+| **2–8 สัปดาห์** | ระยะสัมผัสสารก่อ chloracne |
+
+### Palliative Care
+| ตัวเลข | เรื่อง |
+|--------|-------|
+| **6–12 เดือน** | Surprise question |
+| **PPS 0–100%** | ช่วงคะแนน |
+| **Zarit > 20** | Severe caregiver burden |
+| **FLACC ≥ 4** | ต้อง intervention |
+| **Morphine max 8 g/day (paracetamol)** | Acetaminophen max |
+| **150 mg/kg** | Acetaminophen toxic dose |
+| **Codeine 1/10, Tramadol 1/20–1/5** | Potency เทียบ morphine |
+| **Fentanyl 100x** | Potency เทียบ morphine |
+| **Morphine PO : IV = 3 : 1** | Conversion |
+| **Morphine PO 60 mg/day = Fentanyl patch 25 mcg/hr** | Conversion |
+| **BTP = 10–20% ของ total daily dose** | คำนวณ breakthrough |
+| **Opioid rotation ลด 25–50%** | Incomplete cross tolerance |
+| **Sedation score > 2 → ลดยา 25–50%** | Monitoring |
+| **Fentanyl patch เปลี่ยนทุก 72 hr, peak 12–24 hr** | |
+| **Thoracic 70%** | ตำแหน่ง MSCC พบบ่อยสุด |
+| **Dexamethasone 16 mg** | Loading dose ใน MSCC และ SVCO |
+| **MRI Sens 93% Spec 97%** | MSCC |
+| **CT chest Sens 96% Spec 92%** | SVCO |
+| **RT 20 Gy/5 fx หรือ 30 Gy/10 fx** | MSCC good prognosis |
+| **8 Gy single dose** | MSCC poor prognosis |
+| **Corrected Ca = 0.8 × (4.0 − Alb) + Ca** | สูตร |
+| **Ca > 14 = severe** | Hypercalcemia |
+| **Constipation score > 7** | ต้อง aggressive treatment |
+| **Rapid titration: re-assess 5–15 นาที** | Severe pain |
+| **RASS 0 ถึง −1, RR > 10, SpO₂ > 90%, pain < 4/10** | Monitoring rapid titration |
+| **Fungating wound: 5% / 10% / 3–6 เดือนสุดท้าย** | Prevalence |
+
+### Community
+| ตัวเลข | เรื่อง |
+|--------|-------|
+| **น้ำหนัก 4, 3, 5, 5** | ขนาด, ความรุนแรง, ความยากง่าย, ความร่วมมือ |
+| **คะแนน 0–4** | เกณฑ์วิธีมหิดล |
+| **5 องค์ประกอบ evaluation** | Relevance, Progress, Efficiency, Effectiveness, Impact |
+| **7 ชิ้น** | เครื่องมือศึกษาชุมชน |
+
+---
+
+## ⚠️ กับดักที่ออกสอบบ่อย (Common Pitfalls)
+
+1. **Living will ≠ Euthanasia** — Living will ไม่เร่งตาย ไม่ยื้อ ไม่ทอดทิ้ง
+2. **Morphine ไม่มี ceiling effect** — แต่ต้องระวังในไตวาย
+3. **Opioid-induced constipation ไม่มี tolerance** — ต้องให้ยาระบายตลอด (ต่างจาก N/V และ sedation ที่ tolerance ได้ใน 2–4 วัน)
+4. **Opioid ขนาดน้อยรักษา dyspnea ได้โดยไม่กดการหายใจ**
+5. **MSCC: ให้ Dexamethasone ก่อน ไม่ต้องรอผล MRI** — ยกเว้นสงสัย lymphoma/myeloma
+6. **Overflow diarrhea = ท้องผูก ไม่ใช่ท้องเสีย** — ต้อง PR ทุกราย
+7. **Hypoactive delirium พบบ่อยในผู้สูงอายุ แต่มักตรวจไม่พบ**
+8. **ห้ามใช้ physical restraint ใน delirium**
+9. **Terminal bleeding: ใช้ผ้าสีเข้ม + อยู่กับผู้ป่วยตลอด**
+10. **Asbestosis = lower zone** vs **Silicosis/CWP = upper zone**
+11. **ด่างรุนแรงกว่ากรด** (liquefactive vs coagulative necrosis)
+12. **สารก่อมะเร็งไม่มี threshold** — ไม่มีระดับที่ปลอดภัย
+13. **Smoking + occupational carcinogen = synergistic** (ไม่ใช่ additive)
+14. **PPE เป็นมาตรการลำดับสุดท้าย** — ควบคุมที่แหล่งกำเนิดดีที่สุด
+15. **ค่าต่ำกว่ามาตรฐานไม่การันตีว่าจะไม่เป็นโรค**
+16. **Halon method: ถ้า D = 0 → O.P.R. = 0 ทั้งหมด**
+17. **ผู้เสียชีวิตในที่อับอากาศส่วนใหญ่คือผู้เข้าไปช่วยเหลือ**
+18. **Unity of command** — รับคำสั่งจากผู้บังคับบัญชาเพียงคนเดียว (ICS)
+
+---
+
+*เอกสารนี้สรุปจากเล็คเชอร์ทั้ง 23 ไฟล์ในโฟลเดอร์ Lect — ขอให้สอบผ่านนะครับ 💪*
+
+</script>
+<script>
+(function(){
+  var t = document.getElementById('mdsrc').textContent;
+  var el = document.getElementById('md');
+  if (window.marked) { el.innerHTML = marked.parse(t); }
+  else { el.innerHTML = '<pre style="white-space:pre-wrap">' +
+         t.replace(/&/g,'&amp;').replace(/</g,'&lt;') + '</pre>'; }
+  // build a table of contents from the h2 headings
+  var toc = document.getElementById('toc'), hs = el.querySelectorAll('h2');
+  if (hs.length) {
+    var ul = document.createElement('ul');
+    hs.forEach(function(h,i){
+      h.id = 'h'+i;
+      var li = document.createElement('li');
+      li.innerHTML = '<a href="#h'+i+'">'+h.textContent+'</a>';
+      ul.appendChild(li);
+    });
+    toc.appendChild(ul);
+  } else { toc.style.display='none'; }
+})();
+</script>
+</body></html>
